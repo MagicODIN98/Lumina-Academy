@@ -1,0 +1,3724 @@
+[
+  {
+    "pregunta": "La fotosíntesis es el proceso por el cual las plantas:",
+    "opciones": [
+      "A) producen energía química a partir de la luz solar",
+      "B) absorben agua y minerales del suelo",
+      "C) liberan oxígeno y dióxido de carbono",
+      "D) realizan la respiración celular"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "biología",
+    "id": "44f583fb2d7812e0b4a6e64181c15ef5",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La ecuación cuadrática x^2 + 5x + 6 = 0 tiene soluciones:",
+    "opciones": [
+      "A) x = -2 y x = -3",
+      "B) x = 2 y x = 3",
+      "C) x = -1 y x = -6",
+      "D) x = 1 y x = 6"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.7,
+    "universidad": "UNAM",
+    "tema": "matemáticas",
+    "id": "d53a55ff9f9f37870d7a01ec5bd0adf7",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El concepto de 'oferta y demanda' se refiere a:",
+    "opciones": [
+      "A) la relación entre la cantidad de un bien que los consumidores están dispuestos a comprar y la cantidad que los productores están dispuestos a vender",
+      "B) la relación entre la cantidad de un bien que los productores están dispuestos a vender y el precio que los consumidores están dispuestos a pagar",
+      "C) la relación entre el precio de un bien y la cantidad que se vende",
+      "D) la relación entre la cantidad de un bien que se produce y el precio que se paga"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "economía",
+    "id": "aa82e2c1a801ff4c19d0c20bd914da1d",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La obra 'Don Quijote de la Mancha' es considerada:",
+    "opciones": [
+      "A) la primera novela moderna de la literatura española",
+      "B) la primera novela moderna de la literatura universal",
+      "C) una de las obras más importantes de la literatura española",
+      "D) una de las obras más importantes de la literatura universal"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "literatura",
+    "id": "09445ca3dc51aaa365ef70fec9c08a32",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El río más largo de América del Sur es:",
+    "opciones": [
+      "A) el río Amazonas",
+      "B) el río Paraná",
+      "C) el río São Francisco",
+      "D) el río Magdalena"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "geografía",
+    "id": "ee818d50ccf524d4643f4f79c1e10025",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La estética se refiere a:",
+    "opciones": [
+      "A) el estudio de la belleza y el gusto",
+      "B) el estudio de la moral y la ética",
+      "C) el estudio de la lógica y la razón",
+      "D) el estudio de la historia y la cultura"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "estética",
+    "id": "17431f6d104f7bd1b31d366422282ea5",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La Revolución Francesa se inició en:",
+    "opciones": [
+      "A) 1789",
+      "B) 1793",
+      "C) 1804",
+      "D) 1815"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "historia universal",
+    "id": "bd117b770d196a0660a4f6c9bc2eda27",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El concepto de 'globalización' se refiere a:",
+    "opciones": [
+      "A) el proceso de interconexión y dependencia entre las economías y las sociedades de todo el mundo",
+      "B) el proceso de aislamiento y desconexión entre las economías y las sociedades de todo el mundo",
+      "C) el proceso de crecimiento y desarrollo de las economías y las sociedades de todo el mundo",
+      "D) el proceso de declive y estancamiento de las economías y las sociedades de todo el mundo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "economía",
+    "id": "0e8488e3079b3db7a7e299295ef33557",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La teoría de la evolución se basa en la idea de que:",
+    "opciones": [
+      "A) las especies cambian a lo largo del tiempo a través de la selección natural",
+      "B) las especies son fijas y no cambian a lo largo del tiempo",
+      "C) las especies se crean a través de la intervención divina",
+      "D) las especies se desarrollan a través de la lucha por la supervivencia"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "biología",
+    "id": "2206f0565855ed14d539f8c449e9f894",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El concepto de 'entropía' se refiere a:",
+    "opciones": [
+      "A) la medida de la energía y la organización de un sistema",
+      "B) la medida de la desorganización y el desorden de un sistema",
+      "C) la medida de la temperatura y la presión de un sistema",
+      "D) la medida de la masa y la velocidad de un sistema"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.7,
+    "universidad": "UNAM",
+    "tema": "física",
+    "id": "a34386053aacdbe46c8d576ffd9551b2",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La obra 'El Quijote' es considerada:",
+    "opciones": [
+      "A) la primera novela moderna de la literatura española",
+      "B) la primera novela moderna de la literatura universal",
+      "C) una de las obras más importantes de la literatura española",
+      "D) una de las obras más importantes de la literatura universal"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "literatura",
+    "id": "a293d2255fb44f4f514b0fed2a5c8583",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El río más largo de Europa es:",
+    "opciones": [
+      "A) el río Volga",
+      "B) el río Danubio",
+      "C) el río Rin",
+      "D) el río Elba"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "geografía",
+    "id": "615630b57187405cc2a5fcaa3b0b63f8",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La estética se enfoca en:",
+    "opciones": [
+      "A) el estudio de la belleza y el gusto",
+      "B) el estudio de la moral y la ética",
+      "C) el estudio de la lógica y la razón",
+      "D) el estudio de la historia y la cultura"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "estética",
+    "id": "f02da88a0c8dc628d10b243c22ed590f",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La Revolución Rusa se inició en:",
+    "opciones": [
+      "A) 1905",
+      "B) 1917",
+      "C) 1922",
+      "D) 1930"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "historia universal",
+    "id": "b6e096fb3f7e100859299503963353d1",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "El concepto de 'democracia' se refiere a:",
+    "opciones": [
+      "A) un sistema de gobierno en el que el poder reside en el pueblo",
+      "B) un sistema de gobierno en el que el poder reside en un monarca",
+      "C) un sistema de gobierno en el que el poder reside en una oligarquía",
+      "D) un sistema de gobierno en el que el poder reside en una dictadura"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "política",
+    "id": "08beb266fb0702f1bf583c106000217b",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "La teoría de la relatividad se basa en la idea de que:",
+    "opciones": [
+      "A) la velocidad de la luz es constante en todas las direcciones",
+      "B) la velocidad de la luz varía según la dirección",
+      "C) la velocidad de la luz es relativa a la velocidad del observador",
+      "D) la velocidad de la luz es relativa a la velocidad del objeto"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.7,
+    "universidad": "UNAM",
+    "tema": "física",
+    "id": "7346ab46eb099a9d742076247ee93fe1",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "¿Pregunta de prueba?",
+    "opciones": [
+      "A), B)",
+      "C)",
+      "D)"
+    ],
+    "respuesta": "A",
+    "dificultad": 1.0,
+    "universidad": "UNAM",
+    "tema": "TEMAS",
+    "id": "0d55075189f53d9e204c7187d8771ac7",
+    "imagen": null,
+    "area": NaN
+  },
+  {
+    "pregunta": "Cuando el usuario de la lengua muestra sensibilidad sociolingüística para escoger el lenguaje apropiado a su comunicación, reconocemos una propiedad textual denominada",
+    "opciones": [
+      "A) Lengua culta",
+      "B) Coherencia",
+      "C) Lógica gramatical",
+      "D) Adecuación"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "974d3e8e4661c8406991cb78a52e4606",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "¿En qué ejemplo se encuentra la función emotiva de la lengua?",
+    "opciones": [
+      "A) No llamar a los objetos por su nombre, sino por lo que sugiere su forma y significado.",
+      "B) Una paráfrasis puede hacerse mecánicamente sustituyendo las palabras y expresiones por términos sinónimos.",
+      "C) Yo soy ardiente, yo soy el símbolo de la pasión, de ansia, de goces y de alma será llena. ¿A mi me buscas? No, no, yo no soy ésa para pedirte que no me llorés, que no me llames, que no me quieras, mi."
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "c1896a1cc8497419b9d67cb9131ddc9a",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "... tu cuerpo tenebroso y radiante plasmado de una vez sin titubeos tu cuerpo infinitamente más tuyo que para ti mío y que entregas de una vez sin titubeos guardada tu cuerpo pleno sin titubeos uno todo iluminado de generosidad. Entre las ideas e impresiones destaca aquella que sostiene que:",
+    "opciones": [
+      "A) la mujer es considerada más frágil que el hombre",
+      "B) el hombre que es definitivamente inferior a la mujer",
+      "C) la mujer es más dueña de su cuerpo que el hombre del suyo",
+      "D) el hombre es blanco generoso frente a la mujer"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "5efc4a629ae4ae1e2fb4e9d2df9ac81a",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Movimiento armónico que se encuentra en un poema.",
+    "opciones": [
+      "A) ritmo",
+      "B) rima",
+      "C) aliteración",
+      "D) verso"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "57acc158a36ef24aeb593fe63086aaa6",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "La Procuraduría Mexicana no descarta autoagresión de Ma. Luisa Ferrera: 'Es una hipótesis irracional', responde la funcionaria. Lo anterior corresponde a un texto...",
+    "opciones": [
+      "A) político",
+      "B) periodístico",
+      "C) discursivo",
+      "D) polémico"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "4974a6e167ae478a2c51f0c08085c36a",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "El naranjo sus ramas de esmeralda y el plátano vivaz sus hojas tiende aquí y allí. De trecho en trecho pende la hiedra, que hace el vallejo. Las palabras subrayadas forman:",
+    "opciones": [
+      "A) una rima asonante",
+      "B) una rima consonante",
+      "C) una sílaba tónica",
+      "D) un ritmo irregular"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "b90c40a8ee9e2ae0d8d9326be9c797ee",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes expresiones es una metáfora?",
+    "opciones": [
+      "A) Fresco aroma de rosas...",
+      "B) El amor es silencio más fino",
+      "C) Ojos claros, serenos",
+      "D) ...que aunque no hubiera cielo, yo te amara"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "8de62179c4021004195cfb0bde5a91ea",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "El tema de un texto literario se refiere a:",
+    "opciones": [
+      "A) la historia que nos cuenta el autor y el contexto en que se desarrolla",
+      "B) la intención que muestra el autor a partir de las acciones que desarrolla",
+      "C) la idea principal de la que parte el autor para desarrollar su texto",
+      "D) El título que el autor da a su escrito y que se relaciona con el final"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "e8b51b1abfab91863d4f4394163df7e1",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Elementos formales que aparecen en un poema:",
+    "opciones": [
+      "A) metáfora, alegoría y rima",
+      "B) lírica, metáfora y verso libre",
+      "C) oda, estrofa, rima y soneto",
+      "D) rima, ritmo, métrica y estrofa"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "9782112a91b9c823c6c01109ecd81b32",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "A la narración en prosa, breve, se te denomina:",
+    "opciones": [
+      "A) novela",
+      "B) poesía",
+      "C) drama",
+      "D) cuento"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "863811c7467cbf63747c56f55dbc1f2d",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Los rasgos característicos de la novela son género:",
+    "opciones": [
+      "A) narrativo, prosa y estructura compleja",
+      "B) narrativo, verso y estructura intensa",
+      "C) dramático, prosa y tensión constante",
+      "D) lírico, prosa y estructura narrativa"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6d7bdd328d1afe88646a82fb2c2eb1c8",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "El texto dramático es una obra que se elabora fundamentalmente con el objetivo de:",
+    "opciones": [
+      "A) contarla",
+      "B) leerla",
+      "C) representarla",
+      "D) relatarla"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "e25460fe4fd08da81c2259adea92eb22",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Lee con atención el fragmento de la novela Miaw: ... moralmente, era Pantoja el prototipo del integriismo administrativo. Lo de probo funcionario iba adscrito a su persona como el nombre de ella. Se citaba de tenazón y por mulecilla, decir Pantoja, como evocaba la propia imagen de la mortalidad. Hombre de pocas necesidades, viva oscuramente y sin ambición contentándose con su ascenso cada seis años, ni ávido de ventajas, ni temeroso de cesantía, pues era de esos pocos a quienes, por su conocimiento práctico, cominerio y minucioso de sus asuntos oficinescos, no se les limpia nunca el comedero. ¿Qué clase de recurso literario observamos en la descripción?",
+    "opciones": [
+      "A) topografía",
+      "B) prosopografía",
+      "C) etopeya.",
+      "D) retrato"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6f67e2de7e803368ebf7bb7c92d8dbc4",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Estaba sentada en un banco rústico y muy entretenida en enredar en fas negras y sedosas madejas de sus cabellos una guirnalda de rosas blancas y de caléndulas rojas. ¿Qué tipo de imágenes sobresalen?",
+    "opciones": [
+      "A) gustativas",
+      "B) visuales",
+      "C) táctiles",
+      "D) auditivas"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "59f13963feb7d451c195faf2be13472c",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Elige la opción que incluya el uso de una METÁFORA.",
+    "opciones": [
+      "A) Fue fácil confundirme y pasar desapercibido",
+      "B) Su color, su poca barba y sus gruesos cabellos muestran proporción",
+      "C) Por la mañana, sus cabellos seda negra, al atardecer, de nieve",
+      "D) Los negros ojos de la Nena brillaban de alegría y felicidad"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "92ac9152d80916ec7b63e7b596b4fa55",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Constituye en el relato la parte que Sucede inmediatamente después del momento culminante de la narración:",
+    "opciones": [
+      "A) Climax",
+      "B) Desenlace",
+      "C) Desarrollo",
+      "D) Nudo"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "d6a64dd213746f65154f83a1d5d7a7e6",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "No te limites date el gusto de usar una computadora Dell. En la frase anterior, la función lingüística es la;",
+    "opciones": [
+      "A) poética.",
+      "B) apelativa.",
+      "C) referencial.",
+      "D) emotiva."
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "00565c5c3aac90124b35e96106f21e03",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Identifica la función de la lengua del siguiente texto: La ironía es un recurso retórico que consiste en expresar algo que debe ser interpretado en sentido opuesto.",
+    "opciones": [
+      "A) poética",
+      "B) apelativa",
+      "C) referencial",
+      "D) Sintomática"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "13e82741cd7bff91b62d4041cd531a5a",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Una leyenda es:",
+    "opciones": [
+      "A) una narración que parte de un hecho importante o representativo para una comunidad",
+      "se transmite de manera oral",
+      "B) un relato corto, con personajes ficticios, generalmente dioses o héroes, y se transmite de forma oral",
+      "C) una historia en la que los personajes son símbolos, sus temas son de tipo universal y se transmite de forma oral",
+      "D) una narración en la que el héroe enfrenta el mal y se auxilia de un objeto mágico"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "d4225c1593250e7aba159770c287f866",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "característica tradicional del verso que se logra mediante la distribución de los acentos y tiene que ver con la musicalidad del poema.",
+    "opciones": [
+      "A) Símil",
+      "B) Rima",
+      "C) Metro",
+      "D) Ritmo"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "18771bf42a2c9dbdbe50b5b5a6f2ee5e",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes titulares de periódicos muestra una visión imparcial de una noticia?",
+    "opciones": [
+      "A) 'Mueren cinco niños al desplomarse muro en China'.",
+      "B) 'Copetes y gel atizan el debate'",
+      "C) 'Zafarrancho entre PRI y PAN acaba en vituperios para Calderón'.",
+      "D) 'Medieval, crítica de iglesia a matrimonios gay: Ebrard'."
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "97d44ef3357e8e9f4751b039055de787",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Opción con características de la tragedia.",
+    "opciones": [
+      "A) I y IV",
+      "B) II y III",
+      "C) I, II, IV",
+      "D) I, II, III"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "ffee49700818f3363ddab36201f70fdb",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Una descripción se refiere a un texto dramático:",
+    "opciones": [
+      "A) historia subjetiva donde el narrador habla de sus sentimientos",
+      "B) historia donde se plantean sucesos y acciones en torno a uno o varios personajes",
+      "C) conjunto de hazañas gloriosas que hablan de un héroe de la historia de un pueblo",
+      "D) relatos tradicionales que pasan de generación en generación y se basan en hechos históricos"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "518461329050f1bf0946ccfa6321181f",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "¿Qué figura retórica representa la frase subrayada? ...que muero porque no muero. Santa Teresa de Jesús",
+    "opciones": [
+      "A) Símil",
+      "B) Metáfora",
+      "C) Elipsis",
+      "D) Paradoja"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "2b7de472b677ffa9007c2d77b9446274",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "El tema central del siguiente fragmento: Antes (que el viento fuera mar volcado, que la noche se uniera su vestido de luto y que estrellas y luna se unieran su vestidos de luto y que estrellas y luna se uciera su vestidos de luto y que estrellas y luna se unieran a la albura de sus cuerpos fincaran sobre el cielo la albura de sus cuerpos",
+    "opciones": [
+      "A) la enseñanza de la vida",
+      "B) la naturaleza del cielo",
+      "C) los elementos de la naturaleza",
+      "D) antes de la creación"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "08dc3c58ffff1b6d10ad52bc3cf08e39",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Lee el siguiente texto: Rechazo en referendo al rescate bancario en Islandia. Costaría 5 mil 300 millones de dólares AFP y DPA Reykjavik, de 6 de marzo Los islandeses rechazaron por abultada mayoría un referendo sobre el impopular acuerdo destinado a reembolsa a Gran Bretaña y Holanda cerca de 4 mil millones de euros, tras la quiebra del banco icesave. El gobierno reconoció la victoria de 'no' tras anunciarse resultados oficiales parciales. De acuerdo con el recuento de 32 por ciento de las papeletas, el 'no' recogió 93.1 por ciento de los sufragios, frente a 1.6 por ciento que dijeron 'sí', anunció televisión pública RUV. El texto sometido a la primer consulta popular desde la independencia del pais en 1994 fue sobre el acuerdo en que Islandia se compromete al pago de 3 mil 900 millones de euros (5 mil 300 millones de dólares) a Gran Bretaña y Holanda para indemnizar a sus 340 mil contribuyentes afectados por la quiebra del banco islandés en octubre de 2008 La Jornada, 7 de marzo de 2010) Identifica en qué orden están los elementos del texto:",
+    "opciones": [
+      "A) título, entrada, cuerpo y remate",
+      "B) título, remate, cuerpo y entrada",
+      "C) título, remate, cuerpo y remate",
+      "D) título, entrada, remate y cuerpo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "ca5178f940a7ee7d12746dfe97c56c00",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Selecciona la opción que contiene los elementos fundamentales de la comedia.",
+    "opciones": [
+      "A) Nos cuenta una historia que tiene una moraleja",
+      "B) Trata temas de tipo trascendental y sus personajes son de la nobleza",
+      "C) Termina con un final feliz, sus personajes son de la nobleza",
+      "D) Aborda temas que preocupan al pueblo y su lenguaje es ligero."
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "073b2d0df0357763944b39f9ec667f09",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "Dos obras de Ignacio Manuel Altamirano son:",
+    "opciones": [
+      "A) La parcela y Los parientes ricos",
+      "B) Tomóchic y La lintera mágica",
+      "C) Memorias de mis tiempos y Clemencia",
+      "D) El Zarco y La Navidad en las montañas"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "4bfe07bda3fd54d63fe38c6a90a28b45",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "¿Quién es el autor de las tragedias Yerma y Bodas de Sangre?",
+    "opciones": [
+      "A) Dámaso Alonso",
+      "B) Federico García Lorca",
+      "C) Jorge Guillén",
+      "D) Rafael Alberti"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "92a4ef8efa18edf9e3d5699dea3b7600",
+    "imagen": null,
+    "area": "LITERATURA"
+  },
+  {
+    "pregunta": "La paráfrasis es un proceso a partir del cual:",
+    "opciones": [
+      "A) comprendes interpretas un texto diciendo lo mismo, pero con otras palabras",
+      "B) explicas un texto e incorporas tu punto de vista sobre los puntos con los que coincides",
+      "C) haces una síntesis de las ideas más importantes utilizando el vocabulario-del-texto",
+      "D) revisas los aspectos sustanciales del texto y los explicas retóricamente sin cambiar los términos del texto original"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "824a94d0f4631fb86035b318d89d9cc3",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Saber leer es ahondar. Saber escribir es ascender. La paráfrasis a la frase de José Martí significa:",
+    "opciones": [
+      "A) Si leer es fácil, entonces escribir es sencillo. Ambas son buenas",
+      "B) Es necesario para la vida el leer y es:a bir correctamente",
+      "C) La lectura y la escritura son importantes para toda la vida",
+      "D) leer correctamente proporciona conocimiento",
+      "escribir correctamente aporta provecho"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "b14f366415e2cf368d8eefb07f64b7ee",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "La siguiente ficha es: Alonso, Martín, Ciencia del lenguaje y arte del estilo, Madrid, Aguilar, 1955",
+    "opciones": [
+      "A) hemerográfica",
+      "B) de cita textual",
+      "C) de resumen",
+      "D) bibliográfica"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "30fe7313d4df03f14d5d48519727e774",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Relaciona las siguientes fichas con sus ejemplos:",
+    "opciones": [
+      "A) I:a, II:c, III:b, IV:d",
+      "B) I:d, II:b, III:a, IV:c",
+      "C) I:c, II:a, III:b, IV:d",
+      "D) I:b, II:a, III:d, IV:c"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "caaefdcbe7d2fb34d4fb21acb91bcffc",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "El drama es la representación de-acción, formada por diálogos, que constituye la dinámica de una acción. Los personajes encarnan un papel dentro de una situación ficticia En este drama participan uno o varios personajes que ejecutan la acción dramática",
+    "opciones": [
+      "A) bibliográfica",
+      "B) de trabajo",
+      "C) hemerográfica",
+      "D) cronológica"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "f930c196b295dfdf1678349758d692d4",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Lee el poema y selecciona qué opción es la paráfrasis de la segunda estrofa",
+    "opciones": [
+      "A) Una figura triste y enamora se acercó a la loza de la tumba y la abrió después de decir que amaba al",
+      "B) Una sombra blanca llego ante la tumba y dijo con tristeza palabra amor, cuando lo hizo el muerto cobro vida",
+      "C) El muerto regreso a la vida y dijo a la figura blanca que la amaba, estaban cerca de la tumba cuando esto sucedió",
+      "D) Una voz muy triste que se quejaba se acercó al muerto, lo levanto y le dijo dos veces que lo amaba"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "d7ec36a0d21a537f26cd7d679c204dc6",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Hoy en el mundo vive dos enormes paradojas sociales. Por un lado, mueren alrededor de 50 millones de personas al año de hambre y enfermedades asociadas con la desnutrición, y un número cada vez mayor padece de obesidad y sus consecuencias. Por otro lado, nuestra cultura exalta la delgadez, el deporte y la comida 'sana', pero el sedentarismo, el estrés y las 'dietas occidentales', ricas en grasas y azúcares refinados, forman parte del estilo de vida de una porción cada vez mayor de la población. Éste es el cuadro de una transición nutricional, con un alto índice de obesidad y enfermedades crónico-degenerativas.",
+    "opciones": [
+      "A) La obesidad y la delgadez son enfermedades crónico- degenerativas y los hombres se enferman mucho por ellas. Las grasas y azúcares refinados son parte de la dieta cotidiana del mexicano. La forma de vida del hombre actual es contraria a lo que debiera ser.",
+      "B) En la actualidad hay dos contradicciones: a) existe gente que se muere de hambre, mientras otra es obesa, b) la sociedad exalta el cuidado del cuerpo y la dieta equilibrada, mientras que la misma sociedad impone un estilo de vida además de una dieta inadecuada.",
+      "C) La transición nutricional tiene un alto índice de obesidad y enfermedades crónico-degenerativas. Actualmente existen dos grandes problemas sociales uno es la anorexia en contraposición con la obesadadingreso ambas peligrosas para la salud del hombre.",
+      "D) Es importante que la gente cuide su dieta y haga ejercicio, no hacerlo trae como consecuencia la obesidad y gran cantidad de enfermedades, la mayoría de ellas crónico-degenerativas. Por otro lado está la gente que muere de hambre."
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "9bf8cfb89d4d7cea0fcbe058eaa13f1c",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Una ficha textual se usa cuando:",
+    "opciones": [
+      "A) Se extraen las ideas principales.",
+      "B) Se comenta las ideas principales.",
+      "C) Se repiten las ideas del autor.",
+      "D) Se comenta el contenido del texto"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "a0525ce3f059891207367620402a4f37",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Poeta peruano que ganó el premio nobel en 2010",
+    "opciones": [
+      "A) Octavio Paz",
+      "B) Mario Vargas Llosas",
+      "C) Gabriel Garcia Márquez",
+      "D) José Saramago"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "b815745c0a5579d1e89a2a11e0e81c00",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Poeta mexicano de la segunda mitad del siglo XX, ganador del premio Nobel.",
+    "opciones": [
+      "A) Carlos Fuentes",
+      "B) Jaime Sabines",
+      "C) Octavio Paz",
+      "D) Carlos Monsiváis"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "677cea3655e8216efdac947e1bba669f",
+    "imagen": null,
+    "area": "Literatura"
+  },
+  {
+    "pregunta": "Para el examen de Filosofía, Lía estudió 3 horas más que Eli. Juntas estudiaron cuatro veces las horas que estudio Eli. ¿Cuántas horas estudió Lía?",
+    "opciones": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 12"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "aac24acf0a9387a7c68006999bd9ddaf",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "El largo de un rectángulo es el triple de su ancho, si su perímetro tiene 10 cm más que el largo. ¿Cuánto vale el ancho?",
+    "opciones": [
+      "A) 2.5",
+      "B) 5",
+      "C) 7.5",
+      "D) 10"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "0ac88cf16ac8104252565a390112cfb8",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "Un tanque contiene 1200 litros de agua y se está llenando a razón de 40 litros por minuto con agua de otro tanque que contiene 1600 litros. ¿En cuánto tiempo tendrán la misma cantidad de agua ambos tanques?",
+    "opciones": [
+      "A) 10",
+      "B) 20",
+      "C) 30",
+      "D) 40"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.7,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "04fcfed8532e730d8fb59b37f1920572",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "La edad actual de Frida es la cuarta parte de la de su mamá. Si dentro de 20 la edad de Frida será la mitad  de la de su mamá.  ¿Qué edad tiene Frida actualmente?",
+    "opciones": [
+      "A) 10",
+      "B) 20",
+      "C) 30",
+      "D) 40"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6473726781a95b961328d91b3f0a3377",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "Un grupo de 5 amigos decidió ir a un partido de futbol. Como uno de ellos no podía pagar su boleto, los otros 4 pagaron, cada uno, su boleto y 20 pesos más. ¿Cuánto costaba cada boleto?",
+    "opciones": [
+      "A) 20",
+      "B) 40",
+      "C) 60",
+      "D) 80"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "58a48fee72efd0cce8167e58601842e1",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "Arturo obtuvo como calificaciones en los primeros cuatro exámenes parciales 7.6, 7.8, 8.5 y 8.9. Si sólo falta efectuar un examen para terminar el curso y el promedio que requiere en los exámenes parciales para exentar la materia es de ocho. ¿Cuál es la menor calificación que puede obtener Arturo en el quinto examen para exentar la materia?",
+    "opciones": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6c7d695a753e34ed552040e54ac145ed",
+    "imagen": null,
+    "area": "Matemáticas"
+  },
+  {
+    "pregunta": "La Constitución Política de los Estados Unidos Mexicanos se promulgó en:",
+    "opciones": [
+      "A) 1857",
+      "B) 1917",
+      "C) 1929",
+      "D) 1940"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "historia de México",
+    "id": "f444b0ee7a4a3b734c0e6ec386e5cd6a",
+    "imagen": null,
+    "area": "historia de México"
+  },
+  {
+    "pregunta": "El lenguaje es un sistema de:",
+    "opciones": [
+      "A) señales y símbolos que se utilizan para comunicarse",
+      "B) sonidos y gestos que se utilizan para expresarse",
+      "C) palabras y frases que se utilizan para describir la realidad",
+      "D) ideas y conceptos que se utilizan para pensar"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "lenguaje",
+    "id": "36ff97499e48b62220844aada6be8ecf",
+    "imagen": null,
+    "area": "lenguaje"
+  },
+  {
+    "pregunta": "La política se refiere a:",
+    "opciones": [
+      "A) el estudio de la organización y el funcionamiento del Estado",
+      "B) el estudio de la economía y la sociedad",
+      "C) el estudio de la historia y la cultura",
+      "D) el estudio de la filosofía y la ética"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "tema": "política",
+    "id": "62611559d0552bdc43914a28d5203eaf",
+    "imagen": null,
+    "area": "política"
+  },
+  {
+    "pregunta": "Elige el párrafo mejor redactado",
+    "opciones": [
+      "A) También conocidas como Magnetaeres, poseen campos magnéticos muy fuertes. Las estrellas de Neutrón provienen del corazón de una estrella masiva que explotó como Supernova",
+      "B) Las estrellas de Neutrón provienen del corazón de una estrella masiva que explotó como Supernova. También conocidas como Magnetaeres, poseen campos magnéticos muy fuertes.",
+      "C) Las estrellas de Neutrón, asimismo también conocidas como Magnetaeres, provienen del corazón de una estrella masiva que explotó en Supernova y poseen campos magnéticos muy fuertes",
+      "D) Las estrellas de Neutrón, también conocidas como Magnetaeres, poseen campos magnéticos muy fuertes y provienen del corazón de una estrella masiva que explotó como Supernova"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "d82c1be45c62537b6bf9f06dd6847ae0",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Relaciona la estructura numerada con el nombre que le corresponde",
+    "opciones": [
+      "A) I-Mitocondria/ II-Núcleo/ III-Nucéolo/ IV- Retículo endoplásmico rugoso / V-Reticulo endoplásmico liso",
+      "B) I- Núcleo/ II- Núcleo/ III- Retículo endoplásmico liso/ IV- Retículo endoplásmico rugoso/ V- Mitocondrias.",
+      "C) I-Núcleo/ II-Nucéolo/ III-Reticulo endoplásmico rugoso/ IV-Reticulo endoplásmico liso/ V-Mitocondria",
+      "D) I-Núcleo/ II-Mitocondria/ III- Retículo endoplásmico liso/ IV- Retículo endoplásmico rugoso/ V-Nucéolo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Estructuras celulares",
+    "id": "206c5be3286ab20a43ee5ee3d128eaf9",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Fue el personaje que dijo que todos los seres vivos están formados por células",
+    "opciones": [
+      "A) Charles Darwin",
+      "B) Jean Lamarck",
+      "C) Luis Pasteur",
+      "D) Theodor Schwann"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "672ced2c3bb7c29f7da7bdef2f675724",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La unidad básica, estructural y funcional de los seres vivos es:",
+    "opciones": [
+      "A) La molécula",
+      "B) La célula",
+      "C) El átomo",
+      "D) El tejido"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.1,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "b40672debbc27882a8a8f02fc9366cdc",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Las células heterótrofas se caracterizan por:",
+    "opciones": [
+      "A) Carecer de cloroplastos",
+      "B) Realizar la glucolisis en el mitocondria",
+      "C) Metabolizar carbohidratos en el aparato de Golgi",
+      "D) Degradar en el PC"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.3,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "69be74b1e00037ad0bc891b24e5e3139",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Las células vegetales se distinguen de las células animales porque poseen:",
+    "opciones": [
+      "A) Núcleo",
+      "B) Pared celular",
+      "C) Membrana plasmática",
+      "D) Mitocondrias"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6c7ecf06f483b54f67a5e44b963a652c",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Estructura propia de la célula vegetal formada de celulosa:",
+    "opciones": [
+      "A) Pared celular",
+      "B) Exoesqueleto",
+      "C) Membrana plasmáticas",
+      "D) Membrana celular"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.1,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "db48340b404fc3daf8eb10498826724e",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes organelos se explican a través de la teoria de la endosimbiosis?",
+    "opciones": [
+      "A) Mitocondria y cloroplasto",
+      "B) Centriolo y peroxisoma",
+      "C) Núcleo y ribosoma",
+      "D) Núcleo y lisosoma"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.4,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "d32bbdfc0971dceead75c67d1d743d23",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "El proceso de respiración aeróbica en células eucarióticas realiza en...",
+    "opciones": [
+      "A) Mitocondrias",
+      "B) Cloroplastos",
+      "C) Vacuolas",
+      "D) Lisosomas"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "73c713e3d01521a177ce2fead1e10e9c",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuál es el significado de la palabra eucarionte?",
+    "opciones": [
+      "A) Antes del núcleo",
+      "B) Sin núcleo verdadero",
+      "C) Con núcleo verdadero",
+      "D) Después del núcleo"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "a304027fe985e8776abde3cadad32c44",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "El _______ es la principal fuente de energía metabólica para los seres vivos.",
+    "opciones": [
+      "A) ADN",
+      "B) GTP",
+      "C) ATP",
+      "D) ARN"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.1,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "a13d2204cd97769988a603db9637ba5c",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Cuando se hidroliza el ATP se forma:",
+    "opciones": [
+      "A) ADP",
+      "B) ADP",
+      "C) GTP",
+      "D) UTP"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "f75015b08165e4fcc82458130cb86c91",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Las enzimas son _________ que aceleran las reacciones químicas reduciendo la energía de activación.",
+    "opciones": [
+      "A) Cofactores",
+      "B) Biocatalizadores",
+      "C) Promotores",
+      "D) reguladores"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.3,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "00ec6300df1aece08647fe5eda8ca20b",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Relaciona a las células procariotas y eucariotas con sus características.",
+    "opciones": [
+      "A) I: b,d-II:a,c",
+      "B) I: b,c-II:a,d",
+      "C) I: a,d-II:b,c",
+      "D) I: a,c-II:b,d"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "f39b50f36bedc0d0a5aa812049bace08",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "En la fotosíntesis se rompe, una molécula de H2O para producir inicialmente:",
+    "opciones": [
+      "A) glucosa",
+      "B) monóxido de carbono",
+      "C) oxígeno",
+      "D) dióxido de carbono"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.3,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "89852998c8394c771e587821a444420f",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "El producto final de la glucólisis es:",
+    "opciones": [
+      "A) 2 moléculas de piruvato, 1 de ATP y de NADH",
+      "B) 2 moléculas de piruvato, 2 de ATP y una de NADH",
+      "C) 2 moléculas de piruvato, 1 de ATP y 2 de NADH",
+      "D) 2 moléculas de piruvato, 4 de ATP y 2 de NADH"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.4,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "46e45fa86c8fb8a1d22c0c00ecc4e1f6",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Durante el proceso anaeróbico de fermentación el ácido pirúvico cambia a etanol y _______ . De modo similar una disminución de oxígeno en los músculos durante el ejercicio ocasiona fatiga, debido a la acumulación de ácido _______ producto de la fermentación",
+    "opciones": [
+      "A) acética – láctica",
+      "B) láctica-alcohólica",
+      "C) alcohólica- acética",
+      "D) alcohólica-láctica"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "12fd8be9af35be000ab9505cffa333c3",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "En la respiración anaerobia, la degradación de una molécula de glucosa requiere un aporte energético inicial de",
+    "opciones": [
+      "A) 4 moléculas de ATP",
+      "B) 8 moléculas de ATP",
+      "C) 2 moléculas de ATP",
+      "D) 2 moléculas de NADPH y 1 molécula de ATP"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.4,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "9cfca0e6528b346ebba07b81c618df85",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Es la ruta metabólica que forma parte de la respiración celular en organismos aerobios y cuyo producto final es el CO2:",
+    "opciones": [
+      "A) Ciclo del carbono",
+      "B) Ciclo de Krebs",
+      "C) Ciclo del nitrógeno",
+      "D) Glucólisis"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.4,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "313c7f8cda295e6ff3c6e53e64de4870",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Si asumimos que una célula eucariota tiene abundante glucosa y oxígeno, pero necesita ATP, el gradiente de electrones es esta célula será generado por _______ y usado principalmente por _______",
+    "opciones": [
+      "A) transportadores de electrones -ATP sintetasa",
+      "B) glucólisis – producción de agua",
+      "C) fermentación – NAD reducido",
+      "D) difusión de protones – ATP sintetasa"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "914b23ec598e51997bf6a547190737cd",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Base nitrogenada que solo está presente en el ARN?",
+    "opciones": [
+      "A) Uracilo",
+      "B) Adenina",
+      "C) Timina",
+      "D) Guanina"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "5f66ef41e82c502f954bf7b604b7c550",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La síntesis de RNA a partir del DNA se llama:",
+    "opciones": [
+      "A) regulación",
+      "B) transferencia",
+      "C) transcripción",
+      "D) inversión"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.2,
+    "universidad": "UNAM",
+    "tema": "General",
+    "id": "6ca688178a85f383619097ddf9976b50",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Un fragmento de DNA con consecuencia GGATCA producirá un RNA mensajero con la secuencia:",
+    "opciones": [
+      "A) CCATCU",
+      "B) CCUAGU",
+      "C) CGAUCA",
+      "D) CCTAGT"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "8942b0eeb01f47ece1404845ade76175",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una característica exclusiva de la estructura del DNA?",
+    "opciones": [
+      "A) Presentar una molécula lineal",
+      "B) Contener moléculas de pirimidinas",
+      "C) Tener dos cadenás antiparalelas",
+      "D) Estar formada de pirimidinas"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "3c7affb4eb0fd3eba07336e0fd7d8bb1",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Las enzimas de restricción:",
+    "opciones": [
+      "A) cortan DNA en sitios específicos",
+      "B) son parte de la biblioteca de DNA",
+      "C) son moléculas de respiración de las bacterias",
+      "D) forman copias del DNA de los organismos"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "b1b83d5ccbe23963c4d9c380971d473c",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La participación de esta molécula permite que la información contenida en el núcleo pueda traducirse en una proteína:",
+    "opciones": [
+      "A) ATP",
+      "B) RNA",
+      "C) DNA",
+      "D) Glucosa"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "dd8ce616ae0344292dde8ad7de54c88e",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La _______ comprende los procesos por los que la mayoría de las células obtienen energía.",
+    "opciones": [
+      "A) Asimilación",
+      "B) Respiración",
+      "C) Digestión",
+      "D) Transformación"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "bc50c6bc4c1176f2cb5683fb6af18fb4",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Proceso metabólico que es un ejemplo de catabolismo:",
+    "opciones": [
+      "A) fotosíntesis",
+      "B) Reproducción",
+      "C) Respiración",
+      "D) Homeostasis"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "e6c7aac077c9996e50fc2def3a1fcdb5",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Los cromosomas se fijan por el arreglo elipsoide de microtúbulos llamados:",
+    "opciones": [
+      "A) complejo sináptico",
+      "B) huso acromático",
+      "C) huso meiótico",
+      "D) complejo quiasmático"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "8f7dc65331b67e0d5b720bf6820ba601",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Una célula presenta un número cromosómico con 46 XX; durante la mitosis, al dividirse, es de esperarse que forme células con:",
+    "opciones": [
+      "A) 23 X",
+      "B) 23 XX",
+      "C) 46 XX",
+      "D) 46 XY"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "c45134db7355a487d3ce1eea3e31a5e1",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Las células sexuales que se conocen como gametos, sufren el proceso de meiosis por lo que tienen un genoma:",
+    "opciones": [
+      "A) diploide",
+      "B) diploide",
+      "C) haploide",
+      "D) asexual"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "c5331bfeb0f5c12c49de029437745a12",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La información de espora es un mecanismo.",
+    "opciones": [
+      "A) Genético",
+      "B) De crecimiento",
+      "C) De anidación",
+      "D) Reproductivo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "ecdb22baf373df56a03056c3cf9ca0f5",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "En la reproducción sexual, _______ es el proceso que contribuye a la variabilidad genética:",
+    "opciones": [
+      "A) el entrecruzamiento",
+      "B) la mitosis",
+      "C) la reproducción cromosómica",
+      "D) la translocación"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "2600382667bfe60158642e5a599cacf7",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La reproducción sexual de los organismos pluricelulares se caracteriza por:",
+    "opciones": [
+      "A) dar origen a los individuos genéticamente idénticos",
+      "B) la producción de grandes cantidades de esporas",
+      "C) suceder siempre dentro del cuerpo de los progenitores",
+      "D) la fusión de células haploides especializadas"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "cca6add1a99202e0336e9d36012711c4",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuál sería el genotipo que se presentaría en mayor proporción en una cruz de gametos con dos características heterocigotas dominantes?",
+    "opciones": [
+      "A) Dominantes para las dos características",
+      "B) Dominantes para una característica y recesivos para la otra",
+      "C) Heterocigotos dominantes",
+      "D) Heterocigotos recesivos"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "91006068598283da945967d1dd6433b3",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La conjugación de las bacterias tiene su ventaja en:",
+    "opciones": [
+      "A) variabilidad genética",
+      "B) descendencia más numerosa",
+      "C) estabilidad genética",
+      "D) energía"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "b903cb1ff218b2c72ee95ba245f24b5a",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La información genética que tienen las células hijas resultantes de la mitosis es:",
+    "opciones": [
+      "A) la mitad en cada célula",
+      "B) diferente a la de la madre",
+      "C) el doble en cada una",
+      "D) igual a la progenitora"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "795fd979d7ccbf88755f3e6b6b7a69b8",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "A un individuo que posee alelos idénticos para un carácter se le conoce como:",
+    "opciones": [
+      "A) Heterocigoto",
+      "B) Haploide",
+      "C) Diploide",
+      "D) Homocigoto"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "565d39ec258642bb491e4808f32a3752",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Si las letras mayúsculas representan genes dominantes y las letras minúsculas los genes recesivos, ¿cuál será la proporción fenotípica de la cruza AaBb con AaBb?",
+    "opciones": [
+      "A) 9:3:3:1",
+      "B) 1:1:1:1",
+      "C) 6:2:2:2",
+      "D) 5:4:3:4"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "0df4a36f5e503030b8bd55054c746a79",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Durante la meiosis, cuando dos elementos de cada par de cromosomas homólogos se separan, los pares de genes se ubican en diferentes gametos; como resultado, algunos individuos pueden transmitir un carácter determinado, aunque ellos no lo manifiesten. Esto se conoce como la ley:",
+    "opciones": [
+      "A) de segregación",
+      "B) de la combinación independiente",
+      "C) de la uniformidad",
+      "D) del recesivo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "0a225397551d0822e4aa73fb50a2cc32",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "En una familia en donde los hijos padecen una enfermedad congénita del padre, pero las hijas no, este carácter es heredado de manera:",
+    "opciones": [
+      "A) poligénica",
+      "B) determinante del sexo",
+      "C) codominante",
+      "D) ligadas al sexo"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "202fea21c2d0cfc02784c4c7b512d486",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "La carencia de un cuerpo de Barr en un cromosoma sexual significa que el:",
+    "opciones": [
+      "A) cromosoma tuvo una translocación",
+      "B) donador es un individuo masculino",
+      "C) cromosoma posee una trisomía",
+      "D) cromosoma presenta aneuploidía"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "02de6da84974b3dc78866c98a14e8940",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "El albinismo es causado por un alelo autosómico recesivo. Si un hombre y una mujer, normalmente pigmentados tienen un hijo albino, ¿Cuál es el genotipo del hijo?",
+    "opciones": [
+      "A) Homocigoto dominante",
+      "B) Homocigoto recesivo",
+      "C) Heterocigoto recesivo",
+      "D) Heterocigoto dominante"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "96e0e7f3670f77e3f1b13c60e860bfb6",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Mendel agregó nuevos términos en la genética.",
+    "opciones": [
+      "A) dominante y recesivo",
+      "B) XX y XY",
+      "C) Diploides y haploides",
+      "D) Ovulo y espermatozoide"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "b96543d96431b8a58b8b38ed8d0c5dab",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes alteraciones genéticas muestra un patrón de herencia ligada al sexo?",
+    "opciones": [
+      "A) Discinesia",
+      "B) alemorfia",
+      "C) ataxia",
+      "D) hemofilia"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "692f674674c8b201721c6d408efe0684",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Al realizar el cruzamiento de dos caracteres, Mendel encontró que la primera generación tenía uno de los dos caracteres alternativos al que",
+    "opciones": [
+      "A) Recesivo",
+      "B) Hibrido",
+      "C) Dominante",
+      "D) Homocigoto"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "bfe4b5be13b6d429007973ab186db254",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuáles aseveraciones son las correctas para el ADN?",
+    "opciones": [
+      "A) I, II, III",
+      "B) II, III, IV",
+      "C) III, IV, V",
+      "D) IV, V, I"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "6d72efaf35506dc5c61442911cbc1e38",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una característica distintiva de los organismos con fecundación externa?",
+    "opciones": [
+      "A) Producir gran cantidad de gametos",
+      "B) Presentar gametos iguales",
+      "C) Fecundar a la mayoría de los gametos",
+      "D) Producir pocos descendientes"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "tema": "Genética y Biología Celular",
+    "id": "7dbb21c6edc3c181a2edcde8301aa3a5",
+    "imagen": null,
+    "area": "Biología"
+  },
+  {
+    "pregunta": "Un objeto está en reposo sobre una superficie horizontal. La fuerza neta que actúa sobre él es:",
+    "opciones": [
+      "A) cero",
+      "B) mayor que cero",
+      "C) menor que cero",
+      "D) no se puede determinar"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Física",
+    "id": "148e7136e036534d1ee820967b92b841",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el esquema correcto?",
+    "opciones": [
+      "A) Lineal",
+      "B) Tetraédrica",
+      "C) Rectangular",
+      "D) Tetragonal"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "26d1742823fc4889a4d40e4f1409c0d5",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es la forma correcta?",
+    "opciones": [
+      "A) Lineal",
+      "B) Tetraédrica",
+      "C) Rectangular",
+      "D) Tetragonal"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "53f50dee515c22b2c7b03b38fa211b2a",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el tipo de enlace químico que se forma entre los átomos de oxígeno y nitrógeno en la molécula de amoníaco (NH3)?",
+    "opciones": [
+      "A) Enlace iónico",
+      "B) Enlace covalente",
+      "C) Enlace metálico",
+      "D) Enlace de hidrógeno"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "db6b6e8bc3a3ccd4bad219fa22d5d362",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del compuesto químico con la fórmula CH3COOH?",
+    "opciones": [
+      "A) Ácido acético",
+      "B) Ácido fórmico",
+      "C) Ácido propiónico",
+      "D) Ácido butírico"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "613e6d317f1414bc7ef7adfc11afaa70",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el estado de agregación de la materia en el que las partículas se encuentran en constante movimiento y no tienen una forma definida?",
+    "opciones": [
+      "A) Sólido",
+      "B) Líquido",
+      "C) Gaseoso",
+      "D) Plasma"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "0a4e5fd8df3b72a6f1353bad53a873b0",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el proceso químico que ocurre cuando un átomo de hidrógeno se combina con un átomo de oxígeno para formar una molécula de agua?",
+    "opciones": [
+      "A) Síntesis",
+      "B) Análisis",
+      "C) Síntesis química",
+      "D) Reacción química"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "19ec4aa9c1c8c79e8f8a8480393e1c81",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del elemento químico con el símbolo 'Na'?",
+    "opciones": [
+      "A) Sodio",
+      "B) Potasio",
+      "C) Calcio",
+      "D) Magnesio"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "738e646b82176bebe1dd3adef717c6c5",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el tipo de reacción química que ocurre cuando un compuesto se descompone en sus componentes?",
+    "opciones": [
+      "A) Síntesis",
+      "B) Análisis",
+      "C) Reacción de sustitución",
+      "D) Reacción de descomposición"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "f14663829101cca0f943bb9ee565afba",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del compuesto químico con la fórmula H2O?",
+    "opciones": [
+      "A) Oxígeno",
+      "B) Hidrógeno",
+      "C) Agua",
+      "D) Ácido clorhídrico"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "570ac8132d7acaa9be32de8f1f262ad9",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el estado de agregación de la materia en el que las partículas se encuentran en constante movimiento y tienen una forma definida?",
+    "opciones": [
+      "A) Sólido",
+      "B) Líquido",
+      "C) Gaseoso",
+      "D) Plasma"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "c37ac116004dd5a2ced42b7f248c23f7",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el proceso químico que ocurre cuando un átomo de carbono se combina con cuatro átomos de hidrógeno para formar una molécula de metano?",
+    "opciones": [
+      "A) Síntesis",
+      "B) Análisis",
+      "C) Síntesis química",
+      "D) Reacción química"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "7557502bf46a32855288720ab0070439",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del elemento químico con el símbolo 'Cl'?",
+    "opciones": [
+      "A) Cloro",
+      "B) Flúor",
+      "C) Bromo",
+      "D) Yodo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "ecee4622356d5a7e048102709ea544da",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el tipo de enlace químico que se forma entre los átomos de hidrógeno y oxígeno en la molécula de agua (H2O)?",
+    "opciones": [
+      "A) Enlace iónico",
+      "B) Enlace covalente",
+      "C) Enlace metálico",
+      "D) Enlace de hidrógeno"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "33f096ff1215b2ae65cdedd0ea8b13aa",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del compuesto químico con la fórmula CO2?",
+    "opciones": [
+      "A) Dióxido de carbono",
+      "B) Monóxido de carbono",
+      "C) Óxido de carbono",
+      "D) Trióxido de carbono"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "09ca72682e6092cc043c2c01c112c64d",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el estado de agregación de la materia en el que las partículas se encuentran en constante movimiento y no tienen una forma definida, pero sí una volumen definido?",
+    "opciones": [
+      "A) Sólido",
+      "B) Líquido",
+      "C) Gaseoso",
+      "D) Plasma"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Quimica",
+    "id": "3631720f9a6d29fd811984dda7e91b5a",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es la ecuación cuyas soluciones son y ?",
+    "opciones": [
+      "A) x^2 + 5x + 6 = 0",
+      "B) x^2 - 5x + 6 = 0",
+      "C) x^2 + 3x - 2 = 0",
+      "D) x^2 - 3x - 2 = 0"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.7,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Algebra",
+    "id": "5cc02a3e8595e9d4c3163989ddd1240e",
+    "imagen": null
+  },
+  {
+    "pregunta": "Si una de las raíces de la ecuación  es , el valor de a, es:",
+    "opciones": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.6,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Algebra",
+    "id": "858e4b50d5c73cb11ef8bc461c2986ca",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el intervalo solución de ?",
+    "opciones": [
+      "A) (-∞, 2)",
+      "B) (2, ∞)",
+      "C) (-2, 2)",
+      "D) (-∞, -2)"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.8,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Algebra",
+    "id": "ec70aacb9733142f261c5fa439146c0c",
+    "imagen": null
+  },
+  {
+    "pregunta": "El intervalo solución que se obtiene al resolver la desigualdad , es:",
+    "opciones": [
+      "A) (-∞, 3)",
+      "B) (3, ∞)",
+      "C) (-3, 3)",
+      "D) (-∞, -3)"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.8,
+    "universidad": "UNAM",
+    "area": "Ciencias Exactas",
+    "tema": "Algebra",
+    "id": "a63e706dad96ce0a9dbe3cb13fe7417f",
+    "imagen": null
+  },
+  {
+    "pregunta": "Idea principal del párrafo 4",
+    "opciones": [
+      "A) Lo bello es una peculiaridad del arte",
+      "B) La estética es el estudio de lo bello",
+      "C) Lo bello es una peculiaridad del arte"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Análisis de texto",
+    "id": "d18509f9a459c6cd2fee3440f197a887",
+    "imagen": null
+  },
+  {
+    "pregunta": "Según el párrafo 2, cómo se define la estética",
+    "opciones": [
+      "A) El estudio de lo bello",
+      "B) Como puente para conectar ambos conceptos",
+      "C) El estudio de la sensibilidad en general"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Definición de estética",
+    "id": "4cf257a3077fbc7dfab95751bd5d3ae8",
+    "imagen": null
+  },
+  {
+    "pregunta": "Sinónimo de efímero",
+    "opciones": [
+      "A) Momentáneo",
+      "B) Permanente",
+      "C) Eterno"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.3,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Sinónimos",
+    "id": "c6f4f5ca3897e324863db9dd695714f9",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Con qué palabra se puede sustituir Cosquilleo en el párrafo 5?",
+    "opciones": [
+      "A) Inquietud",
+      "B) Calma",
+      "C) Paz"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Análisis de texto",
+    "id": "f37c40c460fcf8df8296033e4cb09d24",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cómo son los artistas de estos tiempos según el último párrafo?",
+    "opciones": [
+      "A) Críticos, creativos",
+      "B) Alocados, ilimitados",
+      "C) Burgueses inmortalizados"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Análisis de texto",
+    "id": "cffbf69d7f81ad7d757a04d3d7112d2f",
+    "imagen": null
+  },
+  {
+    "pregunta": "La editorial de un periódico se puede comparar con",
+    "opciones": [
+      "A) Opinión o postura del periódico sobre un hecho",
+      "B) Noticia",
+      "C) Anuncio"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Análisis de texto",
+    "id": "e33fbb04aa8a5ba4212f88e8f9d5b569",
+    "imagen": null
+  },
+  {
+    "pregunta": "Función apelativa",
+    "opciones": [
+      "A) Intenta convencer o persuadir",
+      "B) Intenta informar",
+      "C) Intenta entretener"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Función apelativa",
+    "id": "601545e4b6e420063fe7e9182762f0af",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué tipo de ficha es? “La Jornada #21….”",
+    "opciones": [
+      "A) Ficha hemerográfica",
+      "B) Ficha bibliográfica",
+      "C) Ficha de archivo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Tipos de fichas",
+    "id": "d493906bdc8a42174124e18c997a816e",
+    "imagen": null
+  },
+  {
+    "pregunta": "El pobre VAGABUNDO vaga por el mundo. Identifica el núcleo del sujeto",
+    "opciones": [
+      "A) Vagabundo",
+      "B) Pobre",
+      "C) Mundo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Análisis de oraciones",
+    "id": "43549b94d645c104fb2c3e53742aab8b",
+    "imagen": null
+  },
+  {
+    "pregunta": "Ortografía correcta para: No te de_es re_elar por que las e_idencias no se deben re_elar",
+    "opciones": [
+      "A) b-b-v-v",
+      "B) b-v-b-v",
+      "C) v-b-v-b"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Ortografía",
+    "id": "88d4a08aab91fe7792080224265e1e38",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué significa la siguiente analogía? “Ella es como paloma al nido, y yo soy león al campo de batalla.”",
+    "opciones": [
+      "A) La mujer está destinada a trabajar en su casa y el hombre a trabajar fuera",
+      "B) La mujer es débil y el hombre es fuerte",
+      "C) La mujer es inteligente y el hombre es ignorante"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Analogías",
+    "id": "2858346ec85b71b49d9a6cee9ecaf490",
+    "imagen": null
+  },
+  {
+    "pregunta": "Función de la lengua en: Hombre cohete araña y rompe su tela.",
+    "opciones": [
+      "A) Poética",
+      "B) Lógica",
+      "C) Retórica"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Función de la lengua",
+    "id": "4ea52b28f609b9b248fac355adeb9ba3",
+    "imagen": null
+  },
+  {
+    "pregunta": "Identifica el párrafo con redacción correcta",
+    "opciones": [
+      "A) Investigaciones recientes del Instituto Nacional de Investigadores Forestales, Agrícolas y Pecuarias (INFAP) de la Universidad Nacional Autónoma de México (UNAM) revelaron las sustancias activas en las plantas.",
+      "B) Las investigaciones del INFAP y la UNAM revelaron las sustancias activas en las plantas.",
+      "C) La UNAM y el INFAP investigaron las sustancias activas en las plantas."
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Redacción correcta",
+    "id": "916c6571dcdbb44c14a97c10a671f7cf",
+    "imagen": null
+  },
+  {
+    "pregunta": "Identifica la narración correcta",
+    "opciones": [
+      "A) Los caballeros medievales quienes leían novelas de caballería buscaban el realismo, iban a torneos, cruzadas y en épocas de paz",
+      "entrenaban para la guerra como la que hubo en 1310.",
+      "B) Los caballeros medievales eran valientes y fuertes.",
+      "C) Los caballeros medievales eran débiles y cobardes."
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Narración correcta",
+    "id": "fa59315df546d104a2a56a3d95b9b8dc",
+    "imagen": null
+  },
+  {
+    "pregunta": "En el siguiente fragmento sobre el curriculum de vitae, responde ¿por qué es una descripción?",
+    "opciones": [
+      "A) Porque se dan características y se explican",
+      "B) Porque se dan fechas y se narran",
+      "C) Porque se dan nombres y se describen"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Descripción",
+    "id": "7f98648f766945772d1f611128b5bd05",
+    "imagen": null
+  },
+  {
+    "pregunta": "Redacción y ortografía correcta",
+    "opciones": [
+      "A) A las ideas que fueron expuestas les faltaban pruebas que, sin embargo, fueron aceptadas.",
+      "B) Las ideas que se expusieron no tenían pruebas.",
+      "C) Las ideas que se expusieron tenían pruebas."
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Redacción y ortografía",
+    "id": "10d444d4d1377f0201a08a1d60c6dfe3",
+    "imagen": null
+  },
+  {
+    "pregunta": "Identifica la oración principal: “Desde que te fuiste hace un mes, el departamento de ventas es un caos.”",
+    "opciones": [
+      "A) El departamento de ventas es un caos.",
+      "B) Desde que te fuiste hace un mes",
+      "C) El departamento de ventas es un éxito"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Oraciones principales",
+    "id": "138370e445cac4733fc64ea94f02a6bc",
+    "imagen": null
+  },
+  {
+    "pregunta": "Antónimo de Sensato",
+    "opciones": [
+      "A) Irracional",
+      "B) Racional",
+      "C) Emocional"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Antónimos",
+    "id": "81117d393137b942f6ff4e28351791a1",
+    "imagen": null
+  },
+  {
+    "pregunta": "Autor Chileno escritor de veinte poemas de amor",
+    "opciones": [
+      "A) Pablo Neruda",
+      "B) Gabriela Mistral",
+      "C) Isabel Allende"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Literatura",
+    "id": "44b7f887540e654ce24de238d61fafe8",
+    "imagen": null
+  },
+  {
+    "pregunta": "Narración breve con pocos personajes",
+    "opciones": [
+      "A) Cuento",
+      "B) Novela",
+      "C) Poema"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Narración breve",
+    "id": "4b95475f8b8615379a5402b64a258281",
+    "imagen": null
+  },
+  {
+    "pregunta": "Tipo de texto que señala los nombres de los personajes y la forma de su intervención mediante acotaciones",
+    "opciones": [
+      "A) Dramático",
+      "B) Narrativo",
+      "C) Descriptivo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Tipos de textos",
+    "id": "417f4db745fa1a121a64a36bac9b801c",
+    "imagen": null
+  },
+  {
+    "pregunta": "Según la poética de Aristóteles",
+    "opciones": [
+      "A) La épica es objetiva, narra hazañas, historias de héroes, dioses y hechos históricos. La lírica es subjetiva y exalta sentimientos y lo dramático está hecho para ser representado.",
+      "B) La épica es subjetiva y narra sentimientos. La lírica es objetiva y exalta hazañas.",
+      "C) La épica es objetiva y narra sentimientos. La lírica es subjetiva y exalta hazañas."
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Poética de Aristóteles",
+    "id": "f5302628c05bf9ecbe9ee474a5786084",
+    "imagen": null
+  },
+  {
+    "pregunta": "Personaje opuesto al protagonista",
+    "opciones": [
+      "A) Antagonista",
+      "B) Protagonista",
+      "C) Deuteragonista"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Personajes",
+    "id": "37a7f48e25d56339b14545f863860ba4",
+    "imagen": null
+  },
+  {
+    "pregunta": "Características del Realismo",
+    "opciones": [
+      "A) Plantea la realidad y busca la objetividad",
+      "B) Plantea la fantasía y busca la subjetividad",
+      "C) Plantea la realidad y busca la subjetividad"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area de Humanidades",
+    "tema": "Características del Realismo",
+    "id": "296fb0c2d3ddd74a49c24ffe8e63451a",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué es el socializmo?",
+    "opciones": [
+      "A,B,C,D"
+    ],
+    "respuesta": "A",
+    "dificultad": 1.0,
+    "universidad": "UANM",
+    "area": "2",
+    "tema": "Física",
+    "imagen": null,
+    "grupo_visual": "the image depicts a page from a spanish-language math test or quiz, featuring various mathematical problems. the page is divided into two columns, each containing several questions.\n\n**problem 49:**\nthe first problem, labeled \"49,\" presents a geometric figure with a right triangle and a trapezoid. the question asks to calculate the value of $h$ in the rectangle.\n\n**step-by-step solution:**\n\n*   the given figure shows a right triangle with base 4 and height 3, and a trapezoid with bases 5 and $h$ and height 4.\n*   using similar triangles, we can set up a proportion: $\\frac{3}{4} = \\frac{h}{5}$\n*   solving for $h$, we get: $h = \\frac{3}{4} \\times 5 = \\frac{15}{4} = 3.75$\n\nhowever, this option is not available. let's try another approach:\n\n*   the area of the trapezoid is equal to the sum of the areas of the two triangles.\n*   the area of the larger triangle is $\\frac{1}{2} \\times 8 \\times h = 4h$\n*   the area of the smaller triangle is $\\frac{1}{2} \\times 4 \\times 3 = 6$\n*   the area of the trapezoid is $\\frac{1}{2} \\times (5 + 8) \\times 4 = \\frac{1}{2} \\times 13 \\times 4 = 26$\n*   equating the two expressions, we get: $4h + 6 = 26$\n*   solving for $h$, we get: $4h = 20 \\rightarrow h = 11$\n\ntherefore, the correct answer is:\n\n**c) 11**\n\nthis solution corresponds to question 49. \n\nif you would like me to solve any other problems, please let me know.",
+    "id": "0d54155b011ac75121549043f650d534"
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del",
+    "opciones": [
+      ""
+    ],
+    "respuesta": "A",
+    "dificultad": 0.0,
+    "universidad": "UNAM",
+    "area": "Química",
+    "tema": "Química",
+    "id": "3dc1686efc3eb933a0942e2bf57a80f0",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿HOLA?",
+    "opciones": [
+      "A,B,C,D"
+    ],
+    "respuesta": "A",
+    "dificultad": 1.0,
+    "universidad": "UNAM",
+    "area": "2",
+    "tema": "Física",
+    "imagen": null,
+    "grupo_visual": "ninguno",
+    "id": "37b05649d7e833c2571de36721a6e1ae"
+  },
+  {
+    "pregunta": "lahdcask",
+    "opciones": [
+      "aaaa,b,c,d"
+    ],
+    "respuesta": "A",
+    "dificultad": 1.0,
+    "universidad": "UNAM",
+    "area": "3",
+    "tema": "Física",
+    "imagen": null,
+    "grupo_visual": "la imagen muestra una hoja de un documento en español que parece ser una guía de estudio o un examen relacionado con la historia de méxico. el documento está estructurado en varias secciones con preguntas y opciones de respuesta.\n\nclasificación: **esquema**",
+    "id": "e1b557d9f69014c8a68841e8582fe839"
+  },
+  {
+    "pregunta": "Algunos de los puntos que destacan de la constitución de Apatzingán de 1814 son:",
+    "opciones": [
+      "A) 1,2,3,6",
+      "B) 1,4,5,7",
+      "C) 2,5,6,7",
+      "D) 3,4,5,6"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Revolución",
+    "id": "cad41eade70b54cae3a46ae0830235f9",
+    "imagen": null
+  },
+  {
+    "pregunta": "Primera forma de gobierno que se estableció en el México independiente",
+    "opciones": [
+      "A) dictadura",
+      "B) república federal",
+      "C) monarquía",
+      "D) imperio"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Independencia",
+    "id": "8fab934eb73d5e38cc2f5130213324cd",
+    "imagen": null
+  },
+  {
+    "pregunta": "Por los gobiernos surgidos de la revolución de Ayutla, se establecieron los:",
+    "opciones": [
+      "A) conceptos conservadores de gobierno",
+      "B) principios de la teocracia libera",
+      "C) conceptos del centralismo",
+      "D) principios liberales en el gobierno"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Revolución de Ayutla",
+    "id": "36f099e0fd0ee25bbf68548104321b17",
+    "imagen": null
+  },
+  {
+    "pregunta": "Durante el Porfiriato la __________ fue una de las obras más relevantes.",
+    "opciones": [
+      "A) Creación de universidad obrera",
+      "B) Aplicación de la educación socialista",
+      "C) Aplicación de la educación laica",
+      "D) Creación de la universidad nacional"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Porfiriato",
+    "id": "4e26ea316b79c520424347a8f64d0b42",
+    "imagen": null
+  },
+  {
+    "pregunta": "Relaciona las características con las diferentes etapas de la revolución mexicana",
+    "opciones": [
+      "A) 1d 2a 3b 4c",
+      "B) 1a 2b 3c 4d",
+      "C) 1b 2c 3a 4d",
+      "D) 1d 2c 3b 4a"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Revolución mexicana",
+    "id": "ee10cef8aeb1cfd23adb8dcce51c25bd",
+    "imagen": null
+  },
+  {
+    "pregunta": "El período de 1928 a 1934 con el que Plutarco Elías Calles encontró la política mexicana manipulando a los presidentes en turno se le denomina",
+    "opciones": [
+      "A) decena trágica",
+      "B) plan sexenal",
+      "C) callismo",
+      "D) maximato"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "México post-revolución",
+    "id": "24e01cabb779db8f7556e4b514f2e2d7",
+    "imagen": null
+  },
+  {
+    "pregunta": "Al general Lázaro Cárdenas se le considera el creador del estado mexicano porque",
+    "opciones": [
+      "A) Creció el PRM con los sectores campesinos y militar",
+      "B) Los partidos de la derecha y religiosos",
+      "C) Propuso las bases para la política internacional de México",
+      "D) limita la participación política de las órdenes religiosas"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Estado mexicano",
+    "id": "b6c164f74faa58066e7cdc576f0eb060",
+    "imagen": null
+  },
+  {
+    "pregunta": "El nacionalismo exacerbado del imperialismo, el armamentismo y las alianzas con fines militares fueron causa de:",
+    "opciones": [
+      "A) guerra de los 7 días",
+      "B) segunda guerra mundial",
+      "C) guerra fría",
+      "D) crisis de los misiles"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Imperialismo",
+    "id": "8d21599b2db5e33dbc3966369b968d77",
+    "imagen": null
+  },
+  {
+    "pregunta": "Durante la guerra fría el mundo se polarizó formando 2 bloques. En la lista de características que se anotan a continuación elige cuáles corresponden a cada uno.",
+    "opciones": [
+      "A) Iabc II cde",
+      "B) Iabe II cde",
+      "C) Ide II abc",
+      "D) Ibc II ade"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Guerra fría",
+    "id": "3d7dd628c6e518fd20ecf0c916249e51",
+    "imagen": null
+  },
+  {
+    "pregunta": "La construcción del muro de Berlin, la crisis de los misiles y la carrera armamentista, fueron acontecimientos que se desarrollaron durante el periodo conocido como:",
+    "opciones": [
+      "A) reunificación alemana",
+      "B) globalización económica",
+      "C) guerra fría",
+      "D) desintegración de la unión soviética"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Guerra fría",
+    "id": "620722f8ad0f37abda8b1e5a73acf481",
+    "imagen": null
+  },
+  {
+    "pregunta": "Elige las características económicas y políticas del mundo globalizado",
+    "opciones": [
+      "A) 1,2,4",
+      "B) 2,3,5",
+      "C) 3,4,6",
+      "D) 4,5,6"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Globalización",
+    "id": "cbed1ef068ae46b2ed472d9870896668",
+    "imagen": null
+  },
+  {
+    "pregunta": "Entre las causas que provocaron la caída del bloque socialistas se encuentran",
+    "opciones": [
+      "A) la liberación de la economia y la corrupción del estado socialista",
+      "B) las reformas de Gorbachov y el estancamiento de la producción",
+      "C) la burocratización excesiva y la búsqueda de la identidad nacional",
+      "D) las reformas de la sociedad y la aparición del conservadurismo"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Caída del bloque socialista",
+    "id": "c484305156cf92ed9fd33b74f7d8a382",
+    "imagen": null
+  },
+  {
+    "pregunta": "El proceso de la independencia de la producción y la comercialización en la economía mundial se conoce como",
+    "opciones": [
+      "A) imperialismo",
+      "B) globalización",
+      "C) neoliberalismo",
+      "D) inflación"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Globalización",
+    "id": "8d2b99a614a3fde9b192e75edb38a0a1",
+    "imagen": null
+  },
+  {
+    "pregunta": "De los siguientes acontecimientos cuáles hacen referencia al gobierno de Adolfo López Mateos",
+    "opciones": [
+      "A) 1e 2d 3c 4b 5a",
+      "B) 1a 2b 3c 4d 5e",
+      "C) 1d 2c 3b 4a 5e",
+      "D) 1b 2c 3a 4c 5d"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Gobierno de Adolfo López Mateos",
+    "id": "150edbd9008c45791f9b31e35812047e",
+    "imagen": null
+  },
+  {
+    "pregunta": "El crecimiento económico logrado por el país desde el final de la primera guerra mundial hasta la década de los 60, se conoció como:",
+    "opciones": [
+      "A) desarrollo estabilizador",
+      "B) prosperidad económica",
+      "C) milagro mexicano",
+      "D) desarrollo industrial"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Crecimiento económico",
+    "id": "d755183c380c88c57da5d0877aaa9d0f",
+    "imagen": null
+  },
+  {
+    "pregunta": "Cuáles de las siguientes características corresponden a las crisis económica de 1929",
+    "opciones": [
+      "A) 1,2,3",
+      "B) 1,3,4",
+      "C) 2,4,5",
+      "D) 3,4,5"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Crisis económica de 1929",
+    "id": "2dba112af5e2a3f38d709f085754125f",
+    "imagen": null
+  },
+  {
+    "pregunta": "Selecciona la opción que contiene las características que corresponden a la Tragedia",
+    "opciones": [
+      "A) II y IV",
+      "B) I y II",
+      "C) I y III",
+      "D) III y IV"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Tragedia",
+    "id": "6df70faf2f64c6aaf55567394035e369",
+    "imagen": null
+  },
+  {
+    "pregunta": "Del siguiente verso",
+    "opciones": [
+      "A) Una rima asonante",
+      "B) Una rima consonante",
+      "C) Una sílaba tónica",
+      "D) Un ritmo irregular"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Poesía",
+    "id": "cc407ffa9c8a27540f253ad88217e5c1",
+    "imagen": null
+  },
+  {
+    "pregunta": "Movimiento armónico que se encuentra en un poema",
+    "opciones": [
+      "A) Ritmo",
+      "B) Rima",
+      "C) Aliteración",
+      "D) Verso"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Movimiento armónico",
+    "id": "e1facf14c40d1bfbb837f315e52bd5ab",
+    "imagen": null
+  },
+  {
+    "pregunta": "El siguiente texto pertenece al género:",
+    "opciones": [
+      "A) Gramático",
+      "B) Épico",
+      "C) Lírico",
+      "D) Didáctico"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Literatura",
+    "id": "e8758bbcad1e19ad58b8c0809918f5b0",
+    "imagen": null
+  },
+  {
+    "pregunta": "Corriente literaria que surgió durante la segunda mitad del siglo XIX cuyos autores retratan el mundo que los rodea. Se interesan por el presente, los fenómenos sociales y se apoyan en el método científico",
+    "opciones": [
+      "A) Naturalismo",
+      "B) Romanticismo",
+      "C) Neoclasicismo",
+      "D) Surrealismo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Corrientes literarias",
+    "id": "84eb1dae8a7b5698c416e00cd789141e",
+    "imagen": null
+  },
+  {
+    "pregunta": "Son representantes de la literatura realista",
+    "opciones": [
+      "A) Benito Pérez, Henry Ipsen, Honore de Balzac",
+      "B) Gustave Fluver, Thomas Mann",
+      "C) Alejandro Dumas, Leopoldo Alas, Emily Prouti",
+      "D) Víctor Hugo, Edgar Alan Poe, Mery Schiller"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Literatura realista",
+    "id": "d2ca3b6f1df7d82927a781e8df2dcb90",
+    "imagen": null
+  },
+  {
+    "pregunta": "A la narración en prosa relativamente breve se le denomina:",
+    "opciones": [
+      "A) Novela",
+      "B) Poesía",
+      "C) Drama",
+      "D) Cuento"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Narrativa",
+    "id": "863a80814b502ed657bcfe337cba5875",
+    "imagen": null
+  },
+  {
+    "pregunta": "El siguiente fragmento del escritor Rubén Darío",
+    "opciones": [
+      "A) Realismo",
+      "B) Clasicismo",
+      "C) Surrealismo",
+      "D) Modernismo"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Literatura",
+    "id": "0a05cf7d4b60d646c0f89ac51d80091d",
+    "imagen": null
+  },
+  {
+    "pregunta": "La impotancia de la ficha de comentarios radica",
+    "opciones": [
+      "A) Aporta citas textuales",
+      "B) Aporta información",
+      "C) Expone un punto de vista propio",
+      "D) Organiza la información"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Ficha de comentarios",
+    "id": "0906dfb72d4c5eaad63f04eb212a33e5",
+    "imagen": null
+  },
+  {
+    "pregunta": "La paráfrasis es un proceso a partir del cual",
+    "opciones": [
+      "A) Comprendes e interpretas un texto, diciendo lo mismo pero con otras palabras",
+      "B) Explicas el texto e incorporas tu punto de vista sobre los puntos en los que coincides",
+      "C) Haces una síntesis de las ideas importantes utilizando el vocabulario del texto",
+      "D) Revisas los aspectos sustanciales del texto y los aplicas retóricamente sin cambiar los términos del texto original"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 2: Ciencias Biológicas, Químicas y de la Salud",
+    "tema": "Paráfrasis",
+    "id": "375b11f3f7bf16e0137b73143f9d718f",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el número de oxidación de carbono en CaCO?",
+    "opciones": [
+      "A) -4",
+      "B) 4",
+      "C) 2",
+      "D) -2"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "e98a45b462fed874cc3998c3da57eeea",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué pasa cuando aumentas la temperatura de un gas?",
+    "opciones": [
+      "A) Aumenta la energía potencial y disminuye la energía cinética",
+      "B) Disminuye el volumen y la energía interna",
+      "C) Aumenta el volumen y la energía cinética",
+      "D) Disminuye la energía potencial y disminuye la energía interna"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Trabajo y Energía",
+    "id": "59c6b86ce2aafb27fe078c5ce4ccdc32",
+    "imagen": null
+  },
+  {
+    "pregunta": "Relaciona los tipos de soluciones",
+    "opciones": [
+      "A) I-a, II-b, III-c, IV-d",
+      "B) I-b, II-c, III-d, IV-a",
+      "C) I-d, II-c, III-b, IV-a",
+      "D) I-c, II-a, III-d, IV-b"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "1cd82ef734caf32e4cb08107ee0dd576",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué estudia la Geografía?",
+    "opciones": [
+      "A) Explicar la relación entre los elementos naturales y sociales del medio geográfico",
+      "B) Diferenciar las causas y efectos de los hechos y fenómenos geográficos",
+      "C) Conocer los efectos terrestres provocados por los fenómenos naturales",
+      "D) Localizar los elementos naturales y sociales sobre la superficie terrestre"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "1e31862555cd24f4ea24cd1c00476f9e",
+    "imagen": null
+  },
+  {
+    "pregunta": "Características de países desarrollados:",
+    "opciones": [
+      "A) I, IV",
+      "B) I,II,III",
+      "C) II,IV",
+      "D) I,IV"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "4a4f0e9a4e75c21edf636ea9a242cb3d",
+    "imagen": null
+  },
+  {
+    "pregunta": "Ubicar en el mapa las cordilleras de mundo",
+    "opciones": [
+      "A) I-Rocosas, II-Alpes, III-Cáucaso",
+      "B) I-Altiplanicie, II-Balcanes, III-Himalaya",
+      "C) I-Cierra nevada, II- Balcanes, III-Rocosas",
+      "D) I-Sierra madre, II-Cárpatos, III-Urales"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "d26c2390fd15a068fe45f40229da9d8e",
+    "imagen": null
+  },
+  {
+    "pregunta": "La población Turca ¿A qué país de la Unión Europea emigra?",
+    "opciones": [
+      "A) Bélgica",
+      "B) Portugal",
+      "C) España",
+      "D) Alemania"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "afc3b83ab91ab0aa569ad789d8ec7ecf",
+    "imagen": null
+  },
+  {
+    "pregunta": "Principal fuente de abastecimiento de agua dulce para los continentes",
+    "opciones": [
+      "A) Condensación",
+      "B) Escurrimiento",
+      "C) Precipitación",
+      "D) Los casquetes polares"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "15d19baf4674efeb0de713198232ee41",
+    "imagen": null
+  },
+  {
+    "pregunta": "Debido a la colisión de las placas tectónicas se produce",
+    "opciones": [
+      "A) I, III",
+      "B) I, II",
+      "C) III, IV",
+      "D) III, V"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "a59e796ac2815072c14199e24750469d",
+    "imagen": null
+  },
+  {
+    "pregunta": "De acuerdo a la gráfica de pirámide de edades el país de ___________ tendrá problemas de mano de obra e inmigración",
+    "opciones": [
+      "A) Alemania",
+      "B) España",
+      "C) Italia",
+      "D) Bélgica"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "7be5dc732afcc3c250dacd6b3d57e18e",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué país se creó al separarse Yugoslavia",
+    "opciones": [
+      "A) Letonia",
+      "B) Republica checa",
+      "C) Croacia",
+      "D) Yemen"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "5f8a96eda846909206d9a22480500b6c",
+    "imagen": null
+  },
+  {
+    "pregunta": "A pesar de la extensión del litoral del pacifico ¿Qué causa la baja producción de pesca?",
+    "opciones": [
+      "A) I, II",
+      "B) I,IV",
+      "C) III,IV",
+      "D) I,III"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "ca0b3190b5a0d83a6a392a55163bbddc",
+    "imagen": null
+  },
+  {
+    "pregunta": "La movilidad es una consecuencia de:",
+    "opciones": [
+      "A) Neoliberalismo",
+      "B) Globalización",
+      "C) Mercantilismo",
+      "D) Capitalismo"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "ca69c847ded652b57fb7f1346bc74c45",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál es el tema principal del artículo sobre Charles Darwin?",
+    "opciones": [
+      "A) La teoría de la evolución",
+      "B) La endogamia y su efecto en la salud",
+      "C) La importancia de la genética",
+      "D) La vida personal de Charles Darwin"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "d785047968f1e9fcd54586c7c345dd46",
+    "imagen": null
+  },
+  {
+    "pregunta": "P se obtiene:",
+    "opciones": [
+      "a) ADP",
+      "b) 2ATP",
+      "c) ADN",
+      "d) ARP"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "f17de838d41dbc59c692d6de4769c3b3",
+    "imagen": null
+  },
+  {
+    "pregunta": "La que ordena, clasifica y da nombre a los organismos.",
+    "opciones": [
+      "a) Ecología",
+      "b) Morfología",
+      "c) Taxonomía",
+      "d) Fisiología"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "18ce34a156a0a65a82ca88d042bf0f5c",
+    "imagen": null
+  },
+  {
+    "pregunta": "Organismos de la misma especie que se encuentran en el mismo espacio y tiempo.",
+    "opciones": [
+      "a) Comunidad",
+      "b) Ecología",
+      "c) Población",
+      "d) Nicho"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "e0ab74eeab9ef1a2b6ec49d5a57f8f7f",
+    "imagen": null
+  },
+  {
+    "pregunta": "Porque el cloroplasto tiene un metabolismo anaerobio",
+    "opciones": [
+      "a) porque capta fotones de ondas de luz",
+      "b) Produce dióxido de carbono",
+      "c) produce ATP",
+      "d) Produce demasiado oxigeno"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "b0298d7d15e3dc098e751f1dbeb68b76",
+    "imagen": null
+  },
+  {
+    "pregunta": "Relaciona las columnas:",
+    "opciones": [
+      "a) Ib, IIa, IIIc, IVe, Vd",
+      "b) Ic, IIa, IIIe, IVb, Vd",
+      "c) Ib, IIa, IIIe, IVc, Vd",
+      "d) Ia, IIb, IIIe, IVc, Vd"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "4a0b28d66c5c9bb133953c1e46a00439",
+    "imagen": null
+  },
+  {
+    "pregunta": "Es la fase en la que los cromosomas se encuentran alineados en el huso acromático.",
+    "opciones": [
+      "a) Profase",
+      "b) Anafase",
+      "c) Metafase",
+      "d) Telofase"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "159d81ec03dfc0aa348fed2ba5c1cc7e",
+    "imagen": null
+  },
+  {
+    "pregunta": "La______________ sirve para la evolución:",
+    "opciones": [
+      "a) Mutación",
+      "b) Bipartición",
+      "c) Esporulación",
+      "d) Partenogénesis"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "e0ef5b4b407b1370da4ad25d69e43c53",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuáles eran las características de la tierra primitiva?",
+    "opciones": [
+      "a) Similar a la tierra actual",
+      "b) Erupciones volcánicas, tormentas eléctricas y oxigeno de carácter reductor",
+      "c) Similar a la tierra actual, con dióxido de carbono y metano",
+      "d) Oxigeno reductor, similar a la tierra actual"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "ffbb386b34652f81864a05628313d609",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿En cuál de los siguientes climas hay una mayor variabilidad de especies?",
+    "opciones": [
+      "a) Desierto",
+      "b) Tundra",
+      "c) Estepa",
+      "d) Selva"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "3b7efea0b75ccd6f9e01a2998b4436a5",
+    "imagen": null
+  },
+  {
+    "pregunta": "Es un tipo de enfermedad ligada a los cromosomas sexuales:",
+    "opciones": [
+      "a) Hemofilia",
+      "b) Amofilia",
+      "c) Trisomía",
+      "d) Fenilcetonuria"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "47452a7eda223332b710519a71adfb37",
+    "imagen": null
+  },
+  {
+    "pregunta": "La reproducción sexual se caracteriza por",
+    "opciones": [
+      "a) Fusión de células haploides especializadas",
+      "b) Que el desarrollo se realiza dentro de uno de los progenitores",
+      "c) Se realiza a partir de células diploides",
+      "d) Se requiere de un solo progenitor"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "0520560de05878105acb8e75be9e0e67",
+    "imagen": null
+  },
+  {
+    "pregunta": "Característica de la membrana celular",
+    "opciones": [
+      "a) Permeable",
+      "b) Semipermeable",
+      "c) Porosa",
+      "d) Lisa"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "0c107abd5e74e6855bc5052424ff483f",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuál fue la consecuencia política de la ilustración?",
+    "opciones": [
+      "a) Despotismo ilustrado",
+      "b) Absolutismo",
+      "c) Ludismo",
+      "d) Cartismo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "f3578aa8ced08e9fa30c6e5b80836e3b",
+    "imagen": null
+  },
+  {
+    "pregunta": "Causas de la segunda revolución científica y tecnología",
+    "opciones": [
+      "a) Máquina de vapor",
+      "b) Uso del carbón",
+      "c) Robótica",
+      "d) Electricidad y petróleo"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "e6c67dd3b887600ae7830449b7a0547e",
+    "imagen": null
+  },
+  {
+    "pregunta": "El desempleo, la inflación de los productos, la nacionalización de los bancos y el fin de las importaciones. Son características de:",
+    "opciones": [
+      "a) Devaluación del peso mexicano",
+      "b) Crack de Wall Street",
+      "c) La gran guerra",
+      "d) Guerra fría"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "86915d9013d610f2a28584559d5c225e",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿En qué nos ayuda la Historia?",
+    "opciones": [
+      "a) Para conocer las culturas",
+      "b) Para no perder nuestras costumbres y tradiciones",
+      "c) A conocer la culturas que se desarrollaron y entender el presente",
+      "d) Para entender nuestro futuro."
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "c9d657b2ec388c31466b39e7e633773d",
+    "imagen": null
+  },
+  {
+    "pregunta": "Creador de la Teoría de la Relatividad",
+    "opciones": [
+      "a) Nicola tesla",
+      "b) Isaac newton",
+      "c) Tomas alba Édison",
+      "d) Albert Einstein"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "790be02bebc59964804ed738bfbc937a",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué organismo creo la URSS para apoyar económicamente a los países socialistas?",
+    "opciones": [
+      "a) Plan Marshall",
+      "b) COMECON",
+      "c) KOMINFORM",
+      "d) Pacto de Varsovia"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "99bbc67d2cf0e828559edf68048da1c0",
+    "imagen": null
+  },
+  {
+    "pregunta": "Países que apoyaron a la independencia de las 13 colonias",
+    "opciones": [
+      "a) Francia y España",
+      "b) Alemania e Inglaterra",
+      "c) Francia y Alemania",
+      "d) Alemania e Inglaterra"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "bd4a2bbf8e8489c2f170e315197a58ae",
+    "imagen": null
+  },
+  {
+    "pregunta": "Rey que participo en la unificación de Italia",
+    "opciones": [
+      "a) Piamonte-Cerdaña",
+      "b) Alfonso VII",
+      "c) José Bonaparte",
+      "d) Fernando III de castilla"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "3008ba585b14aa2a0723abb5d77783c0",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué ayudó al desarrollo a finales de siglo XX en la tecnología actual?",
+    "opciones": [
+      "a) Biotecnología",
+      "b) Robotización",
+      "c) Máquina de vapor",
+      "d) La electricidad"
+    ],
+    "respuesta": "D",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "b8f45c38ab8dd017c3c80e7433d81841",
+    "imagen": null
+  },
+  {
+    "pregunta": "Países que practicaron un nacionalismo agresivo, autoritario y conservador, que difundieron el culto a los valores nacionales, el militarismo, la superioridad de la nación y la inferioridad de otros pueblos.",
+    "opciones": [
+      "a) Inglaterra y Francia.",
+      "b) Rusia y Turquía.",
+      "c) Alemania e Italia.",
+      "d) Alemania y Rusia."
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "354907c2137eb50a9db74f2d9ed68efb",
+    "imagen": null
+  },
+  {
+    "pregunta": "Relaciona las columnas",
+    "opciones": [
+      "a) A3, B1, C4, D2, E5",
+      "b) A4, B2, C5, D1, E3",
+      "c) A1, B2, C3, D4, E5",
+      "d) A3, B1, C5, D2, E4"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "12a22464e5bbbf8c11e3be873e99979a",
+    "imagen": null
+  },
+  {
+    "pregunta": "En el porfiriano que sectores se desarrollaron",
+    "opciones": [
+      "a) Ferrocarriles, industria textil, minas",
+      "b) Ferrocarriles, carreteras, industria textil",
+      "c) Educación, industria textil y carreteras",
+      "d) Comercio, creación de la banca, petróleo"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "949f60a8a16854e221d3f8e6a4ad50db",
+    "imagen": null
+  },
+  {
+    "pregunta": "Causas internas de la independencia",
+    "opciones": [
+      "a) Reformas borbónicas",
+      "b) Invasión de Napoleón a España",
+      "c) Criollos subyugados, subestimados y relegados",
+      "d) Pensamientos de la ilustración"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "39c6d63f4c4209fbbd30819460e9b659",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué sistema impone el gobierno de Lázaro Cárdenas?",
+    "opciones": [
+      "a) Unidad nacional",
+      "b) Desarrollo estabilizador",
+      "c) Presidencialismo",
+      "d) Neoliberalismo"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "73526e0aafac0c0ce95536bc60bd4cd8",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Cuáles son las características de gobierno de Adolfo López mateo?",
+    "opciones": [
+      "a) I,II,III",
+      "b) I,II,IV",
+      "c) I,IV,V",
+      "d) IV,V,VI"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "29ac3474aea89c8308929e698e4512a4",
+    "imagen": null
+  },
+  {
+    "pregunta": "como se llama la etapa económica que comprende desde el gobierno de Miguel de la Madrid hasta Carlos Salinas de Gortari",
+    "opciones": [
+      "a) Neoliberalismo",
+      "b) Desarrollo estabilizador",
+      "c) Desarrollo compartido",
+      "d) Milagro mexicano"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "42d46de7d6f0e3815d3425f956a636d7",
+    "imagen": null
+  },
+  {
+    "pregunta": "Etapa de México contemporáneo donde a economía tuvo un crecimiento de 7% anual.",
+    "opciones": [
+      "a) Milagro mexicano",
+      "b) Desarrollo compartido",
+      "c) Neoliberalismo",
+      "d) Desarrollo estabilizador"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "e43c73ba0899d4e64e36db4858678038",
+    "imagen": null
+  },
+  {
+    "pregunta": "¿Qué características tuvo la Constitución de 1857?",
+    "opciones": [
+      "a) Conservador",
+      "b) Moderado",
+      "c) Liberal",
+      "d) Neutral"
+    ],
+    "respuesta": "C",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "a67132f39f9a9d85c2154d33262c950d",
+    "imagen": null
+  },
+  {
+    "pregunta": "Objetivo primordial de la Conspiración de Querétaro:",
+    "opciones": [
+      "a) Constituir una junta gubernativa que"
+    ],
+    "respuesta": "A",
+    "dificultad": 0.5,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "General",
+    "id": "dbaba8c1b14363249af4be27355aa3a5",
+    "imagen": null
+  },
+  {
+    "pregunta": "dssasda",
+    "opciones": [
+      "a,b,c,d"
+    ],
+    "respuesta": "B",
+    "dificultad": 0.55,
+    "universidad": "IPN",
+    "area": "2",
+    "tema": "2",
+    "imagen_path": "dataset/assets/img_1778790299.jpg",
+    "grupo_visual": "texto",
+    "id": "5fff2c2cb86890b1460b4f2272f80068",
+    "imagen": null
+  },
+  {
+    "pregunta": "sadadadssad",
+    "opciones": [
+      "a,b,c,d"
+    ],
+    "respuesta": "C",
+    "dificultad": 1.0,
+    "universidad": "IPN",
+    "area": "2",
+    "tema": "2",
+    "imagen_path": "dataset/assets/img_1778790368.jpg",
+    "grupo_visual": "la imagen muestra una pregunta de un examen de biología con un diagrama de una célula eucariota y una tabla de opciones para relacionar las estructuras numeradas en el diagrama con sus nombres.\n\npara responder a esta pregunta, debemos identificar cada estructura numerada en el diagrama:\n\n*   i: nucléolo\n*   ii: mitocondria\n*   iii: reticulo endoplásmico liso\n*   iv: reticulo endoplásmico rugoso\n*   v: núcleo\n\ncon esta información, podemos relacionar las estructuras numeradas con sus nombres:\n\n*   i: nucléolo\n*   ii: mitocondria\n*   iii: reticulo endoplásmico liso\n*   iv: reticulo endoplásmico rugoso\n*   v: núcleo\n\npor lo tanto, la respuesta correcta es:\n\nd) i-núcleo/ ii-mitocondria/ iii- reticulo endoplásmico liso/ iv- reticulo endoplásmico rugoso/ v- nucléolo.\n\nla respuesta es: **diagrama**",
+    "id": "f3315edf78e60f7e71fd3a821c65b1a6",
+    "imagen": null
+  },
+  {
+    "pregunta": "BLABLALBABLBLAB",
+    "opciones": [
+      "a,b,c,d"
+    ],
+    "respuesta": "B",
+    "dificultad": 1.0,
+    "universidad": "UNAM",
+    "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+    "tema": "Física",
+    "imagen_path": "dataset/assets/img_1778790623.jpg",
+    "grupo_visual": "**análisis de la imagen**\n\nla imagen muestra una página de un examen de química con varias preguntas.\n\n**clasificación de la imagen**\n\nla imagen se puede clasificar en **examen**.",
+    "id": "51cb893012c7902f16b765c042c06e24",
+    "imagen": null
+  }
+]

@@ -1,0 +1,272 @@
+{
+  "UNAM": {
+    "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías": {
+      "total_reactivos": 120,
+      "materias": {
+        "Matemáticas": {
+          "cantidad": 26,
+          "temas": {
+            "Álgebra": [
+              "Números reales",
+              "Polinomios",
+              "Ecuaciones de primer y segundo grado",
+              "Sistemas de ecuaciones"
+            ],
+            "Funciones": [
+              "Dominio y rango",
+              "Funciones logarítmicas y exponenciales"
+            ],
+            "Trigonometría": [
+              "Funciones trigonométricas",
+              "Identidades",
+              "Triángulos"
+            ],
+            "Geometría Analítica": [
+              "La recta",
+              "Circunferencia",
+              "Parábola",
+              "Elipse",
+              "Hipérbola"
+            ],
+            "Cálculo Diferencial": ["Límites", "Derivadas", "Aplicaciones"],
+            "Cálculo Integral": ["Integrales definidas e indefinidas"]
+          }
+        },
+        "Física": {
+          "cantidad": 16,
+          "temas": {
+            "Cinemática": ["MRU", "MRUA", "Caída Libre", "Movimiento Circular"],
+            "Fuerzas y Leyes de Newton": [
+              "Primera Ley",
+              "Segunda Ley",
+              "Tercera Ley",
+              "Ley de Gravitación"
+            ],
+            "Trabajo y Energía": [
+              "Energía Cinética",
+              "Energía Potencial",
+              "Conservación"
+            ],
+            "Termodinámica": ["Calor", "Temperatura", "Leyes"],
+            "Electricidad y Magnetismo": [
+              "Ley de Coulomb",
+              "Ley de Ohm",
+              "Circuitos"
+            ],
+            "Óptica y Ondas": ["Reflexión", "Refracción", "Ondas mecánicas"]
+          }
+        },
+        "Español": {
+          "cantidad": 18,
+          "temas": {
+            "Funciones de la lengua": ["Apelativa", "Referencial", "Poética"],
+            "Comprensión de lectura": ["Idea principal", "Inferencia"],
+            "Gramática": [
+              "Sustantivos",
+              "Adjetivos",
+              "Puntuación",
+              "Acentuación"
+            ]
+          }
+        },
+        "Química": {
+          "cantidad": 10,
+          "temas": {
+            "Estructura atómica": ["Modelos", "Tabla periódica"],
+            "Enlaces": ["Iónico", "Covalente"],
+            "Estequiometría": ["Mol", "Balanceo"]
+          }
+        },
+        "Biología": {
+          "cantidad": 10,
+          "temas": {
+            "Célula": ["Organelos", "Metabolismo"],
+            "Genética": ["Mendel", "ADN"],
+            "Evolución": ["Selección natural"]
+          }
+        },
+        "Literatura": {
+          "cantidad": 10,
+          "temas": {
+            "Géneros": ["Épico", "Lírico", "Dramático"],
+            "Corrientes": ["Realismo", "Modernismo"]
+          }
+        },
+        "Historia Universal": {
+          "cantidad": 10,
+          "temas": {
+            "Revoluciones": ["Francesa", "Industrial"],
+            "Guerras Mundiales": ["Primera", "Segunda"],
+            "Guerra Fría": ["Bloques"]
+          }
+        },
+        "Historia de México": {
+          "cantidad": 10,
+          "temas": {
+            "Conquista": ["Colonia"],
+            "Independencia": ["Etapas"],
+            "Revolución": ["Constitución 1917"]
+          }
+        },
+        "Geografía": {
+          "cantidad": 10,
+          "temas": {
+            "Tierra": ["Coordenadas", "Capas"],
+            "Población": ["Migración", "Economía"]
+          }
+        }
+      }
+    },
+    "Area 2: Ciencias Biológicas, Químicas y de la Salud": {
+      "total_reactivos": 120,
+      "materias": {
+        "Biología": {
+          "cantidad": 20,
+          "temas": {
+            "Biología Celular": ["Reproducción", "Respiración"],
+            "Biodiversidad": ["Reinos"]
+          }
+        },
+        "Química": {
+          "cantidad": 20,
+          "temas": {
+            "Química Orgánica": ["Hidrocarburos", "Grupos Funcionales"],
+            "Soluciones": ["Molaridad"]
+          }
+        },
+        "Matemáticas": {
+          "cantidad": 24,
+          "temas": {
+            "Álgebra": ["Factorización"],
+            "Probabilidad": ["Estadística descriptiva"]
+          }
+        },
+        "Física": {
+          "cantidad": 12,
+          "temas": {
+            "Mecánica": ["Dinámica"],
+            "Fluidos": ["Arquímedes", "Pascal"]
+          }
+        },
+        "Español": { "cantidad": 18 },
+        "Literatura": { "cantidad": 10 },
+        "Historia Universal": { "cantidad": 10 },
+        "Historia de México": { "cantidad": 10 },
+        "Geografía": { "cantidad": 6 }
+      }
+    }
+  },
+  "IPN": {
+    "Ingeniería y Ciencias Físico-Matemáticas": {
+      "total_reactivos": 140,
+      "materias": {
+        "Matemáticas": {
+          "cantidad": 50,
+          "temas": {
+            "Razonamiento Matemático": ["Sucesiones", "Series", "Analogías"],
+            "Álgebra": ["Leyes de exponentes", "Logaritmos"],
+            "Cálculo Integral": ["Métodos de integración", "Área bajo la curva"]
+          }
+        },
+        "Competencia Lectora": {
+          "cantidad": 20,
+          "temas": {
+            "Textos": ["Científicos", "Literarios"],
+            "Intención comunicativa": []
+          }
+        },
+        "Competencia Escrita": {
+          "cantidad": 20,
+          "temas": {
+            "Ortografía": ["B/V", "H", "S/C/Z"],
+            "Redacción": ["Coherencia", "Cohesión"]
+          }
+        },
+        "Inglés": {
+          "cantidad": 10,
+          "temas": { "Grammar": ["Verb Tenses"], "Reading": ["Vocabulary"] }
+        },
+        "Física": {
+          "cantidad": 15,
+          "temas": {
+            "Mecánica": ["Vectores"],
+            "Electromagnetismo": ["Magnetismo"]
+          }
+        },
+        "Química": {
+          "cantidad": 15,
+          "temas": {
+            "Materia": ["Estados de agregación"],
+            "Gases": ["Leyes de los gases"]
+          }
+        },
+        "Biología": {
+          "cantidad": 10,
+          "temas": { "Bioquímica": ["Carbohidratos", "Lípidos"] }
+        }
+      }
+    }
+  },
+  "EXANI-II (Ceneval)": {
+    "Habilidades y Conocimientos (Tronco Común)": {
+      "total_reactivos": 120,
+      "materias": {
+        "Pensamiento Matemático": {
+          "cantidad": 30,
+          "temas": {
+            "Comprensión de lo matemático": ["Aritmética", "Sentido numérico"],
+            "Modelización": ["Ecuaciones", "Probabilidad"]
+          }
+        },
+        "Comprensión Lectora": {
+          "cantidad": 30,
+          "temas": {
+            "Ámbito": ["Estudio", "Literario"],
+            "Interpretación": ["Información explícita"]
+          }
+        },
+        "Redacción Indirecta": {
+          "cantidad": 30,
+          "temas": {
+            "Comunicación": ["Pragmática"],
+            "Gramática": ["Sintaxis", "Ortografía"]
+          }
+        },
+        "Inglés (Diagnóstico)": { "cantidad": 30 }
+      }
+    },
+    "Módulo Premedicina": {
+      "total_reactivos": 48,
+      "materias": {
+        "Salud Pública": {
+          "cantidad": 24,
+          "temas": { "Prevención": ["Niveles"], "Tríada Ecológica": [] }
+        },
+        "Anatomía y Fisiología": {
+          "cantidad": 24,
+          "temas": { "Sistemas": ["Óseo", "Muscular", "Circulatorio"] }
+        }
+      }
+    }
+  },
+  "BUAP": {
+    "EGA-I: Nivel Superior (General)": {
+      "total_reactivos": 150,
+      "materias": {
+        "Pensamiento Crítico Verbal": {
+          "cantidad": 35,
+          "temas": { "Analogías": [], "Antónimos/Sinónimos": [], "Lógica": [] }
+        },
+        "Pensamiento Matemático": {
+          "cantidad": 35,
+          "temas": {
+            "Razonamiento": ["Lógico", "Espacial"],
+            "Operaciones": ["Básicas"]
+          }
+        },
+        "Habilidades Cognitivas": { "cantidad": 40 },
+        "Inglés": { "cantidad": 40 }
+      }
+    }
+  }
+}

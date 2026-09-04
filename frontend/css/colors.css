@@ -1,0 +1,133 @@
+/* ============================================
+   PALETA DE COLORES - PROYECTO CRYSTAL
+   Última actualización: 29/03/2026
+   ============================================ */
+
+:root {
+    /* AZULES */
+    --color-azul-profundo: #03174F;   /* Azul muy oscuro - Base */
+    --color-azul-medio: #1553A8;      /* Azul principal */
+    --color-azul-claro: #6B9DE8;      /* Azul claro - Acentos */
+    
+    /* AMARILLOS */
+    --color-amarillo-vivo: #F5C400;   /* Amarillo vibrante - Destacados */
+    --color-amarillo-suave: #F7D774;  /* Amarillo suave - Secundario */
+    --color-amarillo-palido: #FDF3C2; /* Amarillo pálido - Fondos */
+    
+    /* ADICIONALES - Neutros y auxiliares */
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris-oscuro: #2C2C2C;
+    --color-gris-medio: #666666;
+    --color-gris-claro: #F5F5F5;
+    --color-error: #E74C3C;
+    --color-exito: #27AE60;
+    --color-advertencia: #F39C12;
+}
+
+/* EJEMPLOS DE USO EN ELEMENTOS */
+
+/* Encabezados con azul profundo */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-azul-profundo);
+}
+
+/* Botones principales con azul medio */
+button.btn-primary {
+    background-color: var(--color-azul-medio);
+    color: var(--color-blanco);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: var(--color-azul-profundo);
+}
+
+/* Botones secundarios con amarillo */
+button.btn-secondary {
+    background-color: var(--color-amarillo-vivo);
+    color: var(--color-azul-profundo);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-secondary:hover {
+    background-color: var(--color-amarillo-suave);
+}
+
+/* Enlaces */
+a {
+    color: var(--color-azul-medio);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-amarillo-vivo);
+    text-decoration: underline;
+}
+
+/* Fondos alternados */
+.bg-primary {
+    background-color: var(--color-azul-medio);
+    color: var(--color-blanco);
+}
+
+.bg-secondary {
+    background-color: var(--color-amarillo-vivo);
+    color: var(--color-azul-profundo);
+}
+
+.bg-light {
+    background-color: var(--color-amarillo-palido);
+    color: var(--color-azul-profundo);
+}
+
+.bg-light-gray {
+    background-color: var(--color-gris-claro);
+    color: var(--color-gris-oscuro);
+}
+
+/* Acentos y bordes */
+.border-primary {
+    border: 2px solid var(--color-azul-medio);
+}
+
+.border-accent {
+    border: 2px solid var(--color-amarillo-vivo);
+}
+
+/* Textos */
+.text-primary {
+    color: var(--color-azul-profundo);
+}
+
+.text-secondary {
+    color: var(--color-amarillo-vivo);
+}
+
+.text-accent {
+    color: var(--color-azul-claro);
+}
+
+/* Gradientes */
+.gradient-primary {
+    background: linear-gradient(135deg, var(--color-azul-profundo) 0%, var(--color-azul-medio) 100%);
+    color: var(--color-blanco);
+}
+
+.gradient-secondary {
+    background: linear-gradient(135deg, var(--color-amarillo-vivo) 0%, var(--color-amarillo-suave) 100%);
+    color: var(--color-azul-profundo);
+}
+
+.gradient-mixed {
+    background: linear-gradient(135deg, var(--color-azul-medio) 0%, var(--color-amarillo-vivo) 100%);
+}

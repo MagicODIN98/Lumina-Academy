@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Firebase - CRYSTAL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-container {
+            border: 2px solid #6C5CE7;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .test-item {
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #999;
+            background-color: #f5f5f5;
+        }
+        .test-item.success {
+            border-left-color: #00B894;
+            background-color: #d4edda;
+        }
+        .test-item.error {
+            border-left-color: #D63031;
+            background-color: #f8d7da;
+        }
+        .test-item.warning {
+            border-left-color: #FFA500;
+            background-color: #fff3cd;
+        }
+        button {
+            background-color: #6C5CE7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #5542b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Firebase Connection Test</h1>
+        <p>Verifica que Firebase está configurado correctamente</p>
+        
+        <div id="tests"></div>
+        
+        <button onclick="runTests()">Ejecutar Tests</button>
+    </div>
+
+    <!-- Firebase SDK (compat for non-module scripts) -->
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database-compat.js"></script>
+    
+    <script src="../js/firebase-config.js"></script>
+    <script src="../js/auth-functions.js"></script>
+
+    <script>
+        const testsDiv = document.getElementById('tests');
+
+        function addTest(title, passed, message = '') {
+            const div = document.createElement('div');
+            div.className = `test-item ${passed ? 'success' : 'error'}`;
+            div.innerHTML = `<strong>${passed ? '✅' : '❌'} ${title}</strong>${message ? '<br>' + message : ''}`;
+            testsDiv.appendChild(div);
+        }
+
+        function addWarning(title, message) {
+            const div = document.createElement('div');
+            div.className = 'test-item warning';
+            div.innerHTML = `<strong>⚠️ ${title}</strong><br>${message}`;
+            testsDiv.appendChild(div);
+        }
+
+        async function runTests() {
+            testsDiv.innerHTML = '';
+
+            // Test 1: Firebase Initialized
+            try {
+                if (typeof firebase !== 'undefined') {
+                    addTest('Firebase SDK Cargado', true);
+                } else {
+                    addTest('Firebase SDK Cargado', false, 'Firebase no está definido');
+                    return;
+                }
+            } catch (error) {
+                addTest('Firebase SDK Cargado', false, error.message);
+                return;
+            }
+
+            // Test 2: Firebase Config
+            try {
+                if (firebaseConfig && firebaseConfig.apiKey) {
+                    addTest('Configuración de Firebase', true, `Proyecto: ${firebaseConfig.projectId}`);
+                } else {
+                    addTest('Configuración de Firebase', false, 'firebaseConfig no está configurado');
+                    return;
+                }
+            } catch (error) {
+                addTest('Configuración de Firebase', false, error.message);
+                return;
+            }
+
+            // Test 3: Firebase App Initialized
+            try {
+                if (typeof firebase.apps !== 'undefined' && firebase.apps.length > 0) {
+                    addTest('Firebase App Inicializado', true);
+                } else {
+                    addTest('Firebase App Inicializado', false, 'No hay apps inicializadas');
+                    return;
+                }
+            } catch (error) {
+                addTest('Firebase App Inicializado', false, error.message);
+                return;
+            }
+
+            // Test 4: Auth Module
+            try {
+                if (typeof firebase.auth === 'function') {
+                    addTest('Auth Module Disponible', true);
+                } else {
+                    addTest('Auth Module Disponible', false);
+                }
+            } catch (error) {
+                addTest('Auth Module Disponible', false, error.message);
+            }
+
+            // Test 5: Database Module
+            try {
+                if (typeof firebase.database === 'function') {
+                    addTest('Database Module Disponible', true);
+                } else {
+                    addTest('Database Module Disponible', false);
+                }
+            } catch (error) {
+                addTest('Database Module Disponible', false, error.message);
+            }
+
+            // Test 6: Functions Available
+            try {
+                if (typeof registerUser === 'function' && typeof loginUser === 'function') {
+                    addTest('Funciones Firebase Cargadas', true, 'registerUser, loginUser, etc.');
+                } else {
+                    addTest('Funciones Firebase Cargadas', false);
+                }
+            } catch (error) {
+                addTest('Funciones Firebase Cargadas', false, error.message);
+            }
+
+            // Test 7: Check Auth State
+            try {
+                const user = await new Promise((resolve) => {
+                    firebase.auth().onAuthStateChanged((user) => {
+                        resolve(user);
+                    });
+                });
+                
+                if (user) {
+                    addTest('Estado de Autenticación', true, `Autenticado como: ${user.email}`);
+                } else {
+                    addWarning('Estado de Autenticación', 'No hay usuario autenticado (esto es normal en la primera vez)');
+                }
+            } catch (error) {
+                addTest('Estado de Autenticación', false, error.message);
+            }
+
+            // Final Summary
+            const errors = document.querySelectorAll('.test-item.error').length;
+            if (errors === 0) {
+                const summary = document.createElement('div');
+                summary.className = 'test-item success';
+                summary.innerHTML = '<strong>✅ ¡Todos los tests pasaron! Firebase está listo para usar.</strong>';
+                testsDiv.appendChild(summary);
+            } else {
+                const summary = document.createElement('div');
+                summary.className = 'test-item error';
+                summary.innerHTML = `<strong>❌ ${errors} test(s) fallaron. Revisa los errores arriba.</strong>`;
+                testsDiv.appendChild(summary);
+            }
+        }
+
+        // Run tests on page load
+        window.addEventListener('load', runTests);
+    </script>
+</body>
+</html>

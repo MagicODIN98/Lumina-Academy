@@ -1,0 +1,284 @@
+[
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 43,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-10 19:44:46"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 57,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-12 00:12:09"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 58,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-13 11:35:01"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 58,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-13 11:40:51"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 58,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-13 11:50:54"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 58,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-13 11:55:43"
+    },
+    {
+        "institucion": "UNAM",
+        "area": null,
+        "total": 58,
+        "nivel": "mixto",
+        "modo": "dataset",
+        "archivo": "examen_unam_mixto.pdf",
+        "fecha": "2026-05-13 13:23:46"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 17,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-13 14:17:22"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 17,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-13 14:21:50"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 17,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-13 14:22:42"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-13 14:56:54"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-13 17:39:46"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 09:18:26"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 09:27:39"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 10:48:23"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 11:09:50"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 11:10:02"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.pdf",
+        "fecha": "2026-05-14 13:49:13"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "preguntas": 19,
+        "fecha": "2026-05-14 14:07:09",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "preguntas": 19,
+        "fecha": "2026-05-14 14:10:25",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 19,
+        "preguntas": 19,
+        "fecha": "2026-05-14 14:27:30",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-05-14 14:30:51",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-05-14 14:39:30",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-05-14 14:46:13",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-05-14 14:50:08",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-06-02 13:14:24",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "modeloIA/examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-06-02 13:15:16",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "modeloIA/examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-06-02 13:15:24",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "modeloIA/examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-06-02 13:46:21",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "modeloIA/examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    },
+    {
+        "institucion": "UNAM",
+        "area": "Area 1: Ciencias Físico-Matemáticas y de las Ingenierías",
+        "total": 20,
+        "preguntas": 20,
+        "fecha": "2026-06-15 16:00:17",
+        "nivel": "mixto",
+        "modo": "estricto",
+        "archivo": "modeloIA/examenes_generados/examen_unam_Area_1:_Ciencias_Físico-Matemáticas_y_de_las_Ingenierías.txt"
+    }
+]

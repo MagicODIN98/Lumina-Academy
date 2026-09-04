@@ -1,0 +1,528 @@
+/* ============================================
+   INDEX/HOME PAGE STYLES
+   Main landing page styling with hero section,
+   about section, and university cards
+   ============================================ */
+
+/* Reset default styles and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--color-azul-profundo);
+}
+
+/* ============================================
+   NAVIGATION BAR STYLES
+   ============================================ */
+
+/* Navigation link styling */
+.navbar-nav .nav-link {
+    color: var(--color-blanco) !important;
+    font-weight: 500;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Navigation link hover effect */
+.navbar-nav .nav-link:hover {
+    color: var(--color-amarillo-vivo) !important;
+    text-decoration: underline;
+}
+
+/* ============================================
+   HERO SECTION STYLES
+   ============================================ */
+
+/* Hero section background with gradient */
+.hero-section {
+    background: linear-gradient(135deg, var(--color-azul-profundo) 0%, var(--color-azul-medio) 100%);
+    color: var(--color-blanco);
+    padding: 2rem 0;
+}
+
+/* Hero text content wrapper */
+.hero-text-content {
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    animation: fadeInLeft 0.8s ease-out;
+}
+
+/* Fade in from left animation */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Hero main title styling */
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--color-amarillo-vivo);
+ 
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+/* Hero subtitle styling */
+.hero-subtitle {
+    font-size: 2.5rem;
+    color: var(--color-amarillo-vivo);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Hero description text */
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    color: rgba(255, 255, 255, 0.95);
+    justify-content: center;
+}
+
+/* Hero buttons container */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Hero action buttons */
+.btn-hero {
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* Primary button in hero - Azure colors */
+.btn-hero.btn-primary {
+    background-color: var(--color-amarillo-vivo);
+    color: var(--color-azul-profundo);
+    border: none;
+}
+
+/* Primary button hover effect */
+.btn-hero.btn-primary:hover {
+    background-color: var(--color-amarillo-suave);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(245, 196, 0, 0.4);
+}
+
+/* Secondary button in hero - White outline */
+.btn-hero.btn-secondary {
+    background-color: transparent;
+    color: var(--color-blanco);
+    border: 2px solid var(--color-blanco);
+}
+
+/* Secondary button hover effect */
+.btn-hero.btn-secondary:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-azul-profundo);
+    transform: translateY(-3px);
+}
+
+/* Hero image container */
+.hero-image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    animation: fadeInRight 0.8s ease-out;
+}
+
+/* Fade in from right animation */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Hero image wrapper with border and shadow */
+.hero-image-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: -400px;
+   
+}
+
+/* Hero image styling */
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Hero image hover effect */
+.hero-image-wrapper:hover .hero-image {
+    transform: scale(1.05);
+}
+
+/* ============================================
+   ABOUT SECTION STYLES
+   ============================================ */
+
+/* About section background */
+.about-section {
+    background-color: var(--color-gris-claro);
+}
+
+/* Section title styling */
+.section-title {
+    color: var(--color-azul-profundo);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Section description text */
+.section-description {
+    color: var(--color-gris-medio);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    justify-content: left;
+}
+
+/* Features list styling */
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual feature item */
+.feature-item {
+    padding: 0.8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: var(--color-azul-profundo);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Feature item check mark */
+.feature-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-azul-medio);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About image styling */
+.about-image {
+    width: 100%;
+    height: auto;
+  
+}
+
+/* ============================================
+   UNIVERSITIES SECTION STYLES
+   ============================================ */
+
+/* Universities section background */
+.universities-section {
+    background-color: var(--color-blanco);
+}
+
+/* University card styling */
+.university-card {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(3, 23, 79, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* University card hover effect */
+.university-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(3, 23, 79, 0.2);
+    border-color: var(--color-azul-medio);
+}
+
+/* University image styling */
+.university-image {
+    width: 120px;
+    height: 120px;
+    object-fit: head center;
+    border-radius: additional 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+
+
+
+/* University image hover effect */
+.university-card:hover .university-image {
+    transform: scale(1.1);
+}
+
+/* University content wrapper */
+.university-content {
+    padding: 2.5rem;
+    justify-content: center;
+}
+
+/* University name styling */
+.university-name {
+    color: var(--color-azul-profundo);
+    margin-top: -40px    ;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+
+/* University location styling */
+.university-location {
+    color: var(--color-exito);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+/* University description styling */
+.university-description {
+    color: var(--color-gris-medio);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+
+/* ============================================
+   CALL TO ACTION SECTION STYLES
+   ============================================ */
+
+/* CTA section background with gradient */
+.cta-section {
+    background: linear-gradient(135deg, var(--color-azul-medio) 0%, var(--color-amarillo-vivo) 100%);
+    color: var(--color-azul-profundo);
+    padding: 4rem 0;
+}
+
+/* CTA title styling */
+.cta-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* CTA description styling */
+.cta-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: rgba(3, 23, 79, 0.9);
+}
+
+/* CTA button styling */
+.btn-cta {
+    background-color: var(--color-azul-profundo);
+    color: var(--color-blanco);
+    border: none;
+    padding: 1rem 2.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* CTA button hover effect */
+.btn-cta:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-azul-profundo);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================
+   FOOTER STYLES
+   ============================================ */
+
+/* Footer background color */
+.footer {
+    background-color: var(--color-azul-profundo);
+    color: var(--color-blanco);
+}
+
+/* Footer title styling */
+.footer-title {
+    color: var(--color-amarillo-vivo);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Footer text styling */
+.footer-text {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Footer links list */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer link item */
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+/* Footer link styling */
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+/* Footer link hover effect */
+.footer-links a:hover {
+    color: var(--color-amarillo-vivo);
+    padding-left: 5px;
+}
+
+/* Footer copyright text */
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablet and smaller screens */
+@media (max-width: 992px) {
+    /* Adjust hero title size */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    /* Adjust hero subtitle size */
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+
+    /* Stack buttons on smaller screens */
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    /* Adjust button size */
+    .btn-hero {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Adjust section title */
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    /* Reduce hero section padding */
+   .hero-section {
+    display: flex;
+    align-items: flex-start; /* antes estaba centrado implícitamente */
+    padding: 1rem 0; /* reduce espacio */
+}
+
+    /* Adjust hero text content padding */
+   .hero-text-content {
+    justify-content: flex-start; /* en vez de center */
+    padding: 1rem;
+}
+    /* Adjust hero image content */
+    .hero-image-content {
+        padding: 1rem;
+        order: -1;
+    }
+
+    /* Reduce hero title size */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    /* Reduce hero subtitle size */
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    /* Adjust CTA title */
+    .cta-title {
+        font-size: 1.8rem;
+    }
+
+    /* Adjust CTA description */
+    .cta-description {
+        font-size: 1rem;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    /* Further reduce hero sizes */
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust section titles */
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    /* Reduce padding on small elements */
+    .hero-text-content,
+    .hero-image-content {
+        padding: 0.5rem;
+    }
+}

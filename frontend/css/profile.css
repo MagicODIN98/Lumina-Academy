@@ -1,0 +1,416 @@
+/* ============================================
+   PROFILE PAGE STYLES
+   Styles for user profile page with tabs
+   and form styling
+   ============================================ */
+
+:root {
+    --primary-color: #6C5CE7;
+    --secondary-color: #A29BFE;
+    --danger-color: #D63031;
+    --success-color: #00B894;
+    --text-color: #2D3436;
+    --light-bg: #F5F6FA;
+    --white: #FFFFFF;
+    --border-radius: 12px;
+    --box-shadow: 0 4px 15px rgba(108, 92, 231, 0.1);
+}
+
+/* Main container styling */
+.profile-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-form-wrapper {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.profile-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--white);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+}
+
+.profile-header p {
+    font-size: 1.1rem;
+    margin: 0;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Tabs styling */
+.profile-tabs {
+    border: none;
+    background: var(--light-bg);
+    padding: 10px;
+    gap: 10px;
+}
+
+.profile-tabs .nav-link {
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.profile-tabs .nav-link:hover {
+    background: rgba(108, 92, 231, 0.1);
+    color: var(--primary-color);
+}
+
+.profile-tabs .nav-link.active {
+    background: var(--primary-color);
+    color: var(--white);
+    box-shadow: 0 4px 10px rgba(108, 92, 231, 0.2);
+}
+
+/* Tab content styling */
+.profile-tab-content {
+    padding: 30px;
+}
+
+.tab-pane {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Form styling */
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px 15px;
+    border: 2px solid #E9ECEF;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+}
+
+.form-group input.form-control-plaintext {
+    padding: 12px 0;
+    border: none;
+    background: transparent;
+    color: #666;
+    cursor: default;
+}
+
+/* Password input wrapper */
+.password-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input-wrapper input {
+    flex: 1;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle-password-btn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.toggle-password-btn:hover {
+    color: var(--secondary-color);
+}
+
+/* Password requirements text */
+.password-requirements {
+    font-size: 0.85rem;
+    color: #999;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Form messages */
+.profile-message {
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    display: none;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-message.success {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+}
+
+.profile-message.error {
+    background-color: #F8D7DA;
+    color: #721C24;
+    border: 1px solid #F5C6CB;
+}
+
+/* University preview styling */
+.university-image-preview {
+    padding: 20px;
+    background: var(--light-bg);
+    border-radius: 8px;
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.university-logo {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.university-name {
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Security sections styling */
+.security-section {
+    border-bottom: 1px solid #E9ECEF;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.security-section:last-child {
+    border-bottom: none;
+}
+
+.security-section h5 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.security-section p {
+    margin: 0 0 15px 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Danger zone styling */
+.danger-zone {
+    background: #FFF5F5;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #FFE0E0;
+}
+
+.danger-zone h5 {
+    color: var(--danger-color);
+}
+
+/* Buttons */
+.btn-profile-save {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+}
+
+.btn-profile-save:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(108, 92, 231, 0.3);
+}
+
+.btn-profile-save:active {
+    transform: translateY(0);
+}
+
+.btn-danger-action {
+    padding: 10px 20px;
+    background: var(--white);
+    color: var(--danger-color);
+    border: 2px solid var(--danger-color);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.btn-danger-action:hover {
+    background: rgba(214, 48, 49, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn-danger-action.delete:hover {
+    background: var(--danger-color);
+    color: var(--white);
+}
+
+/* Footer styling */
+.profile-footer {
+    padding: 20px 30px;
+    background: var(--light-bg);
+    text-align: center;
+    border-top: 1px solid #E9ECEF;
+}
+
+.back-to-dashboard-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.back-to-dashboard-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .profile-form-wrapper {
+        max-width: 100%;
+    }
+
+    .profile-header h1 {
+        font-size: 2rem;
+    }
+
+    .profile-header p {
+        font-size: 1rem;
+    }
+
+    .profile-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .profile-tabs .nav-link {
+        white-space: nowrap;
+        font-size: 0.85rem;
+        padding: 10px 15px;
+    }
+
+    .profile-tab-content {
+        padding: 20px;
+    }
+
+    .btn-danger-action {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-header {
+        padding: 25px 15px;
+    }
+
+    .profile-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .profile-tab-content {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 16px;
+    }
+
+    .btn-profile-save {
+        width: 100%;
+    }
+}

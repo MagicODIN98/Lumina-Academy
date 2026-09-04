@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYSTAL - La Universidad de tus Sueños a un Paso</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- Index Page CSS -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--color-azul-profundo);">
+        <div class="container-fluid">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand fw-bold" href="index.html" style="font-size: 1.8rem;">TESTix</a>
+
+            <!-- Toggler for mobile menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#universidades">Universidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/login.html"
+                            style="color: var(--color-amarillo-vivo) !important; font-weight: 600;">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container-fluid">
+            <div class="row align-items-center min-vh-100">
+                <!-- Left side with text content -->
+                <div class="col-lg-6 hero-text-content order-lg-first order-last">
+                    <h1 class="hero-title">La Universidad de tus Sueños</h1>
+                    <h2 class="hero-subtitle">A un Paso</h2>
+                    <p class="hero-description">
+                        En Testix te ayudamos a practicar para acceder a esa universidad de tus sueños,
+                        nuestro objetivo siempre sera prepararte para tu examen de admision y poder destacar.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="pages/login.html" class="btn btn-primary btn-lg btn-hero">Inicia Sesión</a>
+                        <a href="pages/new_user.html" class="btn btn-secondary btn-lg btn-hero">Crear Cuenta</a>
+                    </div>
+                </div>
+
+                <!-- Right side with image carousel or placeholder -->
+                <div class="col-lg-6 hero-image-content order-first order-lg-last">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/images/PERSONAS.png" alt="University Campus" class="hero-image"
+                            onerror="this.src='https://via.placeholder.com/500x500?text=Campus+Universitario'">
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="acerca" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Text -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title">Acerca de TESTix</h2>
+                    <p class="section-description">
+                        TESTIX es una plataforma que surge como propuesta para ayudar a los estudiantes a prepararse
+                        para sus exámenes de admisión y acceder a las mejores universidades,
+                        surge como una propuesta diseña por estudiantes para estudiantes, con el objetivo de brindar una
+                        experiencia completa y personalizada .
+                    </p>
+                    <ul class="features-list">
+                        <li class="feature-item">Examenes simulacros</li>
+                        <li class="feature-item">Experiencia personalizada</li>
+                        <li class="feature-item">Gráficos de progreso</li>
+                        <li class="feature-item">Mejora personal</li>
+                    </ul>
+                </div>
+
+                <!-- About Image -->
+                <div class="col-lg-6">
+                    <img src="assets/images/CAREERS.png" alt="About CRYSTAL" class="about-image"
+                        onerror="this.src='https://via.placeholder.com/500x400?text=Sobre+CRYSTAL'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section id="universidades" class="universities-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Universidades Destacadas</h2>
+
+            <!-- Universities Grid -->
+            <div class="row g-4">
+                <!-- University Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/POLITECNICO.png" alt="University 1" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+1'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.ipn.mx" target="_blank">Instituto Politécnico Nacional </a>
+                            </h5>
+                            <p class="university-location">La Técnica al Servicio de la Patria</p>
+                            <p class="university-description">El Instituto Politécnico Nacional (IPN),
+                                conocido coloquialmente como "El Poli",
+                                es una de las instituciones educativas y de investigación más importantes de México,
+                                líder en la formación de profesionales en áreas tecnológicas,
+                                científicas y administrativas</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/UNAM.png" alt="University 2" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+2'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.unam.mx" target="_blank">Universidad Nacional Autónoma de
+                                    México</a>
+                            </h5>
+                            <p class="university-location">Por mi raza hablará el espíritu</p>
+                            <p class="university-description">La Universidad Nacional Autónoma de México (UNAM)
+                                es la institución educativa más grande e importante de México
+                                y una de las más reconocidas en Iberoamérica. Es el principal motor de investigación y
+                                cultura del país</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University Card 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/BUAP.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.buap.mx" target="_blank">Benemérita Universidad Autónoma de
+                                    Puebla</a>
+                            </h5>
+                            <p class="university-location">Pensar bien para vivir mejor</p>
+                            <p class="university-description">La Benemérita Universidad Autónoma de Puebla (BUAP)
+                                es el pilar educativo del estado de Puebla y una de las instituciones públicas más
+                                prestigiosas y antiguas de México.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- University Card 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/TECNOLOGICO.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.tecnm.mx" target="_blank">Instituto Tecnológico Nacional de
+                                    México</a>
+                            </h5>
+                            <p class="university-location">Excelencia en Educación Tecnológica</p>
+                            <p class="university-description">El Tecnológico Nacional de México (TecNM) es
+                                la institución de educación superior tecnológica más grande de México
+                                y de toda Latinoamérica. A diferencia de las universidades autónomas,
+                                es un órgano desconcentrado de la Secretaría de Educación Pública (SEP).</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- University Card 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/UAM.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.uam.mx" target="_blank">Universidad Autónoma Metropolitana</a>
+                            </h5>
+                            <p class="university-location">La Casa Abierta al Tiempo</p>
+                            <p class="university-description">La Universidad Autónoma Metropolitana (UAM), conocida
+                                popularmente como "La Casa Abierta al Tiempo"
+                                , es una de las instituciones públicas más prestigiosas de México, destacada por su
+                                modelo educativo innovador y su fuerte enfoque en la investigación.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- University Card 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/UAGRO.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.uagro.mx" target="_blank">Universidad Autónoma de Guerrero</a>
+                            </h5>
+                            <p class="university-location">Piensa, Lucha y Trabaja</p>
+                            <p class="university-description">La Universidad Autónoma de Guerrero es una institución
+                                educativa pública que se destaca por su compromiso con la excelencia académica e
+                                inclusion social.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- University Car 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/CHAPINGO.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.chapingo.mx" target="_blank">Universidad Autónoma Chapingo</a>
+                            </h5>
+                            <p class="university-location">Enseñar la explotación de la tierra, no la del hombre</p>
+                            <p class="university-description">La Universidad Autónoma Chapingo (UACh) es la institución
+                                líder en educación agronómica en México
+                                y una de las más importantes de América Latina.
+                                Se distingue por su modelo de "internado" y su enfoque en el desarrollo rural</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University Card 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/UAEM.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.uaemex.mx" target="_blank">Universidad Autónoma del Estado de
+                                    México</a>
+                            </h5>
+                            <p class="university-location">Patria, Ciencia y Trabajo</p>
+                            <p class="university-description">La Universidad Autónoma del Estado de México (UAEMéx), con
+                                sede principal en Toluca
+                                , es una de las instituciones públicas más antiguas
+                                y grandes del país, destacada por su fuerte identidad "Verde y Oro".</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University Card 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="university-card">
+                        <img src="assets/images/UAG.png" alt="University 3" class="university-image"
+                            onerror="this.src='https://via.placeholder.com/300x200?text=Universidad+3'">
+                        <div class="university-content">
+                            <h5 class="university-name">
+                                <a href="https://www.uag.mx" target="_blank">Universidad Autónoma de Guadalajara</a>
+                            </h5>
+                            <p class="university-location">Piensa y Trabaja</p>
+                            <p class="university-description">La Universidad de Guadalajara (UdeG) es la segunda
+                                universidad pública más grande de México
+                                y una de las más antiguas, con una historia que se remonta a la época virreinal.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section py-5">
+        <div class="container text-center">
+            <h2 class="cta-title">Comienza tu Camino Hoy</h2>
+            <p class="cta-description">
+                No esperes más. Registrate y se parte del futuro de pais.
+            </p>
+            <a href="pages/new_user.html" class="btn btn-lg btn-cta">Crear Mi Cuenta</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Column 1 -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6 class="footer-title">TESTix</h6>
+                    <p class="footer-text">Tu camino hacia la educación de clase mundial.</p>
+                </div>
+
+                <!-- Footer Column 2 -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6 class="footer-title">Enlaces Rápidos</h6>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                        <li><a href="#universidades">Universidades</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3 -->
+                <div class="col-md-4">
+                    <h6 class="footer-title">Contacto</h6>
+                    <p class="footer-text">
+                        Email: info@testix.edu<br>
+                        Teléfono: +1 (555) 123-4567
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row mt-4 pt-4 border-top border-secondary">
+                <div class="col-md-12 text-center">
+                    <p class="footer-copyright">
+                        &copy; 2026 TESTix. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Index Page JS -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

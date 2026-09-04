@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Práctica — CRYSTAL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Epilogue:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- test.html está en la raíz (junto a dashboard.html), no en pages/ -->
+  <link rel="stylesheet" href="../css/colors.css">
+  <link rel="stylesheet" href="../css/test.css">
+</head>
+<body class="test-container">
+
+  <!-- ══ HEADER ══════════════════════════════════════════════════════ -->
+  <header class="test-header">
+    <div class="test-header-left">
+      <button class="btn-back" id="btnExit" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"/>
+          <polyline points="12 19 5 12 12 5"/>
+        </svg>
+        Salir
+      </button>
+    </div>
+
+    <div class="test-header-center">
+      <div class="test-title">Test de Práctica</div>
+      <div class="test-progress-small" id="progressSmall">1 / 10</div>
+    </div>
+
+    <div class="test-header-right">
+      <div class="timer-box">
+        <svg class="timer-icon" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <div class="timer-display" id="timerDisplay">00:00</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ════════════════════════════════════════════════════════ -->
+  <main class="test-main">
+
+    <!-- Barra de progreso -->
+    <div class="test-progress-bar">
+      <div class="progress-fill" id="progressFill" style="width:10%"></div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="test-content">
+
+      <!-- Pregunta -->
+      <div class="question-box">
+        <div class="question-header">
+          <div class="question-num" id="questionNum">Pregunta 1 de 10</div>
+          <div class="question-difficulty">
+            <span class="difficulty-badge" id="difficultyBadge">Cargando...</span>
+          </div>
+        </div>
+
+        <div class="question-text" id="questionText">
+          Cargando pregunta...
+        </div>
+
+        <div class="options-container" id="optionsContainer">
+          <!-- Opciones inyectadas por JS -->
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="test-sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Desglose</h3>
+          <div class="stat-item">
+            <span class="stat-label">Respondidas</span>
+            <span class="stat-value" id="answered">0</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Restantes</span>
+            <span class="stat-value" id="remaining">10</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Correctas</span>
+            <span class="stat-value correct" id="correct">0</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Incorrectas</span>
+            <span class="stat-value incorrect" id="incorrect">0</span>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Indicador</h3>
+          <div class="question-indicator" id="questionIndicator"></div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════════════ -->
+  <footer class="test-footer">
+    <button class="btn-nav btn-prev" id="btnPrev" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"/>
+        <polyline points="12 19 5 12 12 5"/>
+      </svg>
+      Anterior
+    </button>
+
+    <button class="btn-submit" id="btnSubmit" type="button">
+      Enviar y Terminar
+    </button>
+
+    <button class="btn-nav btn-next" id="btnNext" type="button">
+      Siguiente
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"/>
+        <polyline points="12 5 19 12 12 19"/>
+      </svg>
+    </button>
+  </footer>
+
+  <!-- ══ MODAL — Confirmar salida ════════════════════════════════════ -->
+  <div class="modal" id="modalExitConfirm">
+    <div class="modal-content">
+      <h2>¿Salir del test?</h2>
+      <p>Perderás todo el progreso actual. ¿Deseas continuar?</p>
+      <div class="modal-buttons">
+        <button class="btn-cancel"  id="btnConfirmCancel" type="button">Continuar test</button>
+        <button class="btn-danger"  id="btnConfirmExit"   type="button">Salir</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MODAL — Resultados ══════════════════════════════════════════ -->
+  <div class="modal" id="modalResult">
+    <div class="modal-content result-content">
+      <div class="result-header">
+        <h2>¡Test completado!</h2>
+        <div class="result-score" id="resultScore">0/10</div>
+      </div>
+
+      <div class="result-details">
+        <div class="result-stat">
+          <div class="result-stat-value" id="resultCorrect">0</div>
+          <div class="result-stat-label">Correctas</div>
+        </div>
+        <div class="result-stat">
+          <div class="result-stat-value" id="resultIncorrect">0</div>
+          <div class="result-stat-label">Incorrectas</div>
+        </div>
+        <div class="result-stat">
+          <div class="result-stat-value" id="resultTime">00:00</div>
+          <div class="result-stat-label">Tiempo</div>
+        </div>
+        <div class="result-stat">
+          <div class="result-stat-value" id="resultPercentage">0%</div>
+          <div class="result-stat-label">Porcentaje</div>
+        </div>
+      </div>
+
+      <div class="modal-buttons">
+        <button class="btn-secondary" id="btnRetry"         type="button">Intentar de nuevo</button>
+        <button class="btn-primary"   id="btnBackDashboard" type="button">Volver al dashboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- test.js usa ES modules, por eso type="module" -->
+  <script type="module" src="../js/test.js"></script>
+</body>
+</html>

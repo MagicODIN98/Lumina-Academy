@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta - CRYSTAL</title>
+    <!-- Custom Colors CSS -->
+    <link rel="stylesheet" href="../css/colors.css">
+    <!-- New User Page CSS -->
+    <link rel="stylesheet" href="../css/new_user.css">
+</head>
+<body>
+    <!-- Main container for the registration form -->
+    <div class="registration-container">
+        <!-- Registration form wrapper -->
+        <div class="registration-form-wrapper">
+            <!-- Header section with title -->
+            <div class="registration-header">
+                <h1>CRYSTAL</h1>
+                <p>Crear Nueva Cuenta</p>
+            </div>
+
+            <!-- Main registration form -->
+            <form id="registrationForm" class="registration-form">
+                <!-- First name input field -->
+                <div class="form-group">
+                    <label for="firstName">Nombre o nombres</label>
+                    <input 
+                        type="text" 
+                        id="firstName" 
+                        name="firstName" 
+                        placeholder="Ingresa tu nombre"
+                        required
+                    >
+                </div>
+
+                <!-- Last name input field -->
+                <div class="form-group">
+                    <label for="lastName">Apellidos</label>
+                    <input 
+                        type="text" 
+                        id="lastName" 
+                        name="lastName" 
+                        placeholder="Ingresa tu apellido"
+                        required
+                    >
+                </div>
+
+                <!-- Email input field with unique validation -->
+                <div class="form-group">
+                    <label for="registerEmail">Correo Electrónico</label>
+                    <input 
+                        type="email" 
+                        id="registerEmail" 
+                        name="registerEmail" 
+                        placeholder="Ingresa tu correo"
+                        required
+                    >
+                </div>
+
+                <!-- Password input field with toggle visibility button -->
+                <div class="form-group">
+                    <label for="registerPassword">Contraseña</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="password" 
+                            id="registerPassword" 
+                            name="registerPassword" 
+                            placeholder="Ingresa una contraseña segura"
+                            required
+                        >
+                        <!-- Toggle button to show/hide password -->
+                        <button 
+                            type="button" 
+                            id="toggleRegisterPassword" 
+                            class="toggle-password-btn"
+                            aria-label="Toggle password visibility"
+                        >
+                            <span id="toggleRegisterIcon">Ver</span>
+                        </button>
+                    </div>
+                    <!-- Password requirements helper text -->
+                    <small class="password-requirements">Mínimo 8 caracteres, incluye letras y números</small>
+                </div>
+
+                <!-- Confirm password input field -->
+                <div class="form-group">
+                    <label for="confirmPassword">Confirmar Contraseña</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="password" 
+                            id="confirmPassword" 
+                            name="confirmPassword" 
+                            placeholder="Confirma tu contraseña"
+                            required
+                        >
+                        <!-- Toggle button to show/hide confirm password -->
+                        <button 
+                            type="button" 
+                            id="toggleConfirmPassword" 
+                            class="toggle-password-btn"
+                            aria-label="Toggle confirm password visibility"
+                        >
+                            <span id="toggleConfirmIcon">Ver</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- University selection field -->
+                <div class="form-group">
+                    <label for="universitySelect">Universidad</label>
+                    <select 
+                        id="universitySelect" 
+                        name="universitySelect"
+                        class="form-control"
+                        required
+                    >
+                        <option value="">-- Selecciona una universidad --</option>
+                        <option value="UNAM">Universidad Nacional Autónoma de México</option>
+                        <option value="IPN">Instituto Politécnico Nacional</option>
+                        <option value="UAM">Universidad Autónoma Metropolitana</option>
+                        <option value="BUAP">Benemérita Universidad Autónoma de Puebla</option>
+                        <option value="TECNM">Instituto Tecnológico Nacional de México</option>
+                        <option value="UAGRO">Universidad Autónoma de Guerrero</option>
+                        <option value="CHAPINGO">Universidad Autónoma Chapingo</option>
+                        <option value="UAEM">Universidad Autónoma del Estado de México</option>
+                        <option value="UDG">Universidad de Guadalajara</option>
+                    </select>
+                </div>
+
+                <!-- Area selection field (dynamically populated based on university) -->
+                <div class="form-group">
+                    <label for="areaSelect">Área Académica</label>
+                    <select 
+                        id="areaSelect" 
+                        name="areaSelect"
+                        class="form-control"
+                        required
+                        disabled
+                    >
+                        <option value="">-- Primero selecciona una universidad --</option>
+                    </select>
+                </div>
+
+                <!-- Terms and conditions checkbox -->
+                <div class="form-check">
+                    <input 
+                        class="form-check-input" 
+                        type="checkbox" 
+                        id="termsCheckbox" 
+                        name="terms"
+                        required
+                    >
+                    <label class="form-check-label" for="termsCheckbox">
+                        Acepto los términos y condiciones
+                    </label>
+                </div>
+
+                <!-- Error or success message display area -->
+                <div id="registrationMessage" class="registration-message"></div>
+
+                <!-- Submit button for registration -->
+                <button type="submit" class="btn-register">Crear Cuenta</button>
+            </form>
+
+            <!-- Footer section with navigation link -->
+            <div class="registration-footer">
+                <!-- Link back to login page -->
+                <p class="back-to-login">
+                    Ya tienes cuenta?
+                    <a href="login.html" class="back-to-login-link">Inicia sesión aquí</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK CDN (compat for non-module scripts) -->
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database-compat.js"></script>
+    
+    <!-- Firebase Configuration -->
+    <script src="../js/firebase-config.js"></script>
+    <!-- Universities and Areas Configuration -->
+    <script src="../js/universities-areas.js"></script>
+    <!-- Firebase Authentication Functions -->
+    <script src="../js/auth-functions.js"></script>
+    <!-- Script file with registration functionality -->
+    <script src="../js/new_user.js"></script>
+
+</body>
+</html>

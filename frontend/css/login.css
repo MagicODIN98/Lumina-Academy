@@ -1,0 +1,259 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-gris-claro);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container for centering and layout */
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+/* Form wrapper with card design and shadow */
+.login-form-wrapper {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(3, 23, 79, 0.15);
+    padding: 40px 30px;
+    animation: slideIn 0.4s ease-out;
+}
+
+/* Smooth slide-in animation on page load */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header section styling */
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Main title styling */
+.login-header h1 {
+    color: var(--color-azul-profundo);
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Subtitle text styling */
+.login-header p {
+    color: var(--color-gris-medio);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Form styling and layout */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual form group (label + input wrapper) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Label styling */
+.form-group label {
+    color: var(--color-azul-profundo);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Input field base styling */
+.form-group input {
+    padding: 12px 15px;
+    border: 2px solid var(--color-gris-claro);
+    border-radius: 6px;
+    font-size: 1rem;
+    color: var(--color-azul-profundo);
+    transition: all 0.3s ease;
+    background-color: var(--color-blanco);
+}
+
+/* Input field focus state */
+.form-group input:focus {
+    outline: none;
+    border-color: var(--color-azul-medio);
+    box-shadow: 0 0 0 3px rgba(21, 83, 168, 0.1);
+}
+
+/* Input placeholder styling */
+.form-group input::placeholder {
+    color: var(--color-gris-medio);
+}
+
+/* Password input wrapper for toggle button positioning */
+.password-input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Password input inside wrapper */
+.password-input-wrapper input {
+    width: 100%;
+    padding-right: 45px;
+}
+
+/* Toggle password visibility button */
+.toggle-password-btn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--color-azul-medio);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+/* Toggle button hover state */
+.toggle-password-btn:hover {
+    color: var(--color-amarillo-vivo);
+}
+
+/* Error message styling (displays when login fails) */
+.error-message {
+    color: var(--color-error);
+    background-color: rgba(231, 76, 60, 0.1);
+    border: 1px solid var(--color-error);
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+    animation: shake 0.4s ease-in-out;
+}
+
+/* Error message shake animation */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* Show error message class */
+.error-message.show {
+    display: block;
+}
+
+/* Login submit button styling */
+.btn-login {
+    padding: 12px 20px;
+    background-color: var(--color-azul-medio);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Login button hover state */
+.btn-login:hover {
+    background-color: var(--color-azul-profundo);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(3, 23, 79, 0.3);
+}
+
+/* Login button active state */
+.btn-login:active {
+    transform: translateY(0);
+}
+
+/* Login footer section with additional links */
+.login-footer {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid var(--color-gris-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Forgot password link styling (red for error/recovery emphasis) */
+.forgot-password-link {
+    color: var(--color-error);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Forgot password link hover state */
+.forgot-password-link:hover {
+    color: var(--color-amarillo-vivo);
+    text-decoration: underline;
+}
+
+/* Divider line between sections */
+.divider {
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-gris-claro);
+}
+
+/* Create account section text */
+.create-account-text {
+    color: var(--color-gris-medio);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Create account link styling */
+.create-account-link {
+    color: var(--color-azul-medio);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Create account link hover state */
+.create-account-link:hover {
+    color: var(--color-amarillo-vivo);
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    /* Reduce padding on smaller screens */
+    .login-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    /* Adjust title size for mobile */
+    .login-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjust form gap for mobile */
+    .login-form {
+        gap: 15px;
+    }
+}

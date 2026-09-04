@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - CRYSTAL</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Colors CSS -->
+    <link rel="stylesheet" href="../css/colors.css">
+    <!-- Profile Page CSS -->
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+    <!-- Main container for the profile page -->
+    <div class="profile-container">
+        <!-- Profile form wrapper -->
+        <div class="profile-form-wrapper">
+            <!-- Header section with title -->
+            <div class="profile-header">
+                <h1>CRYSTAL</h1>
+                <p>Mi Perfil</p>
+            </div>
+
+            <!-- Tabs navigation -->
+            <ul class="nav nav-tabs profile-tabs" id="profileTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-controls="personal" aria-selected="true">
+                        Información Personal
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="university-tab" data-bs-toggle="tab" data-bs-target="#university" type="button" role="tab" aria-controls="university" aria-selected="false">
+                        Universidad
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="security-tab" data-bs-toggle="tab" data-bs-target="#security" type="button" role="tab" aria-controls="security" aria-selected="false">
+                        Seguridad
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab content -->
+            <div class="tab-content profile-tab-content" id="profileTabContent">
+                <!-- Personal Information Tab -->
+                <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                    <form id="personalForm" class="profile-form">
+                        <!-- First name input field -->
+                        <div class="form-group">
+                            <label for="profileFirstName">Nombre o nombres</label>
+                            <input 
+                                type="text" 
+                                id="profileFirstName" 
+                                name="firstName" 
+                                placeholder="Tu nombre"
+                                required
+                            >
+                        </div>
+
+                        <!-- Last name input field -->
+                        <div class="form-group">
+                            <label for="profileLastName">Apellidos</label>
+                            <input 
+                                type="text" 
+                                id="profileLastName" 
+                                name="lastName" 
+                                placeholder="Tu apellido"
+                                required
+                            >
+                        </div>
+
+                        <!-- Email input field (read-only in this section) -->
+                        <div class="form-group">
+                            <label for="profileEmail">Correo Electrónico</label>
+                            <input 
+                                type="email" 
+                                id="profileEmail" 
+                                name="email" 
+                                placeholder="Tu correo"
+                                readonly
+                                class="form-control-plaintext"
+                            >
+                            <small class="form-text text-muted">Para cambiar tu correo ve a la sección de Seguridad</small>
+                        </div>
+
+                        <!-- Message display area -->
+                        <div id="personalMessage" class="profile-message"></div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn-profile-save">Guardar Cambios</button>
+                    </form>
+                </div>
+
+                <!-- University Tab -->
+                <div class="tab-pane fade" id="university" role="tabpanel" aria-labelledby="university-tab">
+                    <form id="universityForm" class="profile-form">
+                        <!-- University selection field -->
+                        <div class="form-group">
+                            <label for="profileUniversitySelect">Universidad</label>
+                            <select 
+                                id="profileUniversitySelect" 
+                                name="university"
+                                class="form-control"
+                                required
+                            >
+                                <option value="">-- Selecciona una universidad --</option>
+                                <option value="UNAM">Universidad Nacional Autónoma de México</option>
+                                <option value="IPN">Instituto Politécnico Nacional</option>
+                                <option value="UAM">Universidad Autónoma Metropolitana</option>
+                                <option value="BUAP">Benemérita Universidad Autónoma de Puebla</option>
+                                <option value="TECNM">Instituto Tecnológico Nacional de México</option>
+                                <option value="UAGRO">Universidad Autónoma de Guerrero</option>
+                                <option value="CHAPINGO">Universidad Autónoma Chapingo</option>
+                                <option value="UAEM">Universidad Autónoma del Estado de México</option>
+                                <option value="UDG">Universidad de Guadalajara</option>
+                            </select>
+                        </div>
+
+                        <!-- Area selection field (dynamically populated based on university) -->
+                        <div class="form-group">
+                            <label for="profileAreaSelect">Área Académica</label>
+                            <select 
+                                id="profileAreaSelect" 
+                                name="area"
+                                class="form-control"
+                                required
+                            >
+                                <option value="">-- Selecciona un área --</option>
+                            </select>
+                        </div>
+
+                        <!-- University image preview -->
+                        <div class="form-group">
+                            <label>Logo de Universidad</label>
+                            <div id="universityImagePreview" class="university-image-preview">
+                                <p class="text-muted">El logo aparecerá aquí</p>
+                            </div>
+                        </div>
+
+                        <!-- Message display area -->
+                        <div id="universityMessage" class="profile-message"></div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn-profile-save">Guardar Cambios</button>
+                    </form>
+                </div>
+
+                <!-- Security Tab -->
+                <div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="security-tab">
+                    <!-- Email Change Section -->
+                    <div class="security-section">
+                        <h5>Cambiar Correo Electrónico</h5>
+                        <form id="emailForm" class="profile-form">
+                            <div class="form-group">
+                                <label for="newEmail">Nuevo Correo</label>
+                                <input 
+                                    type="email" 
+                                    id="newEmail" 
+                                    name="newEmail" 
+                                    placeholder="Tu nuevo correo"
+                                    required
+                                >
+                            </div>
+
+                            <div id="emailMessage" class="profile-message"></div>
+                            <button type="submit" class="btn-profile-save">Actualizar Correo</button>
+                        </form>
+                    </div>
+
+                    <!-- Password Change Section -->
+                    <div class="security-section">
+                        <h5>Cambiar Contraseña</h5>
+                        <form id="passwordForm" class="profile-form">
+                            <div class="form-group">
+                                <label for="newPassword">Nueva Contraseña</label>
+                                <div class="password-input-wrapper">
+                                    <input 
+                                        type="password" 
+                                        id="newPassword" 
+                                        name="newPassword" 
+                                        placeholder="Ingresa una contraseña segura"
+                                        required
+                                    >
+                                    <button 
+                                        type="button" 
+                                        id="toggleNewPassword" 
+                                        class="toggle-password-btn"
+                                        aria-label="Toggle password visibility"
+                                    >
+                                        <span id="toggleNewPasswordIcon">Ver</span>
+                                    </button>
+                                </div>
+                                <small class="password-requirements">Mínimo 8 caracteres, incluye letras y números</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirmNewPassword">Confirmar Contraseña</label>
+                                <div class="password-input-wrapper">
+                                    <input 
+                                        type="password" 
+                                        id="confirmNewPassword" 
+                                        name="confirmNewPassword" 
+                                        placeholder="Confirma tu contraseña"
+                                        required
+                                    >
+                                    <button 
+                                        type="button" 
+                                        id="toggleConfirmNewPassword" 
+                                        class="toggle-password-btn"
+                                        aria-label="Toggle confirm password visibility"
+                                    >
+                                        <span id="toggleConfirmNewPasswordIcon">Ver</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="passwordMessage" class="profile-message"></div>
+                            <button type="submit" class="btn-profile-save">Actualizar Contraseña</button>
+                        </form>
+                    </div>
+
+                    <!-- Danger Zone Section -->
+                    <div class="security-section danger-zone">
+                        <h5>Zona de Peligro</h5>
+                        <p class="text-muted">Estas acciones son irreversibles</p>
+                        <button type="button" class="btn-danger-action" id="logoutBtn">Cerrar Sesión</button>
+                        <button type="button" class="btn-danger-action delete" id="deleteAccountBtn">Eliminar Cuenta</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer section with navigation -->
+            <div class="profile-footer">
+                <a href="dashboard.html" class="back-to-dashboard-link">Volver al Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Firebase SDK CDN (compat for non-module scripts) -->
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database-compat.js"></script>
+    
+    <!-- Firebase Configuration -->
+    <script src="../js/firebase-config.js"></script>
+    <!-- Universities and Areas Configuration -->
+    <script src="../js/universities-areas.js"></script>
+    <!-- Firebase Authentication Functions -->
+    <script src="../js/auth-functions.js"></script>
+    <!-- Profile Page Script -->
+    <script src="../js/profile.js"></script>
+</body>
+</html>

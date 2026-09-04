@@ -1,0 +1,295 @@
+/* ============================================
+   REGISTRATION PAGE STYLES
+   Styling for the user registration form
+   and components
+   ============================================ */
+
+/* Reset default styles and set base font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-gris-claro);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container for centering and layout */
+.registration-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Form wrapper with card design and shadow */
+.registration-form-wrapper {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(3, 23, 79, 0.15);
+    padding: 40px 30px;
+    animation: slideIn 0.4s ease-out;
+}
+
+/* Smooth slide-in animation on page load */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header section styling */
+.registration-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Main title styling */
+.registration-header h1 {
+    color: var(--color-azul-profundo);
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Subtitle text styling */
+.registration-header p {
+    color: var(--color-gris-medio);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Form styling and layout */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Individual form group (label + input wrapper) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Label styling */
+.form-group label {
+    color: var(--color-azul-profundo);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Input field base styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group .form-control {
+    padding: 12px 15px;
+    border: 2px solid var(--color-gris-claro);
+    border-radius: 6px;
+    font-size: 1rem;
+    color: var(--color-azul-profundo);
+    transition: all 0.3s ease;
+    background-color: var(--color-blanco);
+}
+
+/* Input field focus state */
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group .form-control:focus {
+    outline: none;
+    border-color: var(--color-azul-medio);
+    box-shadow: 0 0 0 3px rgba(21, 83, 168, 0.1);
+}
+
+/* Input placeholder styling */
+.form-group input::placeholder {
+    color: var(--color-gris-medio);
+}
+
+/* Password requirements helper text */
+.password-requirements {
+    color: var(--color-gris-medio);
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+/* Password input wrapper for toggle button positioning */
+.password-input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Password input inside wrapper */
+.password-input-wrapper input {
+    width: 100%;
+    padding-right: 45px;
+}
+
+/* Toggle password visibility button */
+.toggle-password-btn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--color-azul-medio);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+/* Toggle button hover state */
+.toggle-password-btn:hover {
+    color: var(--color-amarillo-vivo);
+}
+
+/* Checkbox styling */
+.form-check {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--color-amarillo-palido);
+    border-radius: 6px;
+}
+
+/* Checkbox input styling */
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    margin-top: 0.3rem;
+    border: 2px solid var(--color-azul-medio);
+    cursor: pointer;
+}
+
+/* Checkbox input checked state */
+.form-check-input:checked {
+    background-color: var(--color-azul-medio);
+    border-color: var(--color-azul-medio);
+}
+
+/* Checkbox label styling */
+.form-check-label {
+    color: var(--color-azul-profundo);
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+/* Registration message styling (displays success or error) */
+.registration-message {
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Fade-in animation for messages */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Success message styling */
+.registration-message.success {
+    color: var(--color-exito);
+    background-color: rgba(39, 174, 96, 0.1);
+    border: 1px solid var(--color-exito);
+    display: block;
+}
+
+/* Error message styling */
+.registration-message.error {
+    color: var(--color-error);
+    background-color: rgba(231, 76, 60, 0.1);
+    border: 1px solid var(--color-error);
+    display: block;
+}
+
+/* Register submit button styling */
+.btn-register {
+    padding: 12px 20px;
+    background-color: var(--color-azul-medio);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+/* Register button hover state */
+.btn-register:hover {
+    background-color: var(--color-azul-profundo);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(3, 23, 79, 0.3);
+}
+
+/* Register button active state */
+.btn-register:active {
+    transform: translateY(0);
+}
+
+/* Registration footer section with navigation links */
+.registration-footer {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid var(--color-gris-claro);
+    text-align: center;
+}
+
+/* Back to login section text */
+.back-to-login {
+    color: var(--color-gris-medio);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Back to login link styling */
+.back-to-login-link {
+    color: var(--color-azul-medio);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Back to login link hover state */
+.back-to-login-link:hover {
+    color: var(--color-amarillo-vivo);
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    /* Reduce padding on smaller screens */
+    .registration-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    /* Adjust title size for mobile */
+    .registration-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjust form gap for mobile */
+    .registration-form {
+        gap: 12px;
+    }
+}

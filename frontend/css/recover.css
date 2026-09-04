@@ -1,0 +1,219 @@
+/* ============================================
+   PASSWORD RECOVERY PAGE STYLES
+   Styling for the password recovery form
+   and components
+   ============================================ */
+
+/* Reset default styles and set base font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-gris-claro);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container for centering and layout */
+.recovery-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+/* Form wrapper with card design and shadow */
+.recovery-form-wrapper {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(3, 23, 79, 0.15);
+    padding: 40px 30px;
+    animation: slideIn 0.4s ease-out;
+}
+
+/* Smooth slide-in animation on page load */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header section styling */
+.recovery-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Main title styling */
+.recovery-header h1 {
+    color: var(--color-azul-profundo);
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Subtitle text styling */
+.recovery-header p {
+    color: var(--color-gris-medio);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Form styling and layout */
+.recovery-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual form group (label + input wrapper) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Label styling */
+.form-group label {
+    color: var(--color-azul-profundo);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Input field base styling */
+.form-group input {
+    padding: 12px 15px;
+    border: 2px solid var(--color-gris-claro);
+    border-radius: 6px;
+    font-size: 1rem;
+    color: var(--color-azul-profundo);
+    transition: all 0.3s ease;
+    background-color: var(--color-blanco);
+}
+
+/* Input field focus state */
+.form-group input:focus {
+    outline: none;
+    border-color: var(--color-azul-medio);
+    box-shadow: 0 0 0 3px rgba(21, 83, 168, 0.1);
+}
+
+/* Input placeholder styling */
+.form-group input::placeholder {
+    color: var(--color-gris-medio);
+}
+
+/* Recovery message styling (displays success or error) */
+.recovery-message {
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Fade-in animation for messages */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Success message styling */
+.recovery-message.success {
+    color: var(--color-exito);
+    background-color: rgba(39, 174, 96, 0.1);
+    border: 1px solid var(--color-exito);
+    display: block;
+}
+
+/* Error message styling */
+.recovery-message.error {
+    color: var(--color-error);
+    background-color: rgba(231, 76, 60, 0.1);
+    border: 1px solid var(--color-error);
+    display: block;
+}
+
+/* Recovery submit button styling */
+.btn-recovery {
+    padding: 12px 20px;
+    background-color: var(--color-azul-medio);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Recovery button hover state */
+.btn-recovery:hover {
+    background-color: var(--color-azul-profundo);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(3, 23, 79, 0.3);
+}
+
+/* Recovery button active state */
+.btn-recovery:active {
+    transform: translateY(0);
+}
+
+/* Recovery footer section with navigation links */
+.recovery-footer {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid var(--color-gris-claro);
+    text-align: center;
+}
+
+/* Back to login section text */
+.back-to-login {
+    color: var(--color-gris-medio);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Back to login link styling */
+.back-to-login-link {
+    color: var(--color-azul-medio);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Back to login link hover state */
+.back-to-login-link:hover {
+    color: var(--color-amarillo-vivo);
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    /* Reduce padding on smaller screens */
+    .recovery-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    /* Adjust title size for mobile */
+    .recovery-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjust form gap for mobile */
+    .recovery-form {
+        gap: 15px;
+    }
+}

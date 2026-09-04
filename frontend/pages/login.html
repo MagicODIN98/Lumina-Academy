@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CRYSTAL</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Colors CSS -->
+    <link rel="stylesheet" href="../css/colors.css">
+    <!-- Login Page CSS -->
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <!-- Main container for the login form -->
+    <div class="login-container">
+        <!-- Login form wrapper -->
+        <div class="login-form-wrapper">
+            <!-- Header section with title -->
+            <div class="login-header">
+                <h1>CRYSTAL</h1>
+                <p>Bienvenido de vuelta</p>
+            </div>
+
+            <!-- Main login form -->
+            <form id="loginForm" class="login-form">
+                <!-- Email or username input field -->
+                <div class="form-group">
+                    <label for="email">Usuario o Correo</label>
+                    <input 
+                        type="text" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Ingresa tu usuario o correo"
+                        required
+                    >
+                </div>
+
+                <!-- Password input field with toggle visibility button -->
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password" 
+                            placeholder="Ingresa tu contraseña"
+                            required
+                        >
+                        <!-- Toggle button to show/hide password -->
+                        <button 
+                            type="button" 
+                            id="togglePassword" 
+                            class="toggle-password-btn"
+                            aria-label="Toggle password visibility"
+                        >
+                            <span id="toggleIcon">Ver</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Error message display area (initially hidden) -->
+                <div id="errorMessage" class="error-message"></div>
+
+                <!-- Submit button for login -->
+                <button type="submit" class="btn-login">Iniciar Sesión</button>
+            </form>
+
+            <!-- Footer section with additional options -->
+            <div class="login-footer">
+                <!-- Link to password recovery page (displays error message on failed login) -->
+                <a href="recover.html" id="forgotPasswordLink" class="forgot-password-link">
+                    Olvidé la contraseña
+                </a>
+
+                <!-- Divider line -->
+                <div class="divider"></div>
+
+                <!-- Link to create new user account -->
+                <p class="create-account-text">
+                    No tienes cuenta?
+                    <a href="new_user.html" class="create-account-link">Crear usuario</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Firebase SDK CDN (compat for non-module scripts) -->
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database-compat.js"></script>
+    
+    <!-- Firebase Configuration -->
+    <script src="../js/firebase-config.js"></script>
+    <!-- Firebase Authentication Functions -->
+    <script src="../js/auth-functions.js"></script>
+    <!-- Script file with login functionality -->
+    <script src="../js/login.js"></script>
+</body>
+</html>

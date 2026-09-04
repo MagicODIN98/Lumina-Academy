@@ -1,0 +1,13 @@
+1.PyTorch (torch)
+2.Pandas (pandas)
+3.ApiKEY GroqCloude (Llama3): GROQ_API_KEY=tu_api_key_aqui
+4.ApiKEY Gemini: Gemini_API_KEY=tu_api_key_aqui
+5.transformers
+6.scikit-learn
+7.joblib
+8.reportlab
+9.requests
+10.pypdfium2
+11.pdfplumber
+12.Pillow
+13.python-docx
