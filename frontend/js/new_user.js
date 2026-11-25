@@ -1,34 +1,34 @@
 // new_user.js — Registro de nuevo usuario con Firebase
 
 document.addEventListener('DOMContentLoaded', function () {
-  const registrationForm      = document.getElementById('registrationForm');
-  const firstNameInput        = document.getElementById('firstName');
-  const lastNameInput         = document.getElementById('lastName');
-  const emailInput            = document.getElementById('registerEmail');
-  const passwordInput         = document.getElementById('registerPassword');
-  const confirmPasswordInput  = document.getElementById('confirmPassword');
-  const universitySelect      = document.getElementById('universitySelect');
-  const areaSelect            = document.getElementById('areaSelect');
-  const togglePasswordBtn     = document.getElementById('toggleRegisterPassword');
-  const toggleIcon            = document.getElementById('toggleRegisterIcon');
-  const toggleConfirmBtn      = document.getElementById('toggleConfirmPassword');
-  const toggleConfirmIcon     = document.getElementById('toggleConfirmIcon');
-  const termsCheckbox         = document.getElementById('termsCheckbox');
-  const registrationMessage   = document.getElementById('registrationMessage');
-  const btnRegister           = registrationForm?.querySelector('.btn-register');
+  const registrationForm = document.getElementById('registrationForm');
+  const firstNameInput = document.getElementById('firstName');
+  const lastNameInput = document.getElementById('lastName');
+  const emailInput = document.getElementById('registerEmail');
+  const passwordInput = document.getElementById('registerPassword');
+  const confirmPasswordInput = document.getElementById('confirmPassword');
+  const universitySelect = document.getElementById('universitySelect');
+  const areaSelect = document.getElementById('areaSelect');
+  const togglePasswordBtn = document.getElementById('toggleRegisterPassword');
+  const toggleIcon = document.getElementById('toggleRegisterIcon');
+  const toggleConfirmBtn = document.getElementById('toggleConfirmPassword');
+  const toggleConfirmIcon = document.getElementById('toggleConfirmIcon');
+  const termsCheckbox = document.getElementById('termsCheckbox');
+  const registrationMessage = document.getElementById('registrationMessage');
+  const btnRegister = registrationForm?.querySelector('.btn-register');
 
   // ── Toggle visibilidad de contraseñas ────────────────────────────
   togglePasswordBtn?.addEventListener('click', e => {
     e.preventDefault();
     const show = passwordInput.type === 'password';
-    passwordInput.type    = show ? 'text' : 'password';
+    passwordInput.type = show ? 'text' : 'password';
     toggleIcon.textContent = show ? 'Ocultar' : 'Ver';
   });
 
   toggleConfirmBtn?.addEventListener('click', e => {
     e.preventDefault();
     const show = confirmPasswordInput.type === 'password';
-    confirmPasswordInput.type   = show ? 'text' : 'password';
+    confirmPasswordInput.type = show ? 'text' : 'password';
     toggleConfirmIcon.textContent = show ? 'Ocultar' : 'Ver';
   });
 
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const codigo = this.value.trim();
     if (!codigo) {
       areaSelect.innerHTML = '<option value="">— Primero selecciona una universidad —</option>';
-      areaSelect.disabled  = true;
+      areaSelect.disabled = true;
       return;
     }
     const areas = (typeof getAreasForUniversity === 'function')
@@ -50,21 +50,21 @@ document.addEventListener('DOMContentLoaded', function () {
       areaSelect.disabled = false;
     } else {
       areaSelect.innerHTML = '<option value="">No hay áreas disponibles</option>';
-      areaSelect.disabled  = true;
+      areaSelect.disabled = true;
     }
     areaSelect.value = '';
   });
 
   // ── Helpers ──────────────────────────────────────────────────────
   function showMessage(message, type) {
-    registrationMessage.textContent  = message;
-    registrationMessage.className    = `registration-message ${type}`;
+    registrationMessage.textContent = message;
+    registrationMessage.className = `registration-message ${type}`;
     registrationMessage.style.display = 'block';
   }
 
   function clearMessage() {
-    registrationMessage.textContent  = '';
-    registrationMessage.className    = 'registration-message';
+    registrationMessage.textContent = '';
+    registrationMessage.className = 'registration-message';
     registrationMessage.style.display = 'none';
   }
 
@@ -79,23 +79,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Limpiar mensaje al escribir en cualquier campo
   [firstNameInput, lastNameInput, emailInput,
-   passwordInput, confirmPasswordInput].forEach(input => {
-    input?.addEventListener('input', clearMessage);
-  });
+    passwordInput, confirmPasswordInput].forEach(input => {
+      input?.addEventListener('input', clearMessage);
+    });
 
   // ── Submit ───────────────────────────────────────────────────────
   registrationForm?.addEventListener('submit', async function (e) {
     e.preventDefault();
     clearMessage();
 
-    const firstName      = firstNameInput.value.trim();
-    const lastName       = lastNameInput.value.trim();
-    const email          = emailInput.value.trim();
-    const password       = passwordInput.value.trim();
-    const confirmPassword= confirmPasswordInput.value.trim();
-    const university     = universitySelect.value.trim();
-    const areaValue      = areaSelect.value.trim();
-    const termsAccepted  = termsCheckbox.checked;
+    const firstName = firstNameInput.value.trim();
+    const lastName = lastNameInput.value.trim();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value.trim();
+    const confirmPassword = confirmPasswordInput.value.trim();
+    const university = universitySelect.value.trim();
+    const areaValue = areaSelect.value.trim();
+    const termsAccepted = termsCheckbox.checked;
 
     // Validaciones
     if (!firstName || !lastName || !email || !password || !confirmPassword || !university || !areaValue) {
@@ -122,12 +122,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (btnRegister) {
       btnRegister.textContent = 'Creando cuenta...';
-      btnRegister.disabled    = true;
+      btnRegister.disabled = true;
     }
 
     try {
       // Obtener info de universidad y área
-      const uniInfo  = (typeof getUniversityInfo === 'function')
+      const uniInfo = (typeof getUniversityInfo === 'function')
         ? getUniversityInfo(university)
         : { name: university, image: `${university}.png` };
 
@@ -140,41 +140,30 @@ document.addEventListener('DOMContentLoaded', function () {
           firstName,
           lastName,
           university,
-          universityName:  uniInfo.name,
+          universityName: uniInfo.name,
           universityImage: uniInfo.image,
-          area:            areaCode,
+          area: areaCode,
           areaName,
         });
 
         if (result.success) {
           showMessage('¡Cuenta creada exitosamente! Redirigiendo al login...', 'success');
           registrationForm.reset();
-          passwordInput.type        = 'password';
+          passwordInput.type = 'password';
           confirmPasswordInput.type = 'password';
           if (toggleIcon) toggleIcon.textContent = 'Ver';
           if (toggleConfirmIcon) toggleConfirmIcon.textContent = 'Ver';
           areaSelect.innerHTML = '<option value="">— Primero selecciona una universidad —</option>';
-          areaSelect.disabled  = true;
+          areaSelect.disabled = true;
           setTimeout(() => { window.location.href = 'login.html'; }, 2000);
         } else {
           showMessage(result.message || 'Error al crear la cuenta', 'error');
         }
       } else {
-        // Modo demo sin Firebase
-        console.warn('Firebase no configurado — guardando en localStorage (demo)');
-        localStorage.setItem('currentUser', JSON.stringify({
-          name:           `${firstName} ${lastName}`,
-          email,
-          university,
-          universityName:  uniInfo?.name || university,
-          universityImage: uniInfo?.image || `${university}.png`,
-          area:            areaCode,
-          areaName,
-          firstName,
-          lastName,
-        }));
-        showMessage('Cuenta creada en modo demo. Redirigiendo...', 'success');
-        setTimeout(() => { window.location.href = 'login.html'; }, 1500);
+        showMessage(
+          'El registro requiere Firebase. Verifica la configuración e intenta nuevamente.',
+          'error'
+        );
       }
     } catch (err) {
       console.error('Registration error:', err);
@@ -182,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } finally {
       if (btnRegister) {
         btnRegister.textContent = 'Crear Cuenta';
-        btnRegister.disabled    = false;
+        btnRegister.disabled = false;
       }
     }
   });

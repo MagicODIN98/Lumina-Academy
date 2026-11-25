@@ -27,23 +27,10 @@ function getFirebaseErrorMessage(code) {
 // ── REGISTRO ──────────────────────────────────────────────────────────
 async function registerUser(email, password, userProfile) {
   if (!_firebaseDisponible()) {
-    // Modo demo: guardar en localStorage
-    const uid = 'demo_' + Date.now();
-    localStorage.setItem('userId', uid);
-    const profileData = {
-      email, uid,
-      firstName: userProfile.firstName,
-      lastName: userProfile.lastName,
-      name: `${userProfile.firstName} ${userProfile.lastName}`.trim(),
-      university: userProfile.university,
-      universityName: userProfile.universityName,
-      universityImage: userProfile.universityImage,
-      area: userProfile.area || null,
-      areaName: userProfile.areaName || null,
-      createdAt: new Date().toISOString(),
+    return {
+      success: false,
+      message: 'El registro de usuarios requiere una conexión activa con Firebase.'
     };
-    localStorage.setItem('currentUser', JSON.stringify(profileData));
-    return { success: true, userId: uid, message: 'Cuenta creada (modo demo)' };
   }
 
   try {
