@@ -43,6 +43,26 @@ document.addEventListener('DOMContentLoaded', function () {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
+  // ── ACCESO DEMO LOCAL ──────────────────────────────────────
+const btnDemo = document.getElementById('btnDemo');
+
+const esLocal = ['localhost', '127.0.0.1']
+  .includes(window.location.hostname);
+
+if (btnDemo && esLocal && window._firebaseReady !== true) {
+  btnDemo.hidden = false;
+
+  btnDemo.addEventListener('click', function () {
+    const resultado = iniciarSesionDemo();
+
+    if (resultado.success) {
+      window.location.replace('dashboard.html');
+    } else {
+      showError(resultado.message);
+    }
+  });
+}
+
   // ── Submit ───────────────────────────────────────────────────────
   loginForm?.addEventListener('submit', async function (e) {
     e.preventDefault();
@@ -90,16 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
           showError(result.message || 'Error al iniciar sesión');
         }
       } else {
-        // Modo demo sin Firebase (para desarrollo local)
-        console.warn('Firebase no está configurado — modo demo');
-        localStorage.setItem('currentUser', JSON.stringify({
-          name:           'Usuario Demo',
-          email:          email,
-          university:     'UNAM',
-          universityName: 'Universidad Nacional Autónoma de México',
-          universityImage:'UNAM.png',
-        }));
-        window.location.href = 'dashboard.html';
+        showError('El servicio de inicio de sesión no está disponible.');
       }
     } catch (err) {
       console.error('Login error:', err);
