@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
   loginForm?.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    const email    = emailInput.value.trim();
-    const password = passwordInput.value.trim();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
 
     errorMessage.classList.remove('show');
 
@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
       showError('Por favor completa todos los campos');
       return;
     }
-    if (email.includes('@') && !isValidEmail(email)) {
-      showError('Por favor ingresa un correo válido');
+    if (!isValidEmail(email)) {
+      showError('Por favor ingresa un correo electrónico válido');
       return;
     }
 

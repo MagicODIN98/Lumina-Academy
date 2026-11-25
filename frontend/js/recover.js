@@ -1,14 +1,14 @@
 // recover.js — Recuperación de contraseña con Firebase
 
 document.addEventListener('DOMContentLoaded', function () {
-  const recoveryForm    = document.getElementById('recoveryForm');
-  const recoveryEmail   = document.getElementById('recoveryEmail');
+  const recoveryForm = document.getElementById('recoveryForm');
+  const recoveryEmail = document.getElementById('recoveryEmail');
   const recoveryMessage = document.getElementById('recoveryMessage');
-  const btnRecovery     = recoveryForm?.querySelector('.btn-recovery');
+  const btnRecovery = recoveryForm?.querySelector('.btn-recovery');
 
   function showMessage(message, type) {
-    recoveryMessage.textContent  = message;
-    recoveryMessage.className    = `recovery-message ${type}`;
+    recoveryMessage.textContent = message;
+    recoveryMessage.className = `recovery-message ${type}`;
     recoveryMessage.style.display = 'block';
   }
 
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     e.preventDefault();
     const email = recoveryEmail.value.trim();
 
-    recoveryMessage.textContent  = '';
-    recoveryMessage.className    = 'recovery-message';
+    recoveryMessage.textContent = '';
+    recoveryMessage.className = 'recovery-message';
     recoveryMessage.style.display = 'none';
 
     if (!email) {
@@ -35,36 +35,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (btnRecovery) {
       btnRecovery.textContent = 'Enviando...';
-      btnRecovery.disabled    = true;
+      btnRecovery.disabled = true;
     }
 
     try {
-      // Usar Firebase si está disponible, sino simular
-      if (typeof sendPasswordReset === 'function') {
-        const result = await sendPasswordReset(email);
-        if (result.success) {
-          showMessage(
-            `Hemos enviado instrucciones de recuperación a ${email}. Revisa tu bandeja de entrada.`,
-            'success'
-          );
-          recoveryEmail.value = '';
-        } else {
-          showMessage(result.message || 'Error al enviar correo de recuperación', 'error');
-        }
-      } else if (typeof firebase !== 'undefined') {
-        await firebase.auth().sendPasswordResetEmail(email);
+      if (typeof sendPasswordReset !== 'function') {
         showMessage(
-          `Hemos enviado instrucciones de recuperación a ${email}. Revisa tu bandeja de entrada.`,
+          'El servicio de recuperación no está disponible.',
+          'error'
+        );
+        return;
+      }
+
+      const result = await sendPasswordReset(email);
+
+      if (result.success) {
+        showMessage(
+          'Solicitud procesada. Si existe una cuenta con ese correo, recibirás instrucciones para restablecer tu contraseña.',
           'success'
         );
         recoveryEmail.value = '';
       } else {
-        // Fallback sin Firebase (desarrollo local)
         showMessage(
-          `Instrucciones enviadas a ${email} (modo demo — Firebase no configurado).`,
-          'success'
+          result.message || 'No se pudo solicitar la recuperación.',
+          'error'
         );
-        recoveryEmail.value = '';
       }
     } catch (err) {
       console.error('Password reset error:', err);
@@ -72,14 +67,14 @@ document.addEventListener('DOMContentLoaded', function () {
     } finally {
       if (btnRecovery) {
         btnRecovery.textContent = 'Enviar Instrucciones';
-        btnRecovery.disabled    = false;
+        btnRecovery.disabled = false;
       }
     }
   });
 
   recoveryEmail?.addEventListener('input', function () {
     if (recoveryMessage.textContent) {
-      recoveryMessage.textContent  = '';
+      recoveryMessage.textContent = '';
       recoveryMessage.style.display = 'none';
     }
   });
