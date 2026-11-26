@@ -3,23 +3,23 @@
 // ── Helpers ──────────────────────────────────────────────────────────
 function _firebaseDisponible() {
   return window._firebaseReady === true &&
-         typeof firebase !== 'undefined' &&
-         firebase.apps && firebase.apps.length > 0;
+    typeof firebase !== 'undefined' &&
+    firebase.apps && firebase.apps.length > 0;
 }
 
 function getFirebaseErrorMessage(code) {
   const msgs = {
-    'auth/email-already-in-use':  'Este correo ya está registrado',
-    'auth/invalid-email':         'Correo inválido',
-    'auth/weak-password':         'La contraseña es muy débil (mínimo 6 caracteres)',
-    'auth/user-not-found':        'Usuario no encontrado',
-    'auth/wrong-password':        'Contraseña incorrecta',
-    'auth/too-many-requests':     'Demasiados intentos. Intenta más tarde',
-    'auth/user-disabled':         'Esta cuenta ha sido desactivada',
+    'auth/email-already-in-use': 'Este correo ya está registrado',
+    'auth/invalid-email': 'Correo inválido',
+    'auth/weak-password': 'La contraseña es muy débil (mínimo 6 caracteres)',
+    'auth/user-not-found': 'Usuario no encontrado',
+    'auth/wrong-password': 'Contraseña incorrecta',
+    'auth/too-many-requests': 'Demasiados intentos. Intenta más tarde',
+    'auth/user-disabled': 'Esta cuenta ha sido desactivada',
     'auth/requires-recent-login': 'Por favor inicia sesión de nuevo para confirmar',
     'auth/operation-not-allowed': 'Operación no permitida',
-    'auth/invalid-credential':    'Credenciales inválidas. Verifica tu correo y contraseña',
-    'auth/network-request-failed':'Error de red. Verifica tu conexión a Internet',
+    'auth/invalid-credential': 'Credenciales inválidas. Verifica tu correo y contraseña',
+    'auth/network-request-failed': 'Error de red. Verifica tu conexión a Internet',
   };
   return msgs[code] || 'Error de autenticación. Intenta de nuevo';
 }
@@ -27,23 +27,10 @@ function getFirebaseErrorMessage(code) {
 // ── REGISTRO ──────────────────────────────────────────────────────────
 async function registerUser(email, password, userProfile) {
   if (!_firebaseDisponible()) {
-    // Modo demo: guardar en localStorage
-    const uid = 'demo_' + Date.now();
-    localStorage.setItem('userId', uid);
-    const profileData = {
-      email, uid,
-      firstName:      userProfile.firstName,
-      lastName:       userProfile.lastName,
-      name:           `${userProfile.firstName} ${userProfile.lastName}`.trim(),
-      university:     userProfile.university,
-      universityName: userProfile.universityName,
-      universityImage:userProfile.universityImage,
-      area:           userProfile.area || null,
-      areaName:       userProfile.areaName || null,
-      createdAt:      new Date().toISOString(),
+    return {
+      success: false,
+      message: 'El registro de usuarios requiere una conexión activa con Firebase.'
     };
-    localStorage.setItem('currentUser', JSON.stringify(profileData));
-    return { success: true, userId: uid, message: 'Cuenta creada (modo demo)' };
   }
 
   try {
@@ -52,16 +39,16 @@ async function registerUser(email, password, userProfile) {
     localStorage.setItem('userId', user.uid);
     await saveUserProfile(user.uid, {
       email,
-      firstName:      userProfile.firstName,
-      lastName:       userProfile.lastName,
-      name:           `${userProfile.firstName} ${userProfile.lastName}`.trim(),
-      university:     userProfile.university,
+      firstName: userProfile.firstName,
+      lastName: userProfile.lastName,
+      name: `${userProfile.firstName} ${userProfile.lastName}`.trim(),
+      university: userProfile.university,
       universityName: userProfile.universityName,
-      universityImage:userProfile.universityImage,
-      area:           userProfile.area || null,
-      areaName:       userProfile.areaName || null,
-      createdAt:      new Date().toISOString(),
-      updatedAt:      new Date().toISOString(),
+      universityImage: userProfile.universityImage,
+      area: userProfile.area || null,
+      areaName: userProfile.areaName || null,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
     });
     return { success: true, userId: user.uid, message: 'Usuario registrado exitosamente' };
   } catch (error) {
@@ -73,25 +60,11 @@ async function registerUser(email, password, userProfile) {
 // ── LOGIN ─────────────────────────────────────────────────────────────
 async function loginUser(email, password) {
   if (!_firebaseDisponible()) {
-    // Modo demo: aceptar cualquier credencial
-    const existing = localStorage.getItem('currentUser');
-    const user = existing ? JSON.parse(existing) : null;
-    if (user && user.email === email) {
-      localStorage.setItem('userId', user.uid || 'demo_user');
-      return { success: true, userId: user.uid || 'demo_user',
-               userProfile: user, message: 'Sesión iniciada (modo demo)' };
-    }
-    // Si no hay usuario guardado, crear uno temporal
-    const demoUser = {
-      name: 'Usuario Demo', email,
-      university: 'UNAM',
-      universityName: 'Universidad Nacional Autónoma de México',
-      universityImage: 'UNAM.png',
+    return {
+      success: false,
+      message: 'Firebase no está configurado. Utiliza el modo demostración para probar la aplicación.'
     };
-    localStorage.setItem('currentUser', JSON.stringify(demoUser));
-    localStorage.setItem('userId', 'demo_user');
-    return { success: true, userId: 'demo_user',
-             userProfile: demoUser, message: 'Sesión iniciada (modo demo)' };
+
   }
 
   try {
@@ -106,8 +79,37 @@ async function loginUser(email, password) {
   }
 }
 
+// ── MODO DEMOSTRACIÓN LOCAL ──────────────────────────────────
+function iniciarSesionDemo() {
+  const esLocal = ['localhost', '127.0.0.1']
+    .includes(window.location.hostname);
+
+  if (!esLocal || _firebaseDisponible()) {
+    return {
+      success: false,
+      message: 'El modo demostración solo está disponible en el entorno local sin Firebase.'
+    };
+  }
+
+  const demoUser = {
+    uid: 'demo_user',
+    name: 'Usuario Demo',
+    email: 'demo@local.test',
+    university: 'UNAM',
+    universityName: 'Universidad Nacional Autónoma de México',
+    universityImage: 'UNAM.png'
+  };
+
+  sessionStorage.setItem('lumina_demo', '1');
+  localStorage.setItem('userId', 'demo_user');
+  localStorage.setItem('currentUser', JSON.stringify(demoUser));
+
+  return { success: true };
+}
+
 // ── LOGOUT ────────────────────────────────────────────────────────────
 async function logoutUser() {
+  sessionStorage.removeItem('lumina_demo');
   localStorage.removeItem('userId');
   localStorage.removeItem('currentUser');
   if (!_firebaseDisponible()) {
@@ -135,8 +137,14 @@ function getCurrentUser() {
 
 async function isUserAuthenticated() {
   if (!_firebaseDisponible()) {
-    return !!(localStorage.getItem('userId') || localStorage.getItem('currentUser'));
+    const esLocal = ['localhost', '127.0.0.1']
+      .includes(window.location.hostname);
+
+    return esLocal &&
+      sessionStorage.getItem('lumina_demo') === '1' &&
+      localStorage.getItem('userId') === 'demo_user';
   }
+
   const user = await getCurrentUser();
   return user !== null;
 }
@@ -177,7 +185,7 @@ async function updateUserProfile(userId, updates) {
 
   if (!_firebaseDisponible()) {
     try {
-      const raw  = localStorage.getItem('currentUser');
+      const raw = localStorage.getItem('currentUser');
       const user = raw ? JSON.parse(raw) : {};
       const updated = { ...user, ...updates };
       localStorage.setItem('currentUser', JSON.stringify(updated));

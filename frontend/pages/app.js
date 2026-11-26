@@ -5,22 +5,22 @@
 
 // ── Estado global del perfil ──────────────────────────────────────────
 const perfil = {
-  nombre:       'Usuario',
-  correo:       'usuario@correo.com',
-  universidad:  'UNAM',
-  uniCompleto:  'Universidad Nacional Autónoma de México',
-  uniImage:     'UNAM.png',
-  area:         null,
-  areaName:     'Área Académica',
+  nombre: 'Usuario',
+  correo: 'usuario@correo.com',
+  universidad: 'UNAM',
+  uniCompleto: 'Universidad Nacional Autónoma de México',
+  uniImage: 'UNAM.png',
+  area: null,
+  areaName: 'Área Académica',
   profileImage: null,
 };
 
 // Imágenes de perfil disponibles (avatares)
 const imagenesPerfil = [
-  'ahri.jpg','aurelio_sol.jpg','cepibolla.jpeg','diku.jpg','ekko.jpg',
-  'gato1.jpg','gato2.jpg','gato_gojo.jpg','gato_maid.jpg','gato_pasto.jpg',
-  'godman.jpg','jolunai.jpg','kirbo.jpg','kirby.jpeg','lisandra.jpg',
-  'meowl.jpg','mimikiu.jpg','reze.jpg','silly.jpg','tresh.jpg',
+  'ahri.jpg', 'aurelio_sol.jpg', 'cepibolla.jpeg', 'diku.jpg', 'ekko.jpg',
+  'gato1.jpg', 'gato2.jpg', 'gato_gojo.jpg', 'gato_maid.jpg', 'gato_pasto.jpg',
+  'godman.jpg', 'jolunai.jpg', 'kirbo.jpg', 'kirby.jpeg', 'lisandra.jpg',
+  'meowl.jpg', 'mimikiu.jpg', 'reze.jpg', 'silly.jpg', 'tresh.jpg',
 ];
 
 let perfilPendiente = {};
@@ -29,29 +29,29 @@ let perfilPendiente = {};
 function $(id) { return document.getElementById(id); }
 
 const dom = {
-  displayName:     () => $('displayName'),
-  displayEmail:    () => $('displayEmail'),
-  greetingName:    () => $('greetingName'),
-  avatarInitials:  () => $('avatarInitials'),
-  avatarPhoto:     () => $('avatarPhoto'),
-  uniLogo:         () => $('uniLogo'),
-  uniName:         () => $('uniName'),
-  uniSub:          () => $('uniSub'),
-  areaLogo:        () => $('areaLogo'),
-  areaName:        () => $('areaName'),
-  areaSub:         () => $('areaSub'),
-  modalAjustes:    () => $('modalAjustes'),
-  inputNombre:     () => $('inputNombre'),
-  inputCorreo:     () => $('inputCorreo'),
-  inputUniversidad:() => $('inputUniversidad'),
-  inputArea:       () => $('inputArea'),
+  displayName: () => $('displayName'),
+  displayEmail: () => $('displayEmail'),
+  greetingName: () => $('greetingName'),
+  avatarInitials: () => $('avatarInitials'),
+  avatarPhoto: () => $('avatarPhoto'),
+  uniLogo: () => $('uniLogo'),
+  uniName: () => $('uniName'),
+  uniSub: () => $('uniSub'),
+  areaLogo: () => $('areaLogo'),
+  areaName: () => $('areaName'),
+  areaSub: () => $('areaSub'),
+  modalAjustes: () => $('modalAjustes'),
+  inputNombre: () => $('inputNombre'),
+  inputCorreo: () => $('inputCorreo'),
+  inputUniversidad: () => $('inputUniversidad'),
+  inputArea: () => $('inputArea'),
   previewInitials: () => $('previewInitials'),
-  previewPhoto:    () => $('previewPhoto'),
-  modalGallery:    () => $('modalGallery'),
-  galleryGrid:     () => $('galleryGrid'),
-  modalConfirm:    () => $('modalConfirm'),
-  confirmChanges:  () => $('confirmChanges'),
-  toast:           () => $('toast'),
+  previewPhoto: () => $('previewPhoto'),
+  modalGallery: () => $('modalGallery'),
+  galleryGrid: () => $('galleryGrid'),
+  modalConfirm: () => $('modalConfirm'),
+  confirmChanges: () => $('confirmChanges'),
+  toast: () => $('toast'),
 };
 
 // ══════════════════════════════════════════════════════════════════════
@@ -62,7 +62,7 @@ function cambiarNombre(nombre) {
   const n = nombre.trim();
   if (!n) return;
   perfil.nombre = n;
-  const dn = dom.displayName();  if (dn) dn.textContent = n;
+  const dn = dom.displayName(); if (dn) dn.textContent = n;
   const gn = dom.greetingName(); if (gn) gn.textContent = n;
   actualizarIniciales(n);
 }
@@ -99,11 +99,11 @@ function cambiarUniversidad(valor) {
 
   perfil.universidad = codigo;
   perfil.uniCompleto = nombre;
-  perfil.uniImage    = imagen;
+  perfil.uniImage = imagen;
 
   const uniLogo = dom.uniLogo(); if (uniLogo) uniLogo.textContent = codigo;
   const uniName = dom.uniName(); if (uniName) uniName.textContent = codigo;
-  const uniSub  = dom.uniSub();  if (uniSub)  uniSub.textContent  = nombre;
+  const uniSub = dom.uniSub(); if (uniSub) uniSub.textContent = nombre;
 
   actualizarImagenUniversidad();
 }
@@ -115,10 +115,10 @@ function actualizarImagenUniversidad() {
   const existing = uniLogoElement.querySelector('img');
   if (existing) existing.remove();
 
-  const imagenPath = `assets/images/${perfil.uniImage}`;
+  const imagenPath = `../assets/images/${perfil.uniImage}`;
   const img = document.createElement('img');
-  img.src   = imagenPath;
-  img.alt   = perfil.uniCompleto;
+  img.src = imagenPath;
+  img.alt = perfil.uniCompleto;
   img.style.cssText = 'width:100%;height:100%;object-fit:contain;';
   img.onerror = () => { img.style.display = 'none'; uniLogoElement.textContent = perfil.universidad; };
 
@@ -130,12 +130,12 @@ function cambiarArea(valor) {
   if (!valor) return;
   const [codigo, ...rest] = valor.split('|');
   const nombre = rest.join('|') || codigo;
-  perfil.area     = codigo;
+  perfil.area = codigo;
   perfil.areaName = nombre;
 
   const al = dom.areaLogo(); if (al) al.textContent = codigo.substring(0, 4).toUpperCase();
   const an = dom.areaName(); if (an) an.textContent = nombre;
-  const as = dom.areaSub();  if (as) as.textContent = perfil.uniCompleto;
+  const as = dom.areaSub(); if (as) as.textContent = perfil.uniCompleto;
 }
 
 function cambiarFotografia(imageName) {
@@ -156,14 +156,14 @@ function cambiarFotografia(imageName) {
 // ── Detección de cambios ──────────────────────────────────────────────
 function detectarCambios() {
   const cambios = [];
-  if (perfilPendiente.nombre      !== undefined && perfilPendiente.nombre      !== perfil.nombre)
-    cambios.push({ key: 'Nombre',          val: perfilPendiente.nombre });
-  if (perfilPendiente.correo      !== undefined && perfilPendiente.correo      !== perfil.correo)
-    cambios.push({ key: 'Correo',          val: perfilPendiente.correo });
+  if (perfilPendiente.nombre !== undefined && perfilPendiente.nombre !== perfil.nombre)
+    cambios.push({ key: 'Nombre', val: perfilPendiente.nombre });
+  if (perfilPendiente.correo !== undefined && perfilPendiente.correo !== perfil.correo)
+    cambios.push({ key: 'Correo', val: perfilPendiente.correo });
   if (perfilPendiente.universidad !== undefined && perfilPendiente.universidad !== perfil.universidad)
-    cambios.push({ key: 'Universidad',     val: perfilPendiente.universidad });
-  if (perfilPendiente.area        !== undefined && perfilPendiente.area        !== perfil.area)
-    cambios.push({ key: 'Área Académica',  val: perfilPendiente.areaName ?? perfilPendiente.area });
+    cambios.push({ key: 'Universidad', val: perfilPendiente.universidad });
+  if (perfilPendiente.area !== undefined && perfilPendiente.area !== perfil.area)
+    cambios.push({ key: 'Área Académica', val: perfilPendiente.areaName ?? perfilPendiente.area });
   if (perfilPendiente.profileImage !== undefined && perfilPendiente.profileImage !== perfil.profileImage)
     cambios.push({ key: 'Foto', val: perfilPendiente.profileImage ? 'Imagen seleccionada' : 'Eliminada' });
   return cambios;
@@ -187,13 +187,13 @@ function guardarPerfil() {
   const cambios = detectarCambios();
   if (cambios.length === 0) return;
 
-  if (perfilPendiente.nombre      !== undefined && perfilPendiente.nombre      !== perfil.nombre)
+  if (perfilPendiente.nombre !== undefined && perfilPendiente.nombre !== perfil.nombre)
     cambiarNombre(perfilPendiente.nombre);
-  if (perfilPendiente.correo      !== undefined && perfilPendiente.correo      !== perfil.correo)
+  if (perfilPendiente.correo !== undefined && perfilPendiente.correo !== perfil.correo)
     cambiarCorreo(perfilPendiente.correo);
   if (perfilPendiente.universidad !== undefined && perfilPendiente.universidad !== perfil.universidad)
     cambiarUniversidad(perfilPendiente.universidad);
-  if (perfilPendiente.area        !== undefined && perfilPendiente.area        !== perfil.area)
+  if (perfilPendiente.area !== undefined && perfilPendiente.area !== perfil.area)
     cambiarArea(`${perfilPendiente.area}|${perfilPendiente.areaName ?? perfilPendiente.area}`);
   if (perfilPendiente.profileImage !== undefined && perfilPendiente.profileImage !== perfil.profileImage) {
     cambiarFotografia(perfilPendiente.profileImage);
@@ -230,7 +230,7 @@ function sincronizarPreviewFoto(imageName) {
   }
 }
 
-function abrirModal(id)  { const m = $(id); if (m) m.classList.add('open'); }
+function abrirModal(id) { const m = $(id); if (m) m.classList.add('open'); }
 function cerrarModal(id) { const m = $(id); if (m) m.classList.remove('open'); }
 
 let toastTimer = null;
@@ -247,12 +247,12 @@ function mostrarToast(msg) {
 function abrirModalAjustes() {
   const inputNombre = dom.inputNombre();
   const inputCorreo = dom.inputCorreo();
-  const uniSel      = dom.inputUniversidad();
-  const areaSel     = dom.inputArea();
+  const uniSel = dom.inputUniversidad();
+  const areaSel = dom.inputArea();
 
   if (inputNombre) inputNombre.value = perfil.nombre;
   if (inputCorreo) inputCorreo.value = perfil.correo;
-  if (uniSel)      uniSel.value      = perfil.universidad;
+  if (uniSel) uniSel.value = perfil.universidad;
 
   poblarAreasEnModal(perfil.universidad);
 
@@ -272,7 +272,7 @@ function poblarAreasEnModal(universidadCodigo) {
 
   if (!universidadCodigo) {
     areaSel.innerHTML = '<option value="">— Primero selecciona una universidad —</option>';
-    areaSel.disabled  = true;
+    areaSel.disabled = true;
     return;
   }
 
@@ -283,17 +283,17 @@ function poblarAreasEnModal(universidadCodigo) {
     areaSel.disabled = false;
   } else {
     areaSel.innerHTML = '<option value="">No hay áreas disponibles</option>';
-    areaSel.disabled  = true;
+    areaSel.disabled = true;
   }
 }
 
 // ── Temas (datos de ejemplo) ──────────────────────────────────────────
 const temas = [
   { nombre: 'Matemáticas', pct: 82, nivel: 'high' },
-  { nombre: 'Español',     pct: 67, nivel: 'mid'  },
-  { nombre: 'Historia',    pct: 45, nivel: 'low'  },
-  { nombre: 'Ciencias',    pct: 71, nivel: 'mid'  },
-  { nombre: 'Geografía',   pct: 38, nivel: 'low'  },
+  { nombre: 'Español', pct: 67, nivel: 'mid' },
+  { nombre: 'Historia', pct: 45, nivel: 'low' },
+  { nombre: 'Ciencias', pct: 71, nivel: 'mid' },
+  { nombre: 'Geografía', pct: 38, nivel: 'low' },
 ];
 
 function renderizarTemas() {
@@ -362,24 +362,24 @@ function renderizarUniversidades() {
 
 // ── Firebase ──────────────────────────────────────────────────────────
 function obtenerPartesNombre(nombreCompleto) {
-  const tokens    = String(nombreCompleto || '').trim().split(/\s+/).filter(Boolean);
+  const tokens = String(nombreCompleto || '').trim().split(/\s+/).filter(Boolean);
   const firstName = tokens.shift() || '';
-  const lastName  = tokens.join(' ');
+  const lastName = tokens.join(' ');
   return { firstName, lastName };
 }
 
 function guardarUsuarioEnLocalStorage() {
   const { firstName, lastName } = obtenerPartesNombre(perfil.nombre);
   localStorage.setItem('currentUser', JSON.stringify({
-    name:            perfil.nombre,
-    email:           perfil.correo,
-    university:      perfil.universidad,
-    universityName:  perfil.uniCompleto,
+    name: perfil.nombre,
+    email: perfil.correo,
+    university: perfil.universidad,
+    universityName: perfil.uniCompleto,
     universityImage: perfil.uniImage,
-    area:            perfil.area,
-    areaName:        perfil.areaName,
-    profileImage:    perfil.profileImage,
-    user_icon:       perfil.profileImage,
+    area: perfil.area,
+    areaName: perfil.areaName,
+    profileImage: perfil.profileImage,
+    user_icon: perfil.profileImage,
     firstName, lastName,
   }));
 }
@@ -389,15 +389,15 @@ async function guardarPerfilEnFirebase() {
     const userId = localStorage.getItem('userId');
     if (!userId || typeof updateUserProfile !== 'function') return;
     await updateUserProfile(userId, {
-      name:            perfil.nombre,
-      email:           perfil.correo,
-      university:      perfil.universidad,
-      universityName:  perfil.uniCompleto,
+      name: perfil.nombre,
+      email: perfil.correo,
+      university: perfil.universidad,
+      universityName: perfil.uniCompleto,
       universityImage: perfil.uniImage,
-      area:            perfil.area,
-      areaName:        perfil.areaName,
-      user_icon:       perfil.profileImage,
-      updatedAt:       new Date().toISOString(),
+      area: perfil.area,
+      areaName: perfil.areaName,
+      user_icon: perfil.profileImage,
+      updatedAt: new Date().toISOString(),
     });
     guardarUsuarioEnLocalStorage();
   } catch (err) {
@@ -410,8 +410,8 @@ async function guardarPerfilEnFirebase() {
 function irAlTest(params = {}) {
   const qs = new URLSearchParams({
     universidad: params.universidad || perfil.universidad,
-    total:       params.total       || 10,
-    nivel:       params.nivel       || 'mixto',
+    total: params.total || 10,
+    nivel: params.nivel || 'mixto',
     ...(params.area ? { area: params.area } : {}),
   });
   window.location.href = `test.html?${qs.toString()}`;
@@ -422,6 +422,25 @@ function irAlTest(params = {}) {
 // ══════════════════════════════════════════════════════════════════════
 document.addEventListener('DOMContentLoaded', async () => {
 
+  // Verificar que exista una sesión antes de cargar el dashboard
+  let autenticado = false;
+
+  try {
+    if (typeof isUserAuthenticated === 'function') {
+      autenticado = await isUserAuthenticated();
+    }
+  } catch (error) {
+    console.error('Error al validar la sesión:', error);
+  }
+
+  if (!autenticado) {
+    window.location.replace('login.html');
+    return;
+  }
+
+  // Mostrar el dashboard únicamente después de validar la sesión
+  document.body.style.visibility = 'visible';
+
   // 1. Cargar datos de perfil: Firebase primero, localStorage como fallback
   const userId = localStorage.getItem('userId');
   let perfilCargado = false;
@@ -430,17 +449,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
       const userProfile = await getUserProfile(userId);
       if (userProfile) {
-        const u        = userProfile;
+        const u = userProfile;
         const fullName = [u.firstName, u.lastName].filter(Boolean).join(' ').trim();
-        perfil.nombre       = String(u.name || fullName || u.nombre || 'Usuario').trim();
-        perfil.correo       = String(u.email || 'usuario@correo.com').trim();
-        perfil.universidad  = String(u.university || 'UNAM').trim();
-        perfil.uniCompleto  = String(u.universityName || 'Universidad Nacional Autónoma de México').trim();
-        perfil.uniImage     = String(u.universityImage || 'UNAM.png').trim();
-        perfil.area         = u.area || null;
-        perfil.areaName     = String(u.areaName || 'Área Académica').trim();
+        perfil.nombre = String(u.name || fullName || u.nombre || 'Usuario').trim();
+        perfil.correo = String(u.email || 'usuario@correo.com').trim();
+        perfil.universidad = String(u.university || 'UNAM').trim();
+        perfil.uniCompleto = String(u.universityName || 'Universidad Nacional Autónoma de México').trim();
+        perfil.uniImage = String(u.universityImage || 'UNAM.png').trim();
+        perfil.area = u.area || null;
+        perfil.areaName = String(u.areaName || 'Área Académica').trim();
         perfil.profileImage = u.user_icon || u.profileImage || null;
-        perfilCargado       = true;
+        perfilCargado = true;
         guardarUsuarioEnLocalStorage();
       }
     } catch (err) {
@@ -450,17 +469,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (!perfilCargado) {
     try {
-      const raw  = localStorage.getItem('currentUser');
+      const raw = localStorage.getItem('currentUser');
       const user = raw ? JSON.parse(raw) : null;
       if (user) {
         const fullName = [user.firstName, user.lastName].filter(Boolean).join(' ').trim();
-        perfil.nombre       = String(user.name || fullName || 'Usuario').trim();
-        perfil.correo       = String(user.email || 'usuario@correo.com').trim();
-        perfil.universidad  = String(user.university || 'UNAM').trim();
-        perfil.uniCompleto  = String(user.universityName || 'Universidad Nacional Autónoma de México').trim();
-        perfil.uniImage     = String(user.universityImage || 'UNAM.png').trim();
-        perfil.area         = user.area || null;
-        perfil.areaName     = String(user.areaName || 'Área Académica').trim();
+        perfil.nombre = String(user.name || fullName || 'Usuario').trim();
+        perfil.correo = String(user.email || 'usuario@correo.com').trim();
+        perfil.universidad = String(user.university || 'UNAM').trim();
+        perfil.uniCompleto = String(user.universityName || 'Universidad Nacional Autónoma de México').trim();
+        perfil.uniImage = String(user.universityImage || 'UNAM.png').trim();
+        perfil.area = user.area || null;
+        perfil.areaName = String(user.areaName || 'Área Académica').trim();
         perfil.profileImage = user.user_icon || user.profileImage || null;
       }
     } catch (err) {
@@ -470,22 +489,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 2. Actualizar UI con datos de perfil
   const set = (id, val) => { const el = $(id); if (el) el.textContent = val; };
-  set('displayName',  perfil.nombre);
+  set('displayName', perfil.nombre);
   set('displayEmail', perfil.correo);
   set('greetingName', perfil.nombre);
-  set('uniLogo',      perfil.universidad);
-  set('uniName',      perfil.universidad);
-  set('uniSub',       perfil.uniCompleto);
+  set('uniLogo', perfil.universidad);
+  set('uniName', perfil.universidad);
+  set('uniSub', perfil.uniCompleto);
 
   // Área
   if (perfil.area && perfil.areaName) {
     set('areaLogo', perfil.area.substring(0, 4).toUpperCase());
     set('areaName', perfil.areaName);
-    set('areaSub',  perfil.uniCompleto);
+    set('areaSub', perfil.uniCompleto);
   } else {
     set('areaLogo', 'ÁREA');
     set('areaName', 'Área Académica');
-    set('areaSub',  perfil.uniCompleto);
+    set('areaSub', perfil.uniCompleto);
   }
 
   actualizarIniciales(perfil.nombre);
@@ -530,14 +549,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   $('btnCancelar')?.addEventListener('click', () => cerrarModal('modalAjustes'));
 
   $('btnGuardar')?.addEventListener('click', () => {
-    perfilPendiente.nombre      = dom.inputNombre()?.value.trim()  || perfil.nombre;
-    perfilPendiente.correo      = dom.inputCorreo()?.value.trim()  || perfil.correo;
-    perfilPendiente.universidad = dom.inputUniversidad()?.value    || perfil.universidad;
+    perfilPendiente.nombre = dom.inputNombre()?.value.trim() || perfil.nombre;
+    perfilPendiente.correo = dom.inputCorreo()?.value.trim() || perfil.correo;
+    perfilPendiente.universidad = dom.inputUniversidad()?.value || perfil.universidad;
 
     const areaVal = dom.inputArea()?.value || '';
     if (areaVal) {
       const [aCode, ...aNomParts] = areaVal.split('|');
-      perfilPendiente.area     = aCode;
+      perfilPendiente.area = aCode;
       perfilPendiente.areaName = aNomParts.join('|') || aCode;
     }
     confirmarCambios();
@@ -554,7 +573,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     perfilPendiente.universidad = e.target.value;
     poblarAreasEnModal(e.target.value);
     // Reset área
-    perfilPendiente.area     = undefined;
+    perfilPendiente.area = undefined;
     perfilPendiente.areaName = undefined;
     const areaSel = dom.inputArea();
     if (areaSel) areaSel.value = '';
@@ -565,7 +584,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const val = e.target.value;
     if (val) {
       const [code, ...nomParts] = val.split('|');
-      perfilPendiente.area     = code;
+      perfilPendiente.area = code;
       perfilPendiente.areaName = nomParts.join('|') || code;
     }
   });
@@ -583,7 +602,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // Cambiar universidad/área desde el panel inferior
-  $('btnCambiarUni')?.addEventListener('click',  abrirModalAjustes);
+  $('btnCambiarUni')?.addEventListener('click', abrirModalAjustes);
   $('btnCambiarArea')?.addEventListener('click', abrirModalAjustes);
 
   // Cerrar modales al clic fuera

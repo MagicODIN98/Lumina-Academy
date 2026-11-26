@@ -9,15 +9,16 @@
 // ============================================================
 
 const firebaseConfig = {
-  // ── REEMPLAZA ESTOS VALORES CON LOS DE TU PROYECTO FIREBASE ──
-  apiKey:            "TU_API_KEY",
-  authDomain:        "TU_PROJECT.firebaseapp.com",
-  databaseURL:       "https://TU_PROJECT-default-rtdb.firebaseio.com",
-  projectId:         "TU_PROJECT",
-  storageBucket:     "TU_PROJECT.appspot.com",
-  messagingSenderId: "TU_SENDER_ID",
-  appId:             "TU_APP_ID",
+  apiKey: "AIzaSyALA_NSteGjkE8WAp2_apHgn6fKvo4TjDI",
+  authDomain: "lumina-academy-867ed.firebaseapp.com",
+  databaseURL: "https://lumina-academy-867ed-default-rtdb.firebaseio.com",
+  projectId: "lumina-academy-867ed",
+  storageBucket: "lumina-academy-867ed.firebasestorage.app",
+  messagingSenderId: "1016158506564",
+  appId: "1:1016158506564:web:152038f103b5fd2d55f611",
+  measurementId: "G-X07820ZCQ5"
 };
+
 
 // ── Inicializar Firebase de forma segura ──────────────────────
 let _firebaseReady = false;
@@ -25,9 +26,9 @@ let _firebaseReady = false;
 try {
   // Verificar que los valores no sean placeholders
   const isConfigured = firebaseConfig.apiKey &&
-                       firebaseConfig.apiKey !== "TU_API_KEY" &&
-                       firebaseConfig.databaseURL &&
-                       firebaseConfig.databaseURL !== "https://TU_PROJECT-default-rtdb.firebaseio.com";
+    firebaseConfig.apiKey !== "TU_API_KEY" &&
+    firebaseConfig.databaseURL &&
+    firebaseConfig.databaseURL !== "https://TU_PROJECT-default-rtdb.firebaseio.com";
 
   if (isConfigured) {
     if (!firebase.apps || firebase.apps.length === 0) {
